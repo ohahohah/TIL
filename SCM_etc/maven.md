@@ -31,7 +31,7 @@
 - `개발환경 자동화(~CI)`
   - 왜 필요? 지금은 테스트자동화만 와닿음.
 
-#### 2. [maven_in_5min](SCM_etc/maven_in5min.md)
+#### 2. [maven_in_5min](/maven_in5min.md)
 #### 3. Maven 설정파일 POM / setting.xml
 ##### Intro
 - maven은 convention에 따라 Direcotry 구조 정해져있음 -> 기본 구조 어디서 관리하고 있지? 변경할 수 있나? 
@@ -43,7 +43,7 @@
   - pom으로 설정할 수 있는 것? 
   - pom 구조
   ![POM 구조](https://images.techhive.com/images/idge/imported/article/jvw/2006/05/jw-0529-maven1-100156068-orig.gif "POM_overview")
-  ![POM Element](Image/pomElement_fromMavenByJaeSungPark.jpg "POM_element")
+  ![POM Element](../Image/pomElement_fromMavenByJaeSungPark.jpg "POM_element")
 
 - Project Inheritance
   - POM 상속을 통해 project Inheritance 함.
