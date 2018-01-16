@@ -6,6 +6,7 @@
 - [Maven in 5 Minutes](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
 - [Introduction to the POM](https://maven.apache.org/guides/introduction/introduction-to-the-pom.html)
 - [POM Reference](https://maven.apache.org/pom.html#)
+- [Maven: The Definitive Guide](http://blog.sonatype.com/2010/01/maven-the-definitive-guide-split-into-two-books/)
 
 ## 상황/ 궁금증
 - 'Effectiv Unit Testing'책의 예제코드를 보니 submodule로 구성되어 각 디렉토리가 독립된 프로젝트로 구성되어있음. 이거 build 어떻게 하지 당황하다가, maven 
@@ -63,25 +64,90 @@
 - Maven Build tool 설정파일
 - 전체 setting(default) : MAVEN_HOME/conf/settings.xml 
 - user별(생성필요/default 복사하세여) : USER_HOME/.m2/settings.xml
-
-
-##### '메이븐'책 실습
-[질문던지기 -> 실습]
+'메이븐'책 실습 [질문던지기 -> 실습]
 - 지금 시점에 java source 와 web soruce 를 나눌 필요가 있을까? -> 합치자
 - webapp 디렉토리가 하위에 있으면 작업하기 불편 -> webapp 최상위 디렉토리로 변경.
-- `mvn package`
 
 
+##### Maven Build
+![Maven_Phases](../Image/mavenPhases_fromMavenByExample.jpg "Maven_Phases")
 
+```
+[INFO] Scanning for projects...
+//WARNING 01
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for net.ohah:wikibook:war:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-war-plugin is missing. @ line 21, column 15
+[WARNING]
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING]
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING]
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building wikibook Maven Webapp 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ wikibook ---
+//WARNING 02
+[WARNING] Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ wikibook ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ wikibook ---
+[WARNING] Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\Daumsoft-N144\Documents\project\wikibook\src\test\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ wikibook ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ wikibook ---
+[INFO] Surefire report directory: C:\Users\Daumsoft-N144\Documents\project\wikibook\target\surefire-reports
 
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.ohah.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
 
+Results :
 
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.456 s
+[INFO] Finished at: 2018-01-16T14:04:33+09:00
+[INFO] Final Memory: 6M/120M
+[INFO] ------------------------------------------------------------------------
+```
+- WARNING 01 : Add version element(plugin) in pom.xml
+```
+<plugins>
+  <plugin>
+    <artifactId>maven-war-plugin</artifactId>
+    <version>2.3.2</version>
+    <configuration>
+      <warSourceDirectory>webapp</warSourceDirectory>
+    </configuration>
+  </plugin>
+</plugins>
+```
+cf.
+- [maven-compiler-plugin - usage](https://maven.apache.org/plugins/maven-compiler-plugin/usage.html) 
+  >Note: Maven 3.0 will issue warnings if you do not specify the version of a plugin.
+- [Maven 3.x Compatibility Notes](https://cwiki.apache.org/confluence/display/MAVEN/Maven+3.x+Compatibility+Notes)  
+  >Plugin Metaversion Resolution  Internally, Maven 2.x used the special version markers RELEASE and LATEST to support automatic plugin version resolution. These metaversions were also recognized in the <version> element for a <plugin> declaration. For the sake of reproducible builds, Maven 3.x no longer supports usage of these metaversions in the POM. As a result, users will need to replace occurrences of these metaversions with a concrete version.
+  - [Maven 3 warnings about build.plugins.plugin.version](https://stackoverflow.com/questions/4123044/maven-3-warnings-about-build-plugins-plugin-version#)
 
-
-
-
-
-
-
-
+- WARNING 02 : Add encoding properties in pom.xml 
+```
+<properties>
+		<project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
+	</properties>
+```
+- [SLiPP - maven에서 encoding을 설정하는 방법](https://www.slipp.net/questions/37)
