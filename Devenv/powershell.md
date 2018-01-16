@@ -13,4 +13,5 @@
 
 ## 정리
 - Overwirte copy directory
-`Copy-Item -Force -Recurse  –Verbose $releaseDirectory -Destination $sitePath`
+`Copy-Item -Force -Recurse  ?Verbose $releaseDirectory -Destination $sitePath`
+- [windows powershell 에서 vim 사용하기](http://jkstory-textcube.blogspot.kr/2014/10/windows-powershell-vim.html) 
