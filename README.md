@@ -29,6 +29,7 @@
 - [maven](SCM_etc/maven.md)
 - [svn](SCM_etc/svn.md)
 - [Trello](SCM_etc/Trello.md)
+- [변경파일리스트 작성 자동스크립트](SCM_etc/modifiedFile_script.md)
 
 ## Test_TDD_BDD
 - [Test](Test_TDD_BDD/Test.md)
@@ -36,3 +37,7 @@
 ## Work
 - [WritingEmails](Work/WritingEmails.md)
 - [LearnigByDoing - 어떻게 배울까?](Work/LearnigByDoing.md)
+
+## LearnigByDoing
+- [TBD_SLiPP 14차 스터디](Learning_by_doing/TBD_SLiPP.md)
+- [실습 리스트](Learning_by_doing/ing.md)
