@@ -10,3 +10,11 @@
   - 게다가 최근 eclipse 무거워서 쓸 수 없는 지경에 이르렀다. 프로그램을 켜는데도, 저장하는데도 오래걸린다. (coding convention이나 test에 관심이 가서 code quality check tool, UML, PMD 등 여러 plugin을 설치하고 설정을 여러개 해두었더니 메모리를 늘려놔도 견뎌내지 못한다 + 관리하는 프로젝트가 늘었음)
 
 ## 정리
+### Plugin
+- key proto X : 단축키 대신 마우스를 사용하면 해당 기능의 단축키 안내해주는 알림창이 뜸
+
+### error 잡기
+- Spring project 에서 dispatcher servlet 제대로 인식하지 못함.
+  - project 설정을 확인
+  - bug ![bug](/image/IntellijSettingNoProjectSDK.png "bug 발생화면")
+  - 원인- project setting 제대로 안되어있음 ![cause](/image/IntellijSettingDispatherNotFound.png "bug 원인")
