@@ -152,3 +152,12 @@ cf.
 	</properties>
 ```
 - [SLiPP - maven에서 encoding을 설정하는 방법](https://www.slipp.net/questions/37)
+
+
+#### maven 프로젝트로 전환하기
+- googlesearch `web convert to maven`를 보면 : 주로 eclipse의 m2e plugin을 사용하여 'convert to maven project' 후, depedecy 를 추가해주는 방법이 안내되어 있음
+  - [Eclipse에서 Maven 웹 프로젝트 구성하기](http://jinwooe.blogspot.kr/2014/07/eclipse-maven.html)
+- [궁금] lib 의존성관리, build를 위해 maven으로 변환하는게 맞는가? side effect는?
+- [궁금] lib pom.xml에 추가하지 않고 자동으로 detect되는 방법은 없나? 없을거같은데... lib자체가 maven repository에서 복사해온 것이라 maven lib 의 이름방식을 따르고 있는데 활용할  수 있는 방법은?
+- [궁금] 애초에 왜 maven 을 사용하지 않았지? 이유가 뭘까? -> PL 에게 물어보기 
+- [How to convert a web application project to maven project?](https://stackoverflow.com/questions/24079675/how-to-convert-a-web-application-project-to-maven-project) 참고
