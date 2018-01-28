@@ -26,4 +26,4 @@
 - [lib] [urllib](https://docs.python.org/3/library/urllib.html) 
 - [lib] Beautiful Soup는 html을 xml python 객체로 변환
   - 잘못된 html을 xml(well-formed) 로 바꿈
-  - python '객체' 가 됨
+  - python '객체'가 됨
