@@ -11,6 +11,7 @@
 
 ## Book
 - [Effective_unit_testing](Book/Effective_unit_testing.md)
+- [읽은/읽었던/읽어야 할 책 목록](Book/intersting_book.md)
 
 ## DB
 - [Tunning](DB/Tunning.md)
@@ -24,6 +25,10 @@
 - [Error](Git_Github/Error.md)
 - [Markdown](Git_Github/Markdown.md)
 
+## LearnigByDoing
+- [TBD_SLiPP 14차 스터디](Learning_by_doing/TBD_SLiPP.md)
+- [실습 리스트](Learning_by_doing/ing.md)
+
 ## SCM_etc
 - [CD_CI](SCM_etc/CD_CI.md)
 - [maven](SCM_etc/maven.md)
@@ -34,10 +39,9 @@
 ## Test_TDD_BDD
 - [Test](Test_TDD_BDD/Test.md)
 
+## web_scraping_with_python
+- [scraper 기초](web_scraping_with_python/scraper_basic.md)
+
 ## Work
 - [WritingEmails](Work/WritingEmails.md)
 - [LearnigByDoing - 어떻게 배울까?](Work/LearnigByDoing.md)
-
-## LearnigByDoing
-- [TBD_SLiPP 14차 스터디](Learning_by_doing/TBD_SLiPP.md)
-- [실습 리스트](Learning_by_doing/ing.md)
