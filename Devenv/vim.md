@@ -13,7 +13,8 @@
 
 ## 정리
 - [TIL - vim 단축키 - 내가 자주쓰는](vim_shortcut.md)
-##### vim 한글세팅
+
+### vim 한글세팅
 - fence설정 : ~/.vimrc에  `:set fencs=ucs-bom,utf-8,cp949`
 - ~/.mswin.vm 에 추가
 ```
@@ -26,7 +27,8 @@ set lines=60 columns=120
 ```
 
 ##### vim 파일인코딩 변경
-- `:w ++enc=utf-8` (해당 파일 utf-8로 바꾸어 저장)
+- `:set fileencoding` : 현재 file encoding 확인
+- `:w ++enc=utf-8` (해당 파일 utf-8로 바꾸어 저장 / 확인 후 안될 경우, 하단 참고)
   - `:e ++enc=utf-8`(임시로 fence 옵션 덮어써 문자인코딩 utf-8로 바꾸어 보여줌)
   - `:set fileencoding=utf-8` (fileencoding 변경)
 
