@@ -1,0 +1,3 @@
+- [ssh “permissions are too open” error](https://stackoverflow.com/questions/9270734/ssh-permissions-are-too-open-error)
+- [ssh config 설정 방법](http://www.oracloud.kr/post/ssh_config/)
+- [Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
