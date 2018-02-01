@@ -7,3 +7,7 @@
 
 ### 이동
 - 단어 단위: w (단어 첫글자) / b (단어 첫글자)
+
+### 되돌리기 
+- `u` (undo the last modification) : [How to go back (ctrl+z) in vi/vim](https://stackoverflow.com/questions/12436154/how-to-go-back-ctrlz-in-vi-vim)
+- `Ctrl+R`: redo it
