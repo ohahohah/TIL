@@ -31,3 +31,5 @@
 - 폴리글랏 프로그래밍 : java, python, javascript 다 쓰는데 하나도 못하는데 여러개를 동시에 배우는게 과연 좋은 방법인가 의문이 들어서
 - 클린 코드 : 민폐끼지는 코드 그만 작성하고 싶어서
 - 클린 코더 : 클린 코드 아저씨가 쓴 책이라서
+- [The Unix and Internet Fundamentals HOWTO](https://wiki.kldp.org/wiki.php/LinuxdocSgml/Unix-Internet-Fundamentals-HOWTO) : 교양. > 개인용 컴퓨터와 Unix 계열의 운영 체계, 인터넷의 동작 원리에 대해서 기술적으로 쉬운 문체로 서술하고 있다.
+- The Practice of Programming(프로그래밍 수련법), KernighanBrian 그리고 PikeRob : 표지가 맘에 든다. 제대로 된 프로그래밍 배우는데 도움이 될듯.
