@@ -14,6 +14,7 @@
 
 
 ## 정리
+### Installation
 - 첫 install 후에도 setup~.exe (windows version에 따라 파일명 다름) 사용해 추가 plugin, package 설치 
   - download 에러시에도 재시동해서 사용. pending tab에서 error난 package 들이 보임. 
   - retry시에도 package download때문에 에러가 날 경우, 다른 mirror 에서 시도.
@@ -23,6 +24,8 @@
   - [ssh config under cygwin](https://superuser.com/questions/493270/ssh-config-under-cygwin)
   - [Oracle - Installing Cygwin and Starting the SSH Daemon](https://docs.oracle.com/cd/E63000_01/EMBSC/preinstall_req_cygwin_ssh.htm#EMBSC150)
   - [install_cygwin_sshd.txt](https://gist.github.com/roxlu/5038729)
+- 주요 설치 plugin : openssh, cron, vim, nano, tar, unzip
+
 
 ### home directory 바꾸기
   - [Cygwin Change Home Directory](https://ryanharrison.co.uk/2015/12/01/cygwin-change-home-directory.html) : Use /etc/nsswitch.conf db_home change
@@ -56,6 +59,9 @@ Vim warning: input is not from a terminal
 ### Vim
 - [Cygwin Vi 설정](http://haprj.tistory.com/entry/Cygwin-Vi-%EC%84%A4%EC%A0%95)
 - [vim 에디터 이쁘게 사용하기 - .vimrc 편집을 통해 vim 에디터의 모습을 바꿔봅시다](https://medium.com/sunhyoups-story/vim-%EC%97%90%EB%94%94%ED%84%B0-%EC%9D%B4%EC%81%98%EA%B2%8C-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0-5b6b8d546017)
+- [How to install vim plugin under cygwin?](https://stackoverflow.com/questions/4447940/how-to-install-vim-plugin-under-cygwin)
+- [Are cygwin vim commands different than normal vim?](https://unix.stackexchange.com/questions/11707/are-cygwin-vim-commands-different-than-normal-vim) : vim shortcut이 제대로 작동하지 않을때 참고. .vimrc 설정에 대한 내용 기술
+
 
 ## memo
 - http://zeany.net/29?category=678345
