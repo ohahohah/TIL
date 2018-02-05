@@ -24,8 +24,52 @@
   - [ssh config under cygwin](https://superuser.com/questions/493270/ssh-config-under-cygwin)
   - [Oracle - Installing Cygwin and Starting the SSH Daemon](https://docs.oracle.com/cd/E63000_01/EMBSC/preinstall_req_cygwin_ssh.htm#EMBSC150)
   - [install_cygwin_sshd.txt](https://gist.github.com/roxlu/5038729)
-- 주요 설치 plugin : openssh, cron, vim, nano, tar, unzip
+- 주요 설치 plugin : gcc,g+, wget, patch, ruby,ruby-devel,rubygem, openssh, cron, vim, nano, tar, unzip
+- 설정파일 변경시, terminal종료 후 재시작(Run as Administrator) / 재부팅해야하는 경우도 있음!
+- package 설치시에 ~-devel 이 있음. 다른 package 관리하면서 compile해야할 경우가 많기때문에, 해당 package를 설치했더라도 오류가 나는 경우, devel package 핑요여부를 한번 더 체크해주는게 나음 [stackoverflow - what-are-devel-packages](https://stackoverflow.com/questions/2358801/what-are-devel-packages)
 
+
+#### Gem setting 
+- gem (RubyGem, 루비 표준화 패키징 및 설치 프레임워크 / Ruby Application 또는 lib 설치, packaging 관리) 사용하기 위한 setting 
+  - ruby와 RVM 설치하여 gem 사용.
+  - [what-is-a-gem](http://ruby-korea.github.io/rubygems-guides/what-is-a-gem/)
+  - [rubygems-basics - installing-gems](http://ruby-korea.github.io/rubygems-guides/rubygems-basics/#installing-gems)
+- [setting-up-rvm-with-cygwin](https://vaporsoft.net/setting-up-rvm-with-cygwin/)
+  - [rvm-fails-to-install-rubies](https://stackoverflow.com/questions/20479878/rvm-fails-to-install-rubies)
+     `rvm autolibs disable` 
+  - [gem-install-failed-to-build-gem-native-extension-cant-find-header-files](https://stackoverflow.com/questions/4304438/gem-install-failed-to-build-gem-native-extension-cant-find-header-files/27158307) : ruby-devel 설치
+  - open-ssl setting 확인
+  - log 확인 후 googling 으로 고침 - 필요한 package가 제대로 설치되어 있지 않아 발생하는 문제가 많음
+    - [Error installing charlock_holmes v0.7.5](https://github.com/github/linguist/issues/3878)
+```
+  $ gem install gollum
+Building native extensions.  This could take a while...
+ERROR:  Error installing gollum:
+        ERROR: Failed to build gem native extension.
+
+    current directory: /cygdrive/c/Users/ohahohah/cygwin/.rvm/gems/ruby-2.4.1/gems/charlock_holmes-0.7.5/ext/charlock_holmes
+/cygdrive/c/Users/ohahohah/cygwin/.rvm/rubies/ruby-2.4.1/bin/ruby.exe -r ./siteconf20180205-3616-14j5mhk.rb extconf.rb
+checking for -licui18n... no
+which: no brew in (/cygdrive/c/Users/ohahohah/cygwin/.rvm/gems/ruby-2.4.1/bin:/cygdrive/c/Users/ohahohah/cygwin/.rvm/gems/ruby-2.4.1@global/bin:/cygdrive/c/Users/ohahohah/cygwin/.rvm/rubies/ruby-2.4.1/bin:/usr/local/bin:/usr/bin:/cygdrive/c/ProgramData/Oracle/Java/javapath:(중략))
+checking for -licui18n... no
+
+
+***************************************************************************************
+*********** icu required (brew install icu4c or apt-get install libicu-dev) ***********
+***************************************************************************************
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+(이해 생략)
+```
+- [Gem install hangs indefinitely](https://stackoverflow.com/questions/15239859/gem-install-hangs-indefinitely) : `gem install -V package_you_install` : -V, -​-[no-]verbose - Set the verbose level of output [rubygems - command reference](http://guides.rubygems.org/command-reference/#gem-install)
+
+
+#### apt-cyg 설치 (optional)
+- apt-cyg : `apt-get` 처럼 cygwin에서 설치할 수 있음
+- cygwin 공식 installGUI (setupx86_~.exe)로 설치하는게 원칙이나, 검색해서 없는 패키지의 경우에 사용함.
+- [apt-cyg github](https://github.com/transcode-open/apt-cyg)
 
 ### home directory 바꾸기
   - [Cygwin Change Home Directory](https://ryanharrison.co.uk/2015/12/01/cygwin-change-home-directory.html) : Use /etc/nsswitch.conf db_home change
