@@ -4,7 +4,9 @@
 - [stackoverflow - Github “Updates were rejected because the remote contains work that you do not have”](https://stackoverflow.com/questions/18328800/github-updates-were-rejected-because-the-remote-contains-work-that-you-do-not-h)
 
 ## 상황 / 궁금
-- github에서 remote로 push할때 에러 발생
+- [문제][해결] [git 에서 https repository 연결시 SSL 인증서 오류 해결법](https://www.lesstif.com/pages/viewpage.action?pageId=14090808)
+
+- [문제]github에서 remote로 push할때 에러 발생
 - git rebase inactive error 
   - https://stackoverflow.com/questions/29902967/rebase-in-progress-can-not-commit-how-to-proceed-or-stop-abort
 ```
