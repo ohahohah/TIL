@@ -28,6 +28,7 @@
 ### Commit 
 - feature branch 개발시 atomic 단위로 commit
 - master branch merge시, squash commit 사용해 기능 및 이슈단위로 작성
+- 필요에 따라 commit template 작성함. [git-scm - commit.template](https://git-scm.com/book/ko/v1/Git%EB%A7%9E%EC%B6%A4-Git-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0)
 
 #### log
 - 한글로, tracking을 위해 issue number 포함
