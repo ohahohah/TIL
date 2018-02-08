@@ -9,6 +9,7 @@
 - [[GIT] CI(continuous Integration)란 & travis 사용법](http://gompangs.tistory.com/84)
 - [CI (Continuous Integration) 이란?](http://www.nextree.co.kr/p10799)
 - [자바 세상의 빌드를 이끄는 메이븐 - 박재성 지음](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=11169988) - CI 툴을 활용한 자동화 p.26 
+- [Gitlab - A beginner's guide to continuous integration](https://about.gitlab.com/2018/01/22/a-beginners-guide-to-continuous-integration/)
 
 ### Jenkins
 - [젠킨스(Jenkins)를 이용한 지속적 통합(CI:Continuous Integration) (2) - 젠킨스씨가 있는 개발풍경](http://www.moreagile.net/2014/01/jenkins-cicontinuous-integration-2.html)
