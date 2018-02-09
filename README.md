@@ -17,9 +17,15 @@
 - [AWS tutorial](Cloud/aws_tutorial.md)
 - [Docker](Cloud/docker.md)
 
+## Concept 개념정리
+- [OOP](Concept/OOP.md)
+
 ## DB
 - [DB Tool](DB/tool.md)
 - [Tunning](DB/Tunning.md)
+
+## Design_Pattern
+- [IoC - 제어역전](Design_Pattern/Ioc.md)
 
 ## Devenv
 - [Bash](Devenv/bash.md)
