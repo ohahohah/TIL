@@ -46,11 +46,13 @@
 
 ## Git_Github
 - [Error](Git_Github/Error.md)
-- [Markdown](Git_Github/Markdown.md)
+- [기타](Git_Github/etc.md)
+- [Git command](Git_Github/git_command.md)
+- [Git commit](Git_Github/git_commit.md)
 - [Git 설정](Git_Github/git_config.md)
 - [Git ssh](Git_Github/git_ssh.md)
-- [Git commit](Git_Github/git_commit.md)
 - [Git repository 관리](Git_Github/git_local_to_remote.md)
+- [Markdown](Git_Github/Markdown.md)
 - [Project 관리 - Git 메뉴얼](Git_Github/how_to_setup_project.md) : [ing] blog 발행
 
 ## MachineLearning
