@@ -4,9 +4,24 @@
 ### 외부 
 - [JUnit In Action](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=12075966)
 - [Effective Unit Testing - 클린 코드와 좋은 설계를 이끄는 단위 테스트, 한국어판](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=32953284)
+- 테스트 주도 개발 TDD 실천법과 도구 by 채수원 / 한빛미디어
+- [테스트 주도 개발로 배우는 객체 지향 설계와 실천 by 스티브 프리먼, 냇 프라이스 / 인사이트](http://www.insightbook.co.kr/book/programming-insight/%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%A3%BC%EB%8F%84-%EA%B0%9C%EB%B0%9C%EB%A1%9C-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EA%B0%9D%EC%B2%B4-%EC%A7%80%ED%96%A5-%EC%84%A4%EA%B3%84%EC%99%80-%EC%8B%A4%EC%B2%9C)
 
 ### 직접 정리자료 
-- [TIL - EffectiveUnitTesting]()
+- [TIL - EffectiveUnitTesting](Book/Effective_unit_testing.md)
+- [TIL - JUnit](Test_TDD_BDD/JUnit.md)
+- [TIL - TBD_SLiPP](Learning_by_doing/TBD_SLiPP.md)
+
+### 읽는 중
+- [[SpringCamp2013] Spring MVC TEST 어렵지 않아요! :+tv:](https://www.youtube.com/watch?v=k_88ADbuJqQ)
+- [SpringCamp2013 Spring MVC TEST](https://www.slideshare.net/youngeunchoi12/spring-mvc-test-27318842)
+- [TDD.JUnit.조금더.알기](https://www.slideshare.net/WonchangSong1/abouttddj-unit)
+- [목 오브젝트(Mock Object)의 이해](https://www.slideshare.net/yonghoonkim940/mock-object-56624509)
+- [테스트와 스프릥 :+tv:](https://www.youtube.com/watch?v=SOfhE_Dt-f4&index=17&list=PL2D6EA0CE629ACE5B)
+- [Spring test mvc 발표자료 by KSUG 이수홍](https://www.slideshare.net/sbcoba/spring-test-mvc?related=1)
+- [D2 - Spring-Test-MVC 프로젝트 소개 ](http://d2.naver.com/helloworld/1341)
+- [스프링 MVC 단위 테스트! by the wave](http://thswave.github.io/java/2015/03/02/spring-mvc-test.html)
+- [Mockito Features에 대한 한글 번역](https://github.com/mockito/mockito/wiki/Mockito-features-in-Korean)
 
 ## 상황/ 궁금증
 **In 오픈API 프로젝트**
