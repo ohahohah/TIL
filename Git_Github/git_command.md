@@ -21,6 +21,8 @@
 - `git brach` : 어떤 branch 있는지 확인, 현재 brach는 앞에 * 붙음. `git branch 생성할 브랜치명` (브랜치 생성)
 - `git checkout 이동할 브랜치명` : 해당 브랜치로 이동
 - `git checkout -b 생성하고_이동할_브랜치명` : 브랜치 생성하고 생성한 브랜치로 이동
+- `git push (remote) (localbranch)` : `git push orgin localbranch01` = remote 브랜치에 로컬브랜치와 같은 이름의 브랜치를 만들고 해당 내용을 push 함
+- `git push --set-upstream origin localbranch01` : 로컬브랜치와 같은 이름의 upstream(remote) 브랜치 tracking
 
 ### commit 
 - `git commit -m "commit message"` : 한줄로 짧게 commit
