@@ -8,6 +8,10 @@
 - [POM Reference](https://maven.apache.org/pom.html#)
 - [Maven: The Definitive Guide](http://blog.sonatype.com/2010/01/maven-the-definitive-guide-split-into-two-books/)
 
+## 보는 중
+- [2014 Spring Framework] 02 - 메이븐부터 알자 :+tv:](https://www.youtube.com/watch?v=NQvcsx-XSiQ)
+- []()
+
 ## 상황/ 궁금증
 - 'Effectiv Unit Testing'책의 예제코드를 보니 submodule로 구성되어 각 디렉토리가 독립된 프로젝트로 구성되어있음. 이거 build 어떻게 하지 당황하다가, maven 
 - 그동안 설정이 꼬일 때마다 애써 외면해왔던 `mvn` build 에 드디어 입문해야할 시기임을 느껴...
