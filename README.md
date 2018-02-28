@@ -20,6 +20,9 @@
 ## Concept 개념정리
 - [OOP](Concept/OOP.md)
 
+## DataScience
+- [데이터사이언티스트 인터뷰 목록 답변 정리](DataScience/interview.md)
+
 ## DB
 - [DB Tool](DB/tool.md)
 - [Tunning](DB/Tunning.md)
@@ -49,18 +52,22 @@
 - [기타](Git_Github/etc.md)
 - [Git command](Git_Github/git_command.md)
 - [Git commit](Git_Github/git_commit.md)
+- [Git 개념](Git_Github/git_concept.md)
 - [Git 설정](Git_Github/git_config.md)
 - [Git ssh](Git_Github/git_ssh.md)
 - [Git repository 관리](Git_Github/git_local_to_remote.md)
 - [Markdown](Git_Github/Markdown.md)
 - [Project 관리 - Git 메뉴얼](Git_Github/how_to_setup_project.md) : [ing] blog 발행
 
-## MachineLearning
-- [처음 배우는 머신러닝 1장 요약](MachineLearning/hanbit_firstml_ch01.md)
-
 ## LearnigByDoing
 - [TBD_SLiPP 14차 스터디](Learning_by_doing/TBD_SLiPP.md)
 - [실습 리스트](Learning_by_doing/ing.md)
+
+## MachineLearning
+- [처음 배우는 머신러닝 1장 요약](MachineLearning/hanbit_firstml_ch01.md)
+
+## REST
+- [커맨드라인 환경에서 REST API (HTTP) 요청 보내기](REST/CLI.md) : path 재분류 필요
 
 ## SCM_etc
 - [CD_CI](SCM_etc/CD_CI.md)
@@ -69,8 +76,8 @@
 - [Maven에서 local jar 추가하기](SCM_etc/maven_add_local_jar.md)
 - [Maven in 5min - 공식문서 실습](SCM_etc/maven_in5min.md)
 - [svn](SCM_etc/svn.md)
+- [SVN 변경파일리스트 작성 자동스크립트](SCM_etc/svn_modifiedFile_script.md)
 - [Trello](SCM_etc/Trello.md)
-- [변경파일리스트 작성 자동스크립트](SCM_etc/modifiedFile_script.md)
 
 ## Test_TDD_BDD
 - [Test](Test_TDD_BDD/Test.md)
@@ -83,5 +90,5 @@
 - [Command](Windows/command.md)
 
 ## Work
-- [WritingEmails](Work/WritingEmails.md)
 - [LearnigByDoing - 어떻게 배울까?](Work/LearnigByDoing.md)
+- [WritingEmails](Work/WritingEmails.md)
