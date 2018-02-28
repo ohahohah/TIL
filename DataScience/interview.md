@@ -1,3 +1,10 @@
+- [Keyword](#keyword)
+- [Reference](#reference)
+- [상황 / 궁금](#상황--궁금)
+- [정리](#정리)
+   - [웹 아키텍쳐](#웹-아키텍쳐)
+----------
+
 ## Keyword
 `interview` `datascience`
 
@@ -20,5 +27,8 @@
 - 하나의 IP에서 여러 도메인의 HTTPS 서버를 운영할 수 있을까요? 안된다면 왜인가요? 또 이걸 해결하는 방법이 있는데 그건 뭘까요? 
   - 기본적으로 소켓(소켓:https://ko.wikipedia.org/wiki/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC_%EC%86%8C%EC%BC%93 참고)당 하나의 SSL Certificate를 사용하게 되어있기 때문에 별도 처리가 필요함.
 Server Name Indication (SNI) 를 사용하면 해결가능. 참고 : https://en.wikipedia.org/wiki/Server_Name_Indication#Support )
+  - 추가 개념
+    - [wikipedia - Transport_Layer_Security](https://en.wikipedia.org/wiki/Transport_Layer_Security)
+    - [wikipedia - Application_layer](https://en.wikipedia.org/wiki/Application_layer)
 - 개발이 한창 진행되는 와중에도 서비스는 계속 운영되어야 합니다. 이를 가능하게 하는 상용 deploy 환경은 어떻게 구현가능한가요? WEB/WAS/DB/Cluster 각각의 영역에서 중요한 변화가 수반되는 경우에도 동작 가능한, 가장 Cost가 적은 방식을 구상하고 시나리오를 만들어봅시다. 
  - '무중단배포(Zero Downtime Deployment)'
