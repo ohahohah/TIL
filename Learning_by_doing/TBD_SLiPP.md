@@ -50,7 +50,16 @@
   - method 단위로 테스트만들때 뭔가 쎄했음. 리팩토링할때 method 나누면 testcase 도 다시 만들어야함. 여러 함수 사용해서 최종 결과가 나오는거면 중간중간 입력값을 다 따로 관리해야해서 귀찮음.  
   - 요구사항 요건 분석해서, 그 단위로 test 만들면 자연스럽게 필요한 method도 처음부터 작은 단위로 만드는게 가능하지 않을까? Effective Unittesting에서 나온 `테스트하기 쉬운 설계`가 이런 의미인가?
 
-
-
 - 로직부터 TDD로 
 - 메모리 저장소 - 서가 예제 p.366
+
+------
+## 2주차 - 20180207 web
+- static
+- Mock simple
+- config(Bean config,.. )
+- @Test(expected=) == try catch
+
+
+
+
