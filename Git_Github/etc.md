@@ -8,41 +8,23 @@
 ## 상황 / 궁금
 
 ## 정리
--   repository에서 불필요한 파일,폴더 무시 : .gitignore (local) or .gitignore_global(global) / [Github Help- Ignoring files](https://help.github.com/articles/ignoring-files/)
+- repository에서 불필요한 파일,폴더 무시 : .gitignore (local) or .gitignore_global(global) / [Github Help- Ignoring files](https://help.github.com/articles/ignoring-files/)
   - [gitignore](https://www.gitignore.io) 에서 제외할 환경검색.
     - [gitignore.io - command line](https://www.gitignore.io/docs) 사용하면 편리함.
   - 최상위디렉토리에서 .gitignore 생성 (echo 또는 `touch`(windows경우) 로 파일 생성)  
+- GitLab API 사용 https://docs.gitlab.com/ee/api/ 
+  - 회사 gitlab website 상에서 issue label 생성만 되고 편집, 삭제가 되지 않음. API 를 사용해 편집, 삭제 하려고 했으나  회사 server에서는 GET 만 허용하므로 조회만 가능
+    - curl 사용시 `-v` 옵션 추가하여 상세 상태 알 수 있음. 
+      - 회사 gitlab API 실행 결과
 
-### Branch
-- `git brach` : 어떤 branch 있는지 확인, 현재 brach는 앞에 * 붙음. `git branch 생성할 브랜치명` (브랜치 생성)
-- `git checkout 이동할 브랜치명` : 해당 브랜치로 이동
-- `git checkout -b 생성하고_이동할_브랜치명` : 브랜치 생성하고 생성한 브랜치로 이동
-
-### commit 
-- `git commit -m "commit message"` : 한줄로 짧게 commit
-- `git commit` : 길게 commit log 사용할때 사용
-  - `git config core.editor "편집기(like vim)"` 또는 GIT_EDITOR 로 사용할 에디터 지정할 수 있음.
-    - cygwin의 경우 "편집기" 대신 "c:/편집기경로/편집기.exe" 로 명시해주는게 나을 수 있음. (cygwin git이 아니라 Git for Windows 등 외부 git 사용할 경우)
-- `git commit -a` : Staging area 생략. Tracked 상태의 파일을 자동으로 Staging Area에 넣음
-- [Remove files from Git commit](https://stackoverflow.com/questions/12481639/remove-files-from-git-commit)
-- git add * 2 -> git commit : added files 합쳐서 한번에 commit 됨
-- `git commit --amend` : 최신 commit 수정
-- commit 수정하고 싶을때 : [Git-과거의-특정-커밋-수정하기](http://homoefficio.github.io/2017/04/16/Git-과거의-특정-커밋-수정하기/index.html)
-  - 해당 remote branch에서 다른 수정이 일어났을 경우, 완전히 꼬여버리므로 주의하자
-  1. `git rebase --i HEAD ~되돌릴commit숫자` or `git rebase --interative commit아이디`
-  2. 에디터창에서 pick -> edit 로 수정
-  3. `git commit --amend` 후 commit 수정 , 완료 후 계속 작업 `git rebase --continue`
-  4. 완료 후, `git push --force`
-
-
-### Staging Area ( git index)
-- `git add/rm filename01 filename02`
-- `git add -u` : add all file
-- `git add -u foldername` : To stage just under folder
-- [Multiple file staging](https://stackoverflow.com/questions/492558/removing-multiple-files-from-a-git-repo-that-have-already-been-deleted-from-disk)
-- ```git rm `git ls-files -d` ``` or ```git ls-files -z -d | xargs -0 --no-run-if-empty git rm``` : rm all delete file
-  - [How to add and commit removals made with “rm” instead of “git rm”?](https://stackoverflow.com/questions/1856654/how-to-add-and-commit-removals-made-with-rm-instead-of-git-rm)
-
-### Diff
-- `git diff` : 수정했지만 아직 staged 상태가 아닌 파일의 내용을 비교
-- `git diff --staged` : 저장소와 staging 된 파일 내용 비교
+      ```
+      (...)
+      < Status: 405 Method Not Allowed
+      < Allow: OPTIONS, GET, HEAD
+      (...)
+      ```
+  
+  - 현재 Gitlab에 따라 사용할 수 있는 API version이 다름 / 현재 회사 [Gitlab API v3](https://gitlab.com/gitlab-org/gitlab-ce/blob/8-16-stable/doc/api/README.md)
+  - API 사용시, 사용자의 private token 과 project id 사용함. 
+    - Profile - Account settings - Private token 확인가능: [personal-access-tokens](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html) 
+    - project id 조회 : `curl -XGET --header "PRIVATE-TOKEN: XXXX" "https://gitlab.com/api/v3/projects/owned"`  - [where do I find the project id for the gitlab api?](https://stackoverflow.com/questions/39559689/where-do-i-find-the-project-id-for-the-gitlab-api)

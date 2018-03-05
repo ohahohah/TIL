@@ -1,3 +1,6 @@
+<!--ts-->
+<!--te-->
+
 ## Keyword
 `cygwin` `windows as linux`
 
@@ -85,6 +88,9 @@ need configuration options.
 
 ### Etc
 - [How do I change the default startup directory in Cygwin?](https://superuser.com/questions/388397/how-do-i-change-the-default-startup-directory-in-cygwin/388409) : Just add `cd /path/to/directory/you/care/about` to the bottom of your ~/.bashrc file(C:\cygwin\home\%USERNAME%\.bashrc).
+- [sudo-command-not-found-on-cygwin](https://stackoverflow.com/questions/22527668/sudo-command-not-found-on-cygwin)
+  > Cygwin is not a full Linux distribution. (...) `Run as Administrator.`(...)
+
 
 ### git
 - [vim not working when calling git commit within cygwin](https://stackoverflow.com/questions/36742345/vim-not-working-when-calling-git-commit-within-cygwin)
@@ -111,3 +117,23 @@ Vim warning: input is not from a terminal
 - http://zeany.net/29?category=678345
 - http://webnautes.tistory.com/778
 - http://mickymoon.tistory.com/3?category=586789c
+
+Table of Contents
+=================
+
+      * [Keyword](#keyword)
+      * [Reference](#reference)
+      * [상황/ 궁금증](#상황-궁금증)
+      * [정리](#정리)
+         * [Installation](#installation)
+            * [Gem setting](#gem-setting)
+            * [apt-cyg 설치 (optional)](#apt-cyg-설치-optional)
+         * [home directory 바꾸기](#home-directory-바꾸기)
+         * [SSH 설정변경](#ssh-설정변경)
+         * [Etc](#etc)
+         * [git](#git)
+         * [Vim](#vim)
+      * [memo](#memo)
+   * [Table of Contents](#table-of-contents)
+
+Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
