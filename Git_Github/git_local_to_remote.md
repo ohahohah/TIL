@@ -114,6 +114,12 @@ $ git branch -u origin/serverfix
 Branch serverfix set up to track remote branch serverfix from origin.
 ```
 
+#### Merge / Rebase 
+##### [상황] 
+- Merge와 rebase를 각각 어떤 경우에 사용해야하는지 헷갈려서 정리함. 
+- [Git: Rebase는 언제 어떻게 해야 할까?](http://dogfeet.github.io/articles/2012/git-merge-rebase.html)
+- [Pro Git(v1) - .6 Git 브랜치 - Rebase하기](https://git-scm.com/book/ko/v1/Git-%EB%B8%8C%EB%9E%9C%EC%B9%98-Rebase%ED%95%98%EA%B8%B0)
+
 ### push pull fetch
 #### fetch 
 - `git fetch [remote]` : remote branch 정보 update
