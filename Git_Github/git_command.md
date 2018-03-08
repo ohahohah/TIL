@@ -23,6 +23,7 @@
 - [Removing sensitive data from a repository](https://help.github.com/articles/removing-sensitive-data-from-a-repository/) / [이전 버전 문서 비공식번역본 - GitHub / Advanced Git / 민감한 데이터 제거하기](http://minsone.github.io/git/github-advanced-remove-sensitive-data)
 - [git- docs](https://git-scm.com/docs/) : `git --version`으로 사용하고 있는 version에 맞는 doc 확인
 - [pro Git book](https://git-scm.com/book/en/v2) / [pro Git book(한국어)](https://git-scm.com/book/ko/v2)
+- [[git]작업의 취소 - by 에코지오](http://ecogeo.tistory.com/276)
 
 ## 상황 / 궁금
 
@@ -55,6 +56,8 @@
   2. 에디터창에서 pick -> edit 로 수정
   3. `git commit --amend` 후 commit 수정 , 완료 후 계속 작업 `git rebase --continue`
   4. 완료 후, `git push --force`
+- `git reset` : commit 취소시 사용. 
+  - `git reset HEAD^` / `git reset HEAD~4` : 가장 최근 commit 취소/최근 4개의 commit 취소. push 아직 안했을때 사용.
 
 ### Staging Area ( git index)
 - `git add/rm filename01 filename02`
