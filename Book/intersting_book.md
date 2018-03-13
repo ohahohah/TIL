@@ -41,6 +41,8 @@
 - 리팩토링 - 마틴 파울러 : 지금 같은 방식으로 코딩하면 일회용 쓰레기 코드만 계속 만들어낼꺼다. 회사서가에 있어서 잠깐 읽었던 적이 있는데 지금 읽으면 또 느낌이 다르다. 읽기만 하고 적용을 안해서 슬프다. 이번에 다시 읽을 때는 '읽는다 --- 적용한다' 사이 갭을 줄여야함.
 - [소프트웨어 악취를 제거하는 리팩토링](https://thebook.io/006804/) : 이 책도 많이 보더라. 근데 말이죠... 리팩토링 책을 여러권 본다고 해서 내 코드에 적용하지 않으면 좋아지지 않을텐데...? 적어도 내가 짜고 있는 코드가 쓰레기라는 거 왜 쓰레기인지 알게 되는 거부터 시작해야지 뭐. 
 - [Refactoring Guru](https://refactoring.guru/refactoring) : Refactoring 관련 글과 DesignPattern에 대해 기술되어있는 사이트로 챕터별로 글이 짧기 때문에 빠르게 읽을 수 있음.
+- [코드리뷰를 시작하려는 그대에게 :tv:](https://youtu.be/AfB1DomXyEA) /[slide](https://www.slideshare.net/JiyeonSeo2/ss-7345518)
+- [RT:FM, 나는프로그래머다 컨퍼런스 2016 :tv:](https://youtu.be/aP9mhLBJMLw) / [slide](https://www.slideshare.net/JiyeonSeo2/ss-75858902)
 
 ## DONE
 - `책정보(책제목,저자,출판사)`와 함께 간단한 감상평을 적는다. 블로그에 서평을 작성했을 경우, 함께 적음
