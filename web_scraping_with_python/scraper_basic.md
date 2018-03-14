@@ -27,3 +27,8 @@
 - [lib] Beautiful Soup는 html을 xml python 객체로 변환
   - 잘못된 html을 xml(well-formed) 로 바꿈
   - python '객체'가 됨
+
+### ch03. 크롤링 시작하기
+- 웹 크롤러 주의점
+- 샘플코드에서 예외, 필터링 추가해 작성
+- 어떤 경우에 웹사이트 전체 크롤링이 유용할까?
