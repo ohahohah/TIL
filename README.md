@@ -47,17 +47,17 @@
 - [Vim](Devenv/vim.md)
 - [Vim 단축키 정리](Devenv/vim_shortcut.md)
 
-## Git_Github
-- [Error](Git_Github/Error.md)
-- [기타](Git_Github/etc.md)
-- [Git command](Git_Github/git_command.md)
-- [Git commit](Git_Github/git_commit.md)
-- [Git 개념](Git_Github/git_concept.md)
-- [Git 설정](Git_Github/git_config.md)
-- [Git ssh](Git_Github/git_ssh.md)
-- [Git repository 관리](Git_Github/git_local_to_remote.md)
-- [Markdown](Git_Github/Markdown.md)
-- [Project 관리 - Git 메뉴얼](Git_Github/how_to_setup_project.md) : [ing] blog 발행
+## Git_Github_Gitlab
+- [Error](Git_Github_Gitlab/Error.md)
+- [기타](Git_Github_Gitlab/etc.md)
+- [Git command](Git_Github_Gitlab/git_command.md)
+- [Git commit](Git_Github_Gitlab/git_commit.md)
+- [Git 개념](Git_Github_Gitlab/git_concept.md)
+- [Git 설정](Git_Github_Gitlab/git_config.md)
+- [Git ssh](Git_Github_Gitlab/git_ssh.md)
+- [Git repository 관리](Git_Github_Gitlab/git_local_to_remote.md)
+- [Markdown](Git_Github_Gitlab/Markdown.md)
+- [Project 관리 - Git 메뉴얼](Git_Github_Gitlab/how_to_setup_project.md) : [ing] blog 발행
 
 ## LearnigByDoing
 - [TBD_SLiPP 14차 스터디](Learning_by_doing/TBD_SLiPP.md)
