@@ -11,7 +11,7 @@
 ## 정리
 - [git-scm : 시작하기 - Git 최초 설정](https://git-scm.com/book/ko/v2/%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0-Git-%EC%B5%9C%EC%B4%88-%EC%84%A4%EC%A0%95)
 - global 설정 확인 `git config --global --list`
-  - [git config global file - remove settings](https://askubuntu.com/questions/206449/git-config-global-file-remove-settings)
+  - [git config global file - remove settings](https://askubuntu.com/questions/206449/git-config-global-file-remove-settings) : `git config --global --unset-all user.name` or edit '~/.gitconfig' file
 - Git httpsrepository 연결시, `curl: (60) SSL certificate problem: unable to get local issuer certificate` 메시지 출력
  - > git 은 https repository 연결시 curl 을 사용하며  curl은 기본적으로 SSL 인증서 검증을 수행
  - [lesstif - curl 에 신뢰하는 인증기관 인증서 추가하기](https://www.lesstif.com/pages/viewpage.action?pageId=15892500) 의 CA 인증서 파일 갱신 해도 안됨.
