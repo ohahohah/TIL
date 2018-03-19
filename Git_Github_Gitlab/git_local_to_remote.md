@@ -114,6 +114,35 @@ $ git branch -u origin/serverfix
 Branch serverfix set up to track remote branch serverfix from origin.
 ```
 
+#### set multiple remote repository
+- [Pro Git - 3.2 Git 브랜치 - 브랜치와 Merge 의 기초](https://git-scm.com/book/ko/v2/Git-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EB%B8%8C%EB%9E%9C%EC%B9%98%EC%99%80-Merge-%EC%9D%98-%EA%B8%B0%EC%B4%88)
+- 팀 작업시, 팀 repository을 fork해서 개인 repository 에서 작업 후, Pull Request(a.k.a. PR / gitlab : Merge Request(a.k.a. MR))함. 
+- PR 전, 그동안 다른 사람들이 팀 repository에 작업한 commit내용을 반영해야함
+  - branch pointer가 fast-forward하므로(최신 버전의 팀 repository의 commit history를 가지고 있음), PR의 commit 내용이 팀 repository의 최신 commit에 새로운 commit(PR)을 추가한다. 팀 repository에 commit history의 분기없이(3-way merge), (다른 작업자가 같은 파일을 작업했을때 발생하는)Merge conflict없이 깔끔하게 Merge된다. 해당 작업을 하지 않음 
+- 팀 repository를 반영하기 위해(pull) remote 를 새로 지정함
+  - `git remote add upstream 팀_repository_url`
+  - >>> fatal: remote upstream already exists. 같은 메시지가 출력될 경우, 다시 upstream 지정
+    - `git remote set-url upstream 팀_repository_url`
+  - 해당 과정 거친 후, `git remote -v` 또는 `git remote show upstream` 으로 확인
+
+#### Syncing a fork
+- [help_github - Syncing a fork](https://help.github.com/articles/syncing-a-fork/)
+- Syncing a fork
+```
+git fetch upstream
+git checkout master
+git merge upstream/master
+```
+- Before creating new branch : fetched the latest master version of the upstream
+```
+git pull upstream master --ff-only
+```
+- Before PR(MR) 전
+``` 
+git fetch upstream
+git merge upstream/master
+```
+
 #### Merge / Rebase 
 ##### [상황] 
 - Merge와 rebase를 각각 어떤 경우에 사용해야하는지 헷갈려서 정리함. 
