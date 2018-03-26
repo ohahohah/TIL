@@ -15,8 +15,6 @@
 - 2018/01/25 Intellij가 그렇게 좋다는 소문을 들었다. 시퀀스 다이어그램이 자동 생성(기본 플러그인이었음 심지어)되는걸 경험하고, 귀찮아도 학습비용이 높아도 장기적으로 볼때 유용하겠다는 확신이 들어 eclipse에서 옮기기로 결정. 
   - 게다가 최근 eclipse 무거워서 쓸 수 없는 지경에 이르렀다. 프로그램을 켜는데도, 저장하는데도 오래걸린다. (coding convention이나 test에 관심이 가서 code quality check tool, UML, PMD 등 여러 plugin을 설치하고 설정을 여러개 해두었더니 메모리를 늘려놔도 견뎌내지 못한다 + 관리하는 프로젝트가 늘었음)
 
-
-
 ## 정리
 ### Intellij 에 익숙해지기
 - 방식에 익숙해지기
@@ -27,6 +25,14 @@
 - 맨 처음 시작할때 기본 설정
   - File encoding 설정(Global encoding & Project encoding = UTF-8) / 참고 : [[IntelliJ] 기본설정(font, theme, encoding, keymap), Plugin설치, Library 추가 방법](http://blog.woniper.net/184?category=537962)
   - 코드 창 줄수 보이기 : Settings/Preferences | Editor | General | Appearance | Show line numbers 
+
+### 기본 keymap 외 단축키
+#### Docmentation comment
+- [Creating Documentation Comments](https://www.jetbrains.com/help/idea/creating-documentation-comments.html)
+- Create doc comment for class, method : (before the declation) typing `/**` + `enter`
+- Creating or fixing doc comment : 'Find Action(ctrl+shift+a)' -> typing 'fix doc comment'
+
+
 
 ### Plugin
 - key proto X : 단축키 대신 마우스를 사용하면 해당 기능의 단축키 안내해주는 알림창이 뜸
