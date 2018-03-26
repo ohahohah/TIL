@@ -23,6 +23,7 @@
 - [Removing sensitive data from a repository](https://help.github.com/articles/removing-sensitive-data-from-a-repository/) / [이전 버전 문서 비공식번역본 - GitHub / Advanced Git / 민감한 데이터 제거하기](http://minsone.github.io/git/github-advanced-remove-sensitive-data)
 - [git- docs](https://git-scm.com/docs/) : `git --version`으로 사용하고 있는 version에 맞는 doc 확인
 - [pro Git book](https://git-scm.com/book/en/v2) / [pro Git book(한국어)](https://git-scm.com/book/ko/v2)
+- [[git]작업의 취소 - by 에코지오](http://ecogeo.tistory.com/276)
 
 ## 상황 / 궁금
 
@@ -55,6 +56,8 @@
   2. 에디터창에서 pick -> edit 로 수정
   3. `git commit --amend` 후 commit 수정 , 완료 후 계속 작업 `git rebase --continue`
   4. 완료 후, `git push --force`
+- `git reset` : commit 취소시 사용. 
+  - `git reset HEAD^` / `git reset HEAD~4` : 가장 최근 commit 취소/최근 4개의 commit 취소. push 아직 안했을때 사용.
 
 ### Staging Area ( git index)
 - `git add/rm filename01 filename02`
@@ -87,6 +90,7 @@
 - [Pro git - 7.3 Git 도구 - Stashing과 Cleaning](https://git-scm.com/book/ko/v2/Git-%EB%8F%84%EA%B5%AC-Stashing%EA%B3%BC-Cleaning)
 
 ### Removing sensitive data from a repository 민감한 데이터 제거하기
+- git 자체 command(`git-filter-branch`) 를 사용하는 방법과 - [BFG Repo-Cleaner](https://rtyley.github.io/bfg-repo-cleaner/)를 사용하는 두 가지 방법이 있음.
 - 패스워드 키등 민감한 데이터 제거를 위해 리포지토리의 일부 파일/폴더를 삭제하려면, 해당 데이터뿐만 아니라 히스토리도 함께 삭제해야함. 
 - `git-filter-branch` 사용해서 히스토리 전체에서 필요한 것(해당 파일이 포함된 히스토리를 '필터링'해 제외한 모든 히스토리)만을 골라낸다.
   - 단일 commit 수정으로 가능할 경우, 되도록 이 command를 사용하지 말 것! 
@@ -107,6 +111,7 @@ rewritten branch 는 쉽게 original branch에 push, distribute 할 수 없음.
 - 삭제해야할 파일을 stashing 했을 경우, unstashing해야함. 
   - `git stash show -p | git apply -R` 
   - [Pro git - 7.3 Git 도구 - Stashing과 Cleaning](https://git-scm.com/book/ko/v2/Git-%EB%8F%84%EA%B5%AC-Stashing%EA%B3%BC-Cleaning)
+- stash해두었을 경우 commit history 가 변경되었을때 해당 stash가 사라질 수 있음
 
 #### 2-1. Using the BFG : 설치 필요하지만 간단함
 - [BFG Repo-Cleaner](https://rtyley.github.io/bfg-repo-cleaner/)는 `git-filter-branch` 보다 간단함.
