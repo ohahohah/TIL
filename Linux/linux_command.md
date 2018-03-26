@@ -5,6 +5,14 @@
 - https://linuxjourney.com/
 
 ## 정리
+### 처음 sever setting시 참고
+- [ ] 외부접속 network 설정
+- [ ] user 설정
+  - passwd 재설정 : root : `sudo passwd` / user : `passwd` / change other users : `sudo passwd USERNAME`
+- [ ] 외부접속에서 접속시(ssh 사용) : 간편히 접속할 수있도록 ip,port,publickey등  ~/.ssh/config 에 설정 `ssh -p port번호 user이름@ip`
+- [ ] Check the version of Ubuntu : `lsb_release -a` or `cat /etc/*release`
+- [ ] Check installed package " `apt list --installed`
+
 ### 기초 - For newbie - Don't panic!
 - https://linuxjourney.com/ (2018/03/09 버전)를 발췌 정리함. 
 - 도움말 찾기 : command에 `--help` 붙여서 실행. e.g. `less --help`
