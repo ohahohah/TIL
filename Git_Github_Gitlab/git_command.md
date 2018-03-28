@@ -74,7 +74,9 @@
 ### log
 `git log` : [scm - git log](https://git-scm.com/book/ko/v1/Git%EC%9D%98-%EA%B8%B0%EC%B4%88-%EC%BB%A4%EB%B0%8B-%ED%9E%88%EC%8A%A4%ED%86%A0%EB%A6%AC-%EC%A1%B0%ED%9A%8C%ED%95%98%EA%B8%B0)에서 추가 command 확인가능
 - `git log -p -2` : -p = 각 커밋의 diff -2 = 최근 두 개의 결과
+- `git log -p --word-diff <filename>` : 해당 파일의 단어 기준의 diff 출력
 - `git log --pretty=oneline` : --pretty = 예쁘게 보여줌 / oneline = 각 커밋을 한 줄로, 그 외 short, full, fuller 있음
+- 특정 파일의 log 확인 : `git log <filename>` 
 - 조회 제한
   - `--since=2018-02-13` `--since=2.weeks` , 2 years 1 day 3 minutes ago,...
   > -(n)	최근 n 개의 커밋만 조회한다.
