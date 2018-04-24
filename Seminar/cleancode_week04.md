@@ -30,18 +30,21 @@
 - '입력 -> 로직 -> 출력' 을 생각해서 입력값과 출력값을 정의해두고 테스트케이스를 만드는 게 잘 안된다. 엉뚱한 입력값을 넣고 출력값을 원하거나. 
     - 객체로 분석을 못하거나 만들어진 객체를 사용못하는 기분이 든다. 원래 리팩토링하면서 이런 쓸모없는 로직을 깔끔하게 다듬는 걸까? 켄트 벡 TDD 책은 한 번에 이런 거 잘해서 딱히 이런걸 리팩토링 하는 부분은 안나오던데.
     [궁금] 아, 이건 테스트케이스가 아니라 객체로 나누는게 엉망인걸까? 
-    - 게다가 method나누면서 테스트케이스가 깨지는게 힘들다. 아래 코드처럼. [궁금] 테스트케이스도 리팩토링해야한다고 했는데 원래 이런 경우가 많이 발생하는게 당연한건가...
-      - 고치기 전 코드
-      ```
+    - 게다가 method나누면서 테스트케이스가 깨지는게 힘들다. 아래 코드처럼. [궁금] 테스트케이스도 리팩토링해야한다고 했는데 원래 이런 경우가 많이 발생하는게 당연한건가...  
+     - 고치기 전 코드  
+        
+    ```
     void methodOld (List<String> inputs) {
         for (String input : inputs){
           validateInput(input)
           //do something
         }
     }
-      ```
-       - 고친 후 코드
-      ```
+    ```
+  
+     - 고친 후 코드
+       
+    ```
     void methodBetter (List<String> inputs){
         for (String input : inputs){
           methodA(validateInput(input));    
@@ -50,14 +53,16 @@
     int methodA (){
         //do something
     }
-      ``` 
-      - 테스트케이스
-      ```
+    ``` 
+  
+     - 테스트케이스
+      
+    ```
     @Test
     public void do_something_하는지 확인(){
      // methodOld 테스트
    }
-      ```
+    ```
 
 ### 앞으로 볼 것(= 내용이 많거나 지금 내 수준으로는 어려워서 지금 다 이해할 수 없는 것)
 - [TDD 이야기, ATDD로 시작하기 by 최범균](http://javacan.tistory.com/entry/TDD-ATDD)
