@@ -1,5 +1,10 @@
 ## Vim shortcut
 
+### 편집
+- esc + `v` : visual mode - 블록지정할때 사용
+- `y` : yank 해당 블록 복사
+- `x` : 
+
 ### Insert Mode
 - 커서 단위 : i (현재 커서) / a (현재 커서 다음칸)
 - 줄 단위 : I (현재 줄 맨 앞) / A (현재 줄 맨 뒤)
