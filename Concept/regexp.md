@@ -3,6 +3,7 @@
 - [hackerrank - RegExp](https://www.hackerrank.com/domains/regex)
 - [tryHelloWorld Lecture](https://goo.gl/r4xz6m)  
 - [Mindscale Lecture](http://mindscale.kr/course/regex). 
+- [regular-expressions](https://www.regular-expressions.info) : 정규표현식 최적화사키는 과정 참고
 
 ## 정리
 - 모르는 내용만 골라서 정리함.
