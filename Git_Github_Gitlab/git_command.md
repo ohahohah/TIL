@@ -52,7 +52,9 @@
 - commit 수정하고 싶을때 : [Git-과거의-특정-커밋-수정하기](http://homoefficio.github.io/2017/04/16/Git-과거의-특정-커밋-수정하기/index.html)
   - [git-scm - Git 도구 - 히스토리 단장하기](https://git-scm.com/book/ko/v1/Git-%EB%8F%84%EA%B5%AC-%ED%9E%88%EC%8A%A4%ED%86%A0%EB%A6%AC-%EB%8B%A8%EC%9E%A5%ED%95%98%EA%B8%B0)
   - 해당 remote branch에서 다른 수정이 일어났을 경우, 완전히 꼬여버리므로 주의하자
-  1. `git rebase --i HEAD~되돌릴commit숫자` or `git rebase --interative commit아이디`
+  1. `git rebase --interative commit아이디` 
+    - commit아이디 = 수정할 commit의 이전 아이디
+    - `git rebase --i HEAD~되돌릴commit숫자` 안됨. command 확인필요
   2. 에디터창에서 pick -> edit 로 수정
   3. `git commit --amend` 후 commit 수정 , 완료 후 계속 작업 `git rebase --continue`
   4. 완료 후, `git push --force`
@@ -90,6 +92,12 @@
 
 ### git Stash : branch 변경할때 commit 하지 않고 다시 돌아와서 작업하기
 - [Pro git - 7.3 Git 도구 - Stashing과 Cleaning](https://git-scm.com/book/ko/v2/Git-%EB%8F%84%EA%B5%AC-Stashing%EA%B3%BC-Cleaning)
+
+### Git remote branch 가져오기
+- [Git remote branch 가져오기](https://cjh5414.github.io/get-git-remote-branch/)
+- 단일 브랜치만 클론하기 : `git clone -b {가져올 브랜치이름} {git url}`
+- remote repository 특정 브랜치 가져오기 : `git checkout -t {remote repository/브랜치명}` (git checkout -t origin/ohahohah)
+  - `git branch -r`  : 원격저장소 branch 리스트 보기
 
 ### Removing sensitive data from a repository 민감한 데이터 제거하기
 - git 자체 command(`git-filter-branch`) 를 사용하는 방법과 - [BFG Repo-Cleaner](https://rtyley.github.io/bfg-repo-cleaner/)를 사용하는 두 가지 방법이 있음.
