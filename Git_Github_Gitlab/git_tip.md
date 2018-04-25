@@ -16,3 +16,7 @@
   ```
   - Give the script permission to run : `chmod -X ~/.git-completion.bash` 
 
+- gitignore plugin
+  - [gitignore](https://www.gitignore.io) 에서 제외할 환경검색.
+  - [gitignore.io - command line](https://www.gitignore.io/docs) 사용하면 편리함.
+    - 예제 `gi java,python >> .gitignore`
