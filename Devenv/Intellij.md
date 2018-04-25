@@ -31,14 +31,29 @@
 - [Creating Documentation Comments](https://www.jetbrains.com/help/idea/creating-documentation-comments.html)
 - Create doc comment for class, method : (before the declation) typing `/**` + `enter`
 - Creating or fixing doc comment : 'Find Action(ctrl+shift+a)' -> typing 'fix doc comment'
-
-
+- [code folding](https://www.jetbrains.com/help/idea/code-folding.html)
+  - Expand  cmd + +   Expand the current collapsed fragment
+  - Collapse  cmd + -  Collapse the current folding region
+  - Expand All  shift + cmd + + 
+  - Collapse All  shift +cmd + - 
 
 ### Plugin
 - key proto X : 단축키 대신 마우스를 사용하면 해당 기능의 단축키 안내해주는 알림창이 뜸
+- [한영번역 플러그인 by jojoldu](https://github.com/jojoldu/translator) : 이름짓기 및 영문설명 작성시에 유용함
 
 ### error 잡기
 - Spring project 에서 dispatcher servlet 제대로 인식하지 못함.
   - project 설정을 확인
   - bug ![bug](/Image/IntellijSettingNoProjectSDK.png "bug 발생화면")
   - 원인- project setting 제대로 안되어있음 ![cause](/Image/IntellijSettingDispatherNotFound.png "bug 원인")
+- [Problem with Error: "Cannot start process, the working directory does not exist."](https://intellij-support.jetbrains.com/hc/en-us/community/posts/207043685-Problem-with-Error-Cannot-start-process-the-working-directory-does-not-exist-)
+  - "Edit Configurations" 의 "Working directory"의 context 때문에 꼬이는 경우가 있음.
+    - 내 경우엔, 해당 프로젝트에 /.idea/module 이 없는데도 $MODULE_DIR$로 해당 context를 찾으려고 하기 때문에 에러가 발생함.
+    - 방법 1. .idea 하위 폴더에 /modules 라는 빈 폴더 만듦. / 참고 - [Error: “Cannot start process, the working directory does not exist.” in IntelliJ](https://stackoverflow.com/questions/48098421/error-cannot-start-process-the-working-directory-does-not-exist-in-intellij)
+      - 아래 방법2,3을 시도하다가 각각 테스트케이스 실행할때마다 Working directory 를 변경해줘야하는게 불편해서 이 방법을 선택함. 
+      - [궁금] 프로젝트 전체의 Working directory를 한번에 변경할 수 있다면 방법2 를 쓰고 싶다. 빈 디렉토리만 있다고 되는게 이상함. Working directory 역할이 뭐지?
+        - [ ] https://www.jetbrains.com/help/idea/modules.html 이 문서 읽어보기 
+    - 방법 1. Working directory 칸을 아무것도 없이 지운다
+    - 방법 2. Working directory를 %MODULE_WORKING_DIR% 로 변경한다.
+
+
