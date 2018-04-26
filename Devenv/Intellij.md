@@ -27,6 +27,12 @@
   - 코드 창 줄수 보이기 : Settings/Preferences | Editor | General | Appearance | Show line numbers 
 
 ### 기본 keymap 외 단축키
+- windows와 mac keymap 같게 두기 : mac keymap으로 변경했을 경우, meta key를 매핑해줘야함. 키보드에 따라 meta key가 없는 경우, 임의로 window key를 meta key로 매핑하는 방법
+  > 1. Help -> Edit Custom Properties... -> keymap.windows.as.meta=true
+  2. Choose your Mac keymap under File -> Settings... -> Keymap. For example, "Mac OS X 10.5+".
+  - 출처 : [How to make Windows key the IntelliJ IDEA Command/Meta key under Windows?](https://stackoverflow.com/questions/32921994/how-to-make-windows-key-the-intellij-idea-command-meta-key-under-windows?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa)
+  - windows와 mac 동시에 사용할떄 keymap이 다르기때문에 불편해서 찾아봄. 
+
 #### Docmentation comment
 - [Creating Documentation Comments](https://www.jetbrains.com/help/idea/creating-documentation-comments.html)
 - Create doc comment for class, method : (before the declation) typing `/**` + `enter`
@@ -40,6 +46,7 @@
 ### Plugin
 - key proto X : 단축키 대신 마우스를 사용하면 해당 기능의 단축키 안내해주는 알림창이 뜸
 - [한영번역 플러그인 by jojoldu](https://github.com/jojoldu/translator) : 이름짓기 및 영문설명 작성시에 유용함
+- [Rainbow Brackets](https://plugins.jetbrains.com/plugin/10080-rainbow-brackets) : 괄호 색깔을 다르게 표기함. 괄호가 많은 람다쓸때 특히 좋다
 
 ### error 잡기
 - Spring project 에서 dispatcher servlet 제대로 인식하지 못함.
