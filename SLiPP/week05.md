@@ -6,4 +6,4 @@
 - callCount를 구할 수 있다
 - ST_5 Noti 수가 맞는 걸 확인
 - TodoManager - NotiManager -> CountableNotiManager
-- 
+- Todo를_생성할때마다_count가_증가되는지_확인
