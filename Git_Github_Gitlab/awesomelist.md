@@ -34,10 +34,10 @@
 - [Gitlab Help](https://gitlab.com/help/) : Git을 프로젝트에 어떻게 적용해볼 수 있을지 힌트가 되는 문서들이 있음. 현재 사용하고 있는 Gitlab 버전을 잘 확인해야함. 기능 제공되는줄 알고 설레었다가 회사 Gitlab 버전이 낮아서 시무룩해진 적이 몇 번 있음.
  
 ### 프로젝트 관리 관점 - 어떻게 적용할 것인가?
-- 아래 레퍼런스를 참고하여, 다른 팀원들이 적용할 수 있도록 회사 프로젝트에서 [Git 기본 사용 가이드](Git_Github_Gitlab/how_to_setup_project.md)를 작성하였다.
+- 아래 레퍼런스를 참고하여, 다른 팀원들이 적용할 수 있도록 회사 프로젝트에서 [Git 기본 사용 가이드](../Git_Github_Gitlab/how_to_setup_project.md)를 작성하였다.
 
 #### 협업
-- [SLiPP 테스트기반개발 스터디 wiki - SW 개발 업무 Cycle :+1: ](https://www.slipp.net/wiki/pages/viewpage.action?pageId=28279096) : 스터디를 하면서 현업에서는 어떻게 진행하고 있는지 감 잡는데 많은 도움이 되었다. / 여기서 배운 것과 온라인 코드리뷰 강의를 들으면서 정라한 내용은 [코드리뷰](Cowork/codereview.md)에 업데이트하고 있다.
+- [SLiPP 테스트기반개발 스터디 wiki - SW 개발 업무 Cycle :+1: ](https://www.slipp.net/wiki/pages/viewpage.action?pageId=28279096) : 스터디를 하면서 현업에서는 어떻게 진행하고 있는지 감 잡는데 많은 도움이 되었다. / 여기서 배운 것과 온라인 코드리뷰 강의를 들으면서 정라한 내용은 [코드리뷰](../Cowork/codereview.md)에 업데이트하고 있다.
 - [GitHub Flow explain by Sung Kim :tv: :+1:](https://youtu.be/x-b_ij22vWg)
 - [GitHub Flow demo :tv: :+1:](https://youtu.be/GeFkVB8w7uM)
 - 협업flow 간단한 설명 (Git 익숙하지 않는 프로젝트 팀원용 초간단 tutorial)
