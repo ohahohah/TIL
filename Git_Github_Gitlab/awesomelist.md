@@ -27,17 +27,17 @@
 - [ebook - pro Git book](https://git-scm.com/book/en/v2) / [ebook - pro Git book(한국어)](https://git-scm.com/book/ko/v2)
   - 내용이 너무 많아서 입문할때는 읽어볼 엄두가 안났었는데, 좀 두려움이 가시고 나니 이것만한 콘텐츠가. 없다. 
   - 내 경우, 자주 쓰이는 명령어를 익힌 상태라서, 이후 Git 학습은 '모르는 부분 검색 -> 관련 키워드 찾음 -> 위 아티클에서 찾아서 컨텐스트 파악'의 프로세스로 진행하고 있다. 영문판 한글판 두 개를 동시에 보고 있음. 개념을 빠르게 이해하기 위해 한글판을 먼저 보고, 구글링을 위해 한글화되지 않은 용어를 확인용으로 영문판을 봄. 가끔 어색한 한글번역이 있어서 [1판](https://git-scm.com/book/ko/v1)도 참고함.
-  - git 명령어 단순암기를 넘어서 어떻게 동작하는지 궁금하다면 [10.Git의 내부](https://git-scm.com/book/ko/v2/Git의-내부-Plumbing-명령과-Porcelain-명령)를 추천. 나는 읽은 내용을 [Git 내부](Git_Github_Gitlab/git_concept.md) 에서 정리하고 있다.
+  - git 명령어 단순암기를 넘어서 어떻게 동작하는지 궁금하다면 [10.Git의 내부](https://git-scm.com/book/ko/v2/Git의-내부-Plumbing-명령과-Porcelain-명령)를 추천. 나는 읽은 내용을 [Git 내부](/Git_Github_Gitlab/git_concept.md) 에서 정리하고 있다.
 틈틈이 읽으며 정리하고 있음
 - [git- docs](https://git-scm.com/docs/) : `git --version`으로 사용하고 있는 version에 맞는 doc 확인
 - [Github Help](https://help.github.com) : github 사용하면서 발생하는 여러 상황에서 바로 적용할 수 있도록 Help 문서 제공
 - [Gitlab Help](https://gitlab.com/help/) : Git을 프로젝트에 어떻게 적용해볼 수 있을지 힌트가 되는 문서들이 있음. 현재 사용하고 있는 Gitlab 버전을 잘 확인해야함. 기능 제공되는줄 알고 설레었다가 회사 Gitlab 버전이 낮아서 시무룩해진 적이 몇 번 있음.
  
 ### 프로젝트 관리 관점 - 어떻게 적용할 것인가?
-- 아래 레퍼런스를 참고하여, 다른 팀원들이 적용할 수 있도록 회사 프로젝트에서 [Git 기본 사용 가이드](../Git_Github_Gitlab/how_to_setup_project.md)를 작성하였다.
+- 아래 레퍼런스를 참고하여, 다른 팀원들이 적용할 수 있도록 회사 프로젝트에서 [Git 기본 사용 가이드](/Git_Github_Gitlab/how_to_setup_project.md)를 작성하였다.
 
 #### 협업
-- [SLiPP 테스트기반개발 스터디 wiki - SW 개발 업무 Cycle :+1: ](https://www.slipp.net/wiki/pages/viewpage.action?pageId=28279096) : 스터디를 하면서 현업에서는 어떻게 진행하고 있는지 감 잡는데 많은 도움이 되었다. / 여기서 배운 것과 온라인 코드리뷰 강의를 들으면서 정라한 내용은 [코드리뷰](Cowork/codereview.md)에 업데이트하고 있다.
+- [SLiPP 테스트기반개발 스터디 wiki - SW 개발 업무 Cycle :+1: ](https://www.slipp.net/wiki/pages/viewpage.action?pageId=28279096) : 스터디를 하면서 현업에서는 어떻게 진행하고 있는지 감 잡는데 많은 도움이 되었다. / 여기서 배운 것과 온라인 코드리뷰 강의를 들으면서 정리한 내용은 [코드리뷰](/Cowork/codereview.md)에 업데이트하고 있다.
 - [GitHub Flow explain by Sung Kim :tv:/ 동영상 :+1:](https://youtu.be/x-b_ij22vWg)
 - [GitHub Flow demo :tv:/ 동영상 :+1:](https://youtu.be/GeFkVB8w7uM)
 - 협업flow 간단한 설명 (Git 익숙하지 않는 프로젝트 팀원용 초간단 tutorial)

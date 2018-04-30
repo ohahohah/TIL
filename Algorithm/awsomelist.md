@@ -30,4 +30,4 @@
 ### Reference
 - [Awesome Algorithms](http://gaerae.com/awesome-algorithms/?utm_campaign=%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%8A%A4%EB%9F%BD%EB%8B%A4&utm_medium=social&utm_source=gaerae.com)
 - [quora - What-are-the-best-and-efficient-ways-to-learn-algorithms-for-beginners](https://www.quora.com/What-are-the-best-and-efficient-ways-to-learn-algorithms-for-beginners)
-- [coding interview 관련 콘텐츠 모음](../CodingInterview/guide.md)
+- [coding interview 관련 콘텐츠 모음](/CodingInterview/guide.md)
