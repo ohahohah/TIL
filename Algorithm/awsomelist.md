@@ -25,6 +25,7 @@
 - [LeetCode](https://leetcode.com/): 학습콘텐츠 함께 제공. 다양한 언어로 문제를 풀 수 있음. 해외 IT기업에서 코딩테스트 플랫폼으로 많이 활용함.
 - [Codility](http://app.codility.com/programmers/) : 국내 Tech회사에서 이 플랫폼을 활용해 코딩테스트를 진행하기도 함.
 - [Pramp](https://www.pramp.com/) : 참여자들이 서로 면접관-면접자가 되어서 화상 모의 기술인터뷰를 진행할 수 있음.(수준별,시간별로 매칭함. 영어로 의사소통해야함. 기본 면접문제는 주어짐). 페이스북,구글,아마존 등 유명 Tech기업들의 개발자들도 만나볼 수 있다고 함. 최근데 친구끼리 Pramp할 수 있는 기능이 생김.
+- [The 10 Best Coding Challenge Websites for 2018 by Daniel Borowski](https://medium.com/coderbyte/the-10-best-coding-challenge-websites-for-2018-12b57645b654)
 
 ### Reference
 - [Awesome Algorithms](http://gaerae.com/awesome-algorithms/?utm_campaign=%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%8A%A4%EB%9F%BD%EB%8B%A4&utm_medium=social&utm_source=gaerae.com)
