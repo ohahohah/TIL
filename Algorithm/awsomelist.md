@@ -8,12 +8,12 @@
 ## 정리
 ### 이론과 개념
 - [Hello Coding 그림으로 개념을 이해하는 알고리즘 / 도서](http://www.hanbit.co.kr/store/books/look.php?p_code=B5896248244) :books: : 기초 지식이 없는 사람들이 부담없이 입문하기 좋음. 
-- [도서 - 모두의 알고리즘 with 파이썬 / 도서](https://www.gilbut.co.kr/book/bookView.aspx?bookcode=BN001731&page=1&TF=T) :books: : Python으로 기초 알고리즘을 소개한다. 역시 부담없이 접근.
+- [모두의 알고리즘 with 파이썬 / 도서](https://www.gilbut.co.kr/book/bookView.aspx?bookcode=BN001731&page=1&TF=T) :books: : Python으로 기초 알고리즘을 소개한다. 역시 부담없이 접근.
 - 알고리즘 도감, Moriteru Ishida : [모바일 애플리케이션](http://algorithm.wiki/ko/app/) / [도서](http://jpub.tistory.com/760)
   - 유료 애플리케이션을 사면 모든 콘텐츠를 볼 수 있음. 데이터압축, 보안에 대한 기본내용도 있음. 단계별로 차근차근 설명이 되어있기때문에 이해를 돕는데 도움이 됨. 이동시간에 간편하게 볼 수 있어서. 재밌었음.
 - [영리한 프로그래밍을 위한 알고리즘 강좌 / 동영상](https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C/) :tv: : 많이 추천되는 부경대 권오흠 교수님 강좌. 직접 실습하면서 알려주시기 때문에 차근차근 볼 사람은 좋음. 강좌 평을 보면 다이나믹 프로그래밍이 특히 좋았다고 함. Jave,C
 - [Java로 배우는 자료구조 / 동영상](https://www.inflearn.com/course/java-%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/):tv: : 부경대 권오흠 교수님 강좌. 실습강의로 기본 Java문법을 함께 학습할 수 있음
-- [생활코딩 자료구조 강의 / 동영상](https://opentutorials.org/module/1335) :tv: / [프로그래머스 강좌 / 동영상,실습](https://programmers.co.kr/learn/courses/17) - 생활코딩 강좌를 기반으로 강의 + 실습예제 + 진도관리 할 수 있게 만듦.
+- [생활코딩 자료구조 강의 / 동영상](https://opentutorials.org/module/1335) :tv: & [프로그래머스 강좌 / 동영상,실습](https://programmers.co.kr/learn/courses/17) - 생활코딩 강좌를 기반으로 강의 + 실습예제 + 진도관리 할 수 있게 만듦.
 - [알고리즘 문제해결전략(구종만 저) / 도서](http://book.algospot.com/toc.html) :books: : a.k.a. 종만북. ACM-ICPC 대비하는 사람이 많이 보며, c++로 되어있음. 처음보기에는 수준이 높음
 - [다양한 예제로 학습하는 데이터 구조와 알고리즘 for Java: 문제 해결법부터 개선법까지 / 도서](http://www.insightbook.co.kr/book/programming-insight/%EB%8B%A4%EC%96%91%ED%95%9C-%EC%98%88%EC%A0%9C%EB%A1%9C-%ED%95%99%EC%8A%B5%ED%95%98%EB%8A%94-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B5%AC%EC%A1%B0%EC%99%80-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-for-java) :books: : 예제가 많음.
 
