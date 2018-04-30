@@ -6,10 +6,10 @@
 ---------------
 # ING
 
-## Awesomelist 
-- [Github awesome list](Git_Github_Gitlab/awesomelist.md)
-- [DataVisualization awesome list](DataVisualization/awesomelist.md)
-- [Algotithm awsome list](Algorithm/awsomelist.md)
+## 자료 모음 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+- [Github 학습](Git_Github_Gitlab/awesomelist.md)
+- [DataVisualization for Beginner](DataVisualization/awesomelist.md)
+- [Algotithm 기초 학습](Algorithm/awsomelist.md)
 - [coding interview Guide](CodingInterview/guide.md)
 
 ## Algorithm
@@ -77,7 +77,7 @@
 - [Git ssh](Git_Github_Gitlab/git_ssh.md)
 - [Git 사용 팁](Git_Github_Gitlab/git_tip.md)
 - [Github wiki 자료](Git_Github_Gitlab/github_wiki.md)
-- [Git 관련된 workflow](Git_Github_Gitlab/gitlab_workflow.md)
+- [Git 관련된 workflow](Git_Github_Gitlab/git_workflow.md)
 - [Markdown](Git_Github_Gitlab/Markdown.md)
 - [Project 관리 - Git 메뉴얼](Git_Github_Gitlab/how_to_setup_project.md) : [ing] blog 발행
 
