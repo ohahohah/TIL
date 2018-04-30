@@ -20,11 +20,11 @@
 - [누구나 쉽게 이해할 수 있는 git 입문](https://backlog.com/git-tutorial/kr/)
 - [Git을 이용하여 텔레파시 통하는 팀 만들기 : commit message와 commit log - 해줌스토리 :+1:](http://story.haezoom.com/?p=936)
 - [How to Write a Git Commit Message](https://item4.github.io/2016-11-01/How-to-Write-a-Git-Commit-Message/)
-- [만들면서 배우는 Git+GitHub 입문](http://www.hanbit.co.kr/store/books/look.php?p_code=B8463790401):books: : 제목에 충실한 책. 모르는 게 너무 많아서 시도해볼 엄두가 안날때 두려움을 떨쳐내는데 도움이 많이 되었음 
-- [바쁜 팀장님 대신 알려주는 신입 PHP 개발자 안내서](https://uptodatebookspub.com/books/9791196276607) : 왜 Git을 사용해야하는가?에 대해 친절하게 나와있음. 나는 php개발자가 아닌데도 배움의 우선순위를 파악할 수 있어서 좋았다. 뭐가 중요한지 목차를 보면 됨.
+- [도서 - 만들면서 배우는 Git+GitHub 입문](http://www.hanbit.co.kr/store/books/look.php?p_code=B8463790401):books: : 제목에 충실한 책. 모르는 게 너무 많아서 시도해볼 엄두가 안날때 두려움을 떨쳐내는데 도움이 많이 되었음 
+- [도서 - 바쁜 팀장님 대신 알려주는 신입 PHP 개발자 안내서](https://uptodatebookspub.com/books/9791196276607) : 왜 Git을 사용해야하는가?에 대해 친절하게 나와있음. 나는 php개발자가 아닌데도 배움의 우선순위를 파악할 수 있어서 좋았다. 뭐가 중요한지 목차를 보면 됨.
 
 #### 주요 레퍼런스
-- [pro Git book](https://git-scm.com/book/en/v2) / [pro Git book(한국어)](https://git-scm.com/book/ko/v2)
+- [eebook - pro Git book](https://git-scm.com/book/en/v2) / [ebook - pro Git book(한국어)](https://git-scm.com/book/ko/v2)
   - 내용이 너무 많아서 입문할때는 읽어볼 엄두가 안났었는데, 좀 두려움이 가시고 나니 이것만한 콘텐츠가. 없다. 
   - 내 경우, 자주 쓰이는 명령어를 익힌 상태라서, 이후 Git 학습은 '모르는 부분 검색 -> 관련 키워드 찾음 -> 위 아티클에서 찾아서 컨텐스트 파악'의 프로세스로 진행하고 있다. 영문판 한글판 두 개를 동시에 보고 있음. 개념을 빠르게 이해하기 위해 한글판을 먼저 보고, 구글링을 위해 한글화되지 않은 용어를 확인용으로 영문판을 봄. 가끔 어색한 한글번역이 있어서 [1판](https://git-scm.com/book/ko/v1)도 참고함.
   - git 명령어 단순암기를 넘어서 어떻게 동작하는지 궁금하다면 [10.Git의 내부](https://git-scm.com/book/ko/v2/Git의-내부-Plumbing-명령과-Porcelain-명령)를 추천. 나는 읽은 내용을 [Git 내부](Git_Github_Gitlab/git_concept.md) 에서 정리하고 있다.
@@ -38,8 +38,8 @@
 
 #### 협업
 - [SLiPP 테스트기반개발 스터디 wiki - SW 개발 업무 Cycle :+1: ](https://www.slipp.net/wiki/pages/viewpage.action?pageId=28279096) : 스터디를 하면서 현업에서는 어떻게 진행하고 있는지 감 잡는데 많은 도움이 되었다. / 여기서 배운 것과 온라인 코드리뷰 강의를 들으면서 정라한 내용은 [코드리뷰](Cowork/codereview.md)에 업데이트하고 있다.
-- [GitHub Flow explain by Sung Kim :tv: :+1:](https://youtu.be/x-b_ij22vWg)
-- [GitHub Flow demo :tv: :+1:](https://youtu.be/GeFkVB8w7uM)
+- [GitHub Flow explain by Sung Kim :tv:/ 동영상 :+1:](https://youtu.be/x-b_ij22vWg)
+- [GitHub Flow demo :tv:/ 동영상 :+1:](https://youtu.be/GeFkVB8w7uM)
 - 협업flow 간단한 설명 (Git 익숙하지 않는 프로젝트 팀원용 초간단 tutorial)
   - git을 사용한 프로젝트관리 flow에는 GitFlow, GithubFlow, GitlabFlow가 있음. 
   - 크게 Issue 등록 - Branch - commit - PR - codeReview - Merge 단계를 거침
@@ -48,7 +48,7 @@
   - 각각 본 레포지토리 fork 후 로컬에서 작업단위로 Branch 나누어 commit
   - 이후 pull Request 
   - codereview 후 merge
-- [팀을 위한 Git - Git 워크플로우를 효율적으로 만드는 사용자 중심 접근법](http://www.hanbit.co.kr/store/books/look.php?p_code=B9451664636) : 협업관점에서 어떻게 git을 사용할 것인지 고민되어서 읽는 중. [아웃사이더 - [Book] 팀을 위한 Git](https://blog.outsider.ne.kr/1281)님의 서평 참고
+- [도서 - 팀을 위한 Git - Git 워크플로우를 효율적으로 만드는 사용자 중심 접근법](http://www.hanbit.co.kr/store/books/look.php?p_code=B9451664636) : 협업관점에서 어떻게 git을 사용할 것인지 고민되어서 읽는 중. [아웃사이더 - Book 팀을 위한 Git](https://blog.outsider.ne.kr/1281)님의 서평 참고
 
 #### Version 명세
 - [유의적 버전 명세](https://semver.org/lang/ko)
@@ -58,7 +58,7 @@
 - [GITHUB와 함께 Social하게 코딩하기 by Young-Ho Cha](https://www.slideshare.net/ganachoco/14-4-gdg-codelab)
 - [first contribution](https://github.com/Roshanjossey/first-contributions/blob/master/translations/README.ko.md)
  - [FIRST TIMERS ONLY - Friendly Open Source projects should reserve specific issues for newbies](http://www.firsttimersonly.com/)
-- [Github를 기반으로 한 온라인 코드리뷰 방법 :tv: :+1:](https://youtu.be/a5c9ku-_fok)
+- [Github를 기반으로 한 온라인 코드리뷰 방법 / 동영상 :tv: :+1:](https://youtu.be/a5c9ku-_fok)
 - [Naver 오픈소스 가이드](https://naver.github.io/OpenSourceGuide/book/)
 - [commit-together-with-co-authors](https://blog.github.com/2018-01-29-commit-together-with-co-authors/)
 
