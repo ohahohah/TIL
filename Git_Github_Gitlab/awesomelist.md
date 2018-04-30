@@ -24,7 +24,7 @@
 - [도서 - 바쁜 팀장님 대신 알려주는 신입 PHP 개발자 안내서](https://uptodatebookspub.com/books/9791196276607) : 왜 Git을 사용해야하는가?에 대해 친절하게 나와있음. 나는 php개발자가 아닌데도 배움의 우선순위를 파악할 수 있어서 좋았다. 뭐가 중요한지 목차를 보면 됨.
 
 #### 주요 레퍼런스
-- [eebook - pro Git book](https://git-scm.com/book/en/v2) / [ebook - pro Git book(한국어)](https://git-scm.com/book/ko/v2)
+- [ebook - pro Git book](https://git-scm.com/book/en/v2) / [ebook - pro Git book(한국어)](https://git-scm.com/book/ko/v2)
   - 내용이 너무 많아서 입문할때는 읽어볼 엄두가 안났었는데, 좀 두려움이 가시고 나니 이것만한 콘텐츠가. 없다. 
   - 내 경우, 자주 쓰이는 명령어를 익힌 상태라서, 이후 Git 학습은 '모르는 부분 검색 -> 관련 키워드 찾음 -> 위 아티클에서 찾아서 컨텐스트 파악'의 프로세스로 진행하고 있다. 영문판 한글판 두 개를 동시에 보고 있음. 개념을 빠르게 이해하기 위해 한글판을 먼저 보고, 구글링을 위해 한글화되지 않은 용어를 확인용으로 영문판을 봄. 가끔 어색한 한글번역이 있어서 [1판](https://git-scm.com/book/ko/v1)도 참고함.
   - git 명령어 단순암기를 넘어서 어떻게 동작하는지 궁금하다면 [10.Git의 내부](https://git-scm.com/book/ko/v2/Git의-내부-Plumbing-명령과-Porcelain-명령)를 추천. 나는 읽은 내용을 [Git 내부](Git_Github_Gitlab/git_concept.md) 에서 정리하고 있다.
