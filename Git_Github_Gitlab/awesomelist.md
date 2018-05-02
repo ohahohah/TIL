@@ -23,6 +23,12 @@
 - [만들면서 배우는 Git+GitHub 입문 / 도서](http://www.hanbit.co.kr/store/books/look.php?p_code=B8463790401):books: : 제목에 충실한 책. 모르는 게 너무 많아서 시도해볼 엄두가 안날때 두려움을 떨쳐내는데 도움이 많이 되었음 
 - [바쁜 팀장님 대신 알려주는 신입 PHP 개발자 안내서 / 도서](https://uptodatebookspub.com/books/9791196276607):books: : 왜 Git을 사용해야하는가?에 대해 친절하게 나와있음. 나는 php개발자가 아닌데도 배움의 우선순위를 파악할 수 있어서 좋았다. 뭐가 중요한지 목차를 보면 됨.
 
+#### Action 배웠다면 일단 시도해봅시다! :+1:
+- [깃허브(GitHub)로 취업하기 by Sujin Lee](https://sujinlee.me/professional-github/) : 구직목적이 아니더라도 Github 활동에 대해 깔끔하게 정리되어 있음
+- [Code For Women 첫 세미나 - 일일커밋 후기 by Joeun Park](https://www.slideshare.net/zzonee/code-for-women-92561941)
+- [first contribution](https://github.com/Roshanjossey/first-contributions/blob/master/translations/README.ko.md)
+ - [FIRST TIMERS ONLY - Friendly Open Source projects should reserve specific issues for newbies](http://www.firsttimersonly.com/)
+
 #### 주요 레퍼런스
 - [ebook - pro Git book](https://git-scm.com/book/en/v2) / [ebook - pro Git book(한국어)](https://git-scm.com/book/ko/v2)
   - 내용이 너무 많아서 입문할때는 읽어볼 엄두가 안났었는데, 좀 두려움이 가시고 나니 이것만한 콘텐츠가. 없다. 
@@ -56,8 +62,6 @@
 #### codereview / contribution
 - [텍스트와 이미지로 살펴보는 코드스쿼드의 온라인 코드 리뷰 과정 :+1:](https://github.com/code-squad/codesquad-docs/blob/master/codereview/README.md)
 - [GITHUB와 함께 Social하게 코딩하기 by Young-Ho Cha](https://www.slideshare.net/ganachoco/14-4-gdg-codelab)
-- [first contribution](https://github.com/Roshanjossey/first-contributions/blob/master/translations/README.ko.md)
- - [FIRST TIMERS ONLY - Friendly Open Source projects should reserve specific issues for newbies](http://www.firsttimersonly.com/)
 - [Github를 기반으로 한 온라인 코드리뷰 방법 / 동영상 :tv: :+1:](https://youtu.be/a5c9ku-_fok)
 - [Naver 오픈소스 가이드](https://naver.github.io/OpenSourceGuide/book/)
 - [commit-together-with-co-authors](https://blog.github.com/2018-01-29-commit-together-with-co-authors/)
