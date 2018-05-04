@@ -44,6 +44,9 @@
 ## DataScience
 - [데이터사이언티스트 인터뷰 목록 답변 정리](DataScience/interview.md)
 
+## DataVisualization
+- [DataVisualization - D3.js 입문할때 볼만한 자료](DataVisualization/awesomelist.md)
+
 ## DB
 - [DB Tool](DB/tool.md)
 - [Tunning](DB/Tunning.md)
@@ -67,6 +70,7 @@
 - [Vim 단축키 정리](Devenv/vim_shortcut.md)
 
 ## Git_Github_Gitlab
+- [유용한 자료 모음](Git_Github_Gitlab/awesomelist.md)
 - [Error](Git_Github_Gitlab/Error.md)
 - [기타](Git_Github_Gitlab/etc.md)
 - [Git command](Git_Github_Gitlab/git_command.md)
@@ -85,16 +89,15 @@
 - [Gradle](Gradle/gradle.md)
 
 ## Java
-- [문자열](Java/String.md)
 - [code_convention](Java/code_convention.md)
 - [exception 예외처리](Java/exception.md)
 - [javadoc](Java/javadoc.md)
 - [lambda](Java/lambda.md)
+- [문자열](Java/String.md)
 - [system_properties 사용](Java/system_properties.md)
 - [미분류](Java/inbox.md)
 
 ## LearnigByDoing
-- [TBD_SLiPP 14차 스터디](Learning_by_doing/TBD_SLiPP.md)
 - [실습 리스트](Learning_by_doing/ing.md)
 
 ## Linux
@@ -137,6 +140,9 @@
 - [클린코드를 위한 TDD, 리팩토링 with Java 4주차 강의에서 느낀 것](Seminar/cleancode_week04.md)
 - [클린코드를 위한 TDD, 리팩토링 with Java 4주차 실습하면서 느낀 것](Seminar/cleancode_week04_ex.md)
 - [TF Dev Summit X 모두연 : learn by run! 에서 배운 것](Seminar/tf_dev_summit_modulabs.md)
+
+## SLiPP
+- [TBD_SLiPP 14차 스터디](Learning_by_doing/TBD_SLiPP.md)
 
 ## Spark
 - [Spark 레퍼런스정리](Spark/spark_concept.md)
