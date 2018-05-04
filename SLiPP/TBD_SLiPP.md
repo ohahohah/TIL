@@ -1,11 +1,10 @@
 ## Keyword
-`테스트기반` `SLiPP` ``
+`테스트기반` `SLiPP` 
 
 ## Reference
 - [SLiPP - 테스트기반실습](https://www.slipp.net/wiki/pages/viewpage.action?pageId=28278788)
 - [내가 정리 - Test.md](Test_TDD_BDD/Test.md)
 - [내가 정리 - JUnit](Test_TDD_BDD/JUnit.md)
-
 
 ## 상황/궁금증
 - SLiPP 14차 스터디 테스트기반 개발 내용 정리
