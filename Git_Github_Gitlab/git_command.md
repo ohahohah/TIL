@@ -40,6 +40,12 @@
   - `git fetch -p` : The git manual says -p, --prune After fetching, remove any remote-tracking branches which no longer exist on the remote.
   - [Git: Delete a branch (local or remote)](https://makandracards.com/makandra/621-git-delete-a-branch-local-or-remote)
 
+### PR
+- [GitHub의 Pull Request를 로컬로 가져오기](https://blog.outsider.ne.kr/1204#recentTrackbacks)
+
+### Repository
+- [[번역]GitHub / Managing Remotes / 원격 저장소 URL 변경하기](http://minsone.github.io/git/github-managing-remotes-changing-a-remotes-url)
+
 ### commit 
 - `git commit -m "commit message"` : 한줄로 짧게 commit
 - `git commit` : 길게 commit log 사용할때 사용
