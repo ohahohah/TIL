@@ -1,3 +1,5 @@
+- 스터디하면서 적은 메모 
+
 # 이전시간 review
 - 예외 메시지 cause 를 적어야함 
 - code review의 comment에 reply 해서 의견달기
