@@ -13,4 +13,10 @@
 
 ## 정리 / 느낀 점
 ### 코드리뷰 기본
-- github은 코드리뷰를 쉽게 만드는 툴일뿐
+- 코드리뷰에서 감정을 건드리지 않도록 조심하자 
+- 리뷰된 내 작성코드에 응답 코멘트를 달아서 피드백을 주자.
+- (팀마다 방식다름) merging시에도 다른 팀원들도 'ohahohah merge 찬성합니다' 등의 피드백을 주고 이를 확인 후 merge함
+
+### 에러발생시 알려주기
+- 저번 스터디시, 코드리뷰 후 master에 merge하였으나, 이번 주차 테스트코드 실행했는데 테스트케이스 깨짐. 해당상황 수정 후, 기록 남김
+- [2018-05-02 테스트 실패 master 픽스](https://www.slipp.net/wiki/pages/viewpage.action?pageId=30769640) / [실제 픽스한 commit](https://github.com/slippStudy/slipp_tbd_todo/commit/8bcc1cd98f84d8a5a6842d0d275bbb455c45022a)  
