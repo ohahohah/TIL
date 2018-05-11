@@ -24,6 +24,7 @@
 - [바쁜 팀장님 대신 알려주는 신입 PHP 개발자 안내서 / 도서](https://uptodatebookspub.com/books/9791196276607):books: : 왜 Git을 사용해야하는가?에 대해 친절하게 나와있음. 나는 php개발자가 아닌데도 배움의 우선순위를 파악할 수 있어서 좋았다. 뭐가 중요한지 목차를 보면 됨.
 
 #### Action 배웠다면 일단 시도해봅시다! :+1:
+- [[GitHub] GitHub로 협업하는 방법[1]](https://gmlwjd9405.github.io/2017/10/27/how-to-collaborate-on-GitHub-1.html) : 주위에 친구 몇 명만 모집해서 이 방식으로 프로젝트를 해보는 건 어떨까? 내용없이 git사용법만을 익히기 위한 프로젝트라도 괜찮을 거 같음. 난 처음엔 git이 궁금해서 일단 코드없이 프로젝트 기록이나 자료링크를 모아두는 마크다운으로만 이루어진 프로젝트를 만들었고, 부담없이 재밌게 배울 수 있었음
 - [깃허브(GitHub)로 취업하기 by Sujin Lee](https://sujinlee.me/professional-github/) : 구직목적이 아니더라도 Github 활동에 대해 깔끔하게 정리되어 있음
 - [Code For Women 첫 세미나 - 일일커밋 후기 by Joeun Park](https://www.slideshare.net/zzonee/code-for-women-92561941)
 - [first contribution](https://github.com/Roshanjossey/first-contributions/blob/master/translations/README.ko.md)

@@ -7,7 +7,7 @@
 # ING
 
 ## 자료 모음 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-- [Github 학습](Git_Github_Gitlab/awesomelist.md)
+- [Git/Github/Gitlab 학습](Git_Github_Gitlab/awesomelist.md)
 - [DataVisualization for Beginner](DataVisualization/awesomelist.md)
 - [Algotithm 기초 학습](Algorithm/awsomelist.md)
 - [coding interview Guide](CodingInterview/guide.md)

@@ -4,6 +4,7 @@
 ## Reference
 - [Vim 편집기 한글화- 도움말](http://vim-ko.github.io/)
 - [SLiPP 위키 - vim 연습](https://www.slipp.net/wiki/pages/viewpage.action?pageId=25529078)
+- [simple_vim_guide by johngrib](https://github.com/johngrib/simple_vim_guide)
 - [blog.outsider - 자주 쓰이는 vim 단축키](https://blog.outsider.ne.kr/540#recentTrackbacks)
 - [놀부블로그 - vim에서 한글입출력](https://nolboo.kim/blog/2016/11/07/vim-korean/)
 - [kldp- vim 한글 세팅](https://kldp.org/node/85494)
