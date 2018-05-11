@@ -1,3 +1,5 @@
+- 스터디하면서 적은 메모 
+
 - create에서 id값 무조건 -1 로 함.
 - store() 에 todo null 주면 안됨
 - validation 실패할때 IllegalArgumentException 
