@@ -16,7 +16,7 @@
 - delete 호출시,store를 호출하는지
   - store가 true인지와 store가 todo를 받는지
 - 조회하는 todo가 없을때 RuntimeException을 던짐
-  - Mock의 store가 IllegalArgumentException 던지면 delete가 RuntimeException 던지는지 해야하나? 
+  - Mock의 store가 IllegalArgumentException 던지면 delete가 RuntimeException 던지는지 해야하나? - > Yes
 
 ### store Mock 구현
 - 실제 todo가 사라지는지는 store(todo, true) 구현의 역할이므로 mock을 사용합시다
