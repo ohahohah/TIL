@@ -16,6 +16,7 @@
 - [Big O](Algorithm/BigO.md)
 - [etc](Algorithm/etc.md)
 - [awsome list](Algorithm/awsomelist.md)
+- [알고리즘 스터디 기록](Algorithm/study.md)
 
 ## Book
 - [Effective_unit_testing](Book/Effective_unit_testing.md)
@@ -96,9 +97,11 @@
 - [문자열](Java/String.md)
 - [system_properties 사용](Java/system_properties.md)
 - [미분류](Java/inbox.md)
+- [문법](Java/grammar.md)
 
 ## LearnigByDoing
 - [실습 리스트](Learning_by_doing/ing.md)
+- [4시간의 집중력](Learning_by_doing/prepareForkeymove.md)
 
 ## Linux
 - [linux 기초 정리](Linux/linux.md)
@@ -114,6 +117,9 @@
 - [Maven에서 local jar 추가하기](Maven/maven_add_local_jar.md)
 - [Maven in 5min - 공식문서 실습](Maven/maven_in5min.md)
 
+## Project 사이드 프로젝트
+- [프로00er](Project/pro00er.md)
+
 ## Python
 - [exception 예외처리](Python/exception.md)
 - [가상환경 virtual enviormnet](virtualenv.md)
@@ -121,6 +127,9 @@
 
 ## Refactoring
 - [refactoring 관련 레퍼런스 정리](Refactoring/reference.md)
+
+## Retrospect 회고 
+- [일일 회고 양식 - 5Fs](Retrospect/everyday5fs.md)
 
 ## REST
 - [커맨드라인 환경에서 REST API (HTTP) 요청 보내기](REST/CLI.md) : path 재분류 필요
