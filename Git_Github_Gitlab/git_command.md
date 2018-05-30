@@ -99,9 +99,6 @@
 ### git Stash : branch 변경할때 commit 하지 않고 다시 돌아와서 작업하기
 - [Pro git - 7.3 Git 도구 - Stashing과 Cleaning](https://git-scm.com/book/ko/v2/Git-%EB%8F%84%EA%B5%AC-Stashing%EA%B3%BC-Cleaning)
 
-### 
-
-
 ### Git remote branch 가져오기
 - [Git remote branch 가져오기](https://cjh5414.github.io/get-git-remote-branch/)
 - 단일 브랜치만 클론하기 : `git clone -b {가져올 브랜치이름} {git url}`
