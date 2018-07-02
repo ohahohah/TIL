@@ -15,6 +15,21 @@
   - 운영계 배포는 Production branch 코드 사용
   - merge 시, rebase 하여 불필요한 merge log가 남지 않도록 함.
 
+### 프로젝트 관리
+- 리포지토리를 관리하는 정원사 역할이 필요
+- 프로젝트 관리를 위해 템플릿 설정을 통해 관리
+  - opensource 프로젝트의 리포지토리 관리를 참고
+- issue template
+  - issue type 에 따른 template 설정
+  - issue 작성 등과 관련된 체크리스트를 적어서 작성자가 해당 사항을 다시 검토하도록 유도하는 것이 좋음 
+    - 예. - [ ] issue 제목은 약속한 형식을 따랐는가?
+- PR template 
+  - PR 관련된 체크사항을 함께 기술
+    - test 여부,... 
+  - **PR만 보고도 어떤 작업내용인지 파악할 수 있어야함**
+- Assignees , Reviewer, Labels 을 프로젝트 성격에 맞게 커스텀하여 사용
+  -  organization 프로젝트의 경우 Team설정을 이용하면 편함 
+
 #### Branch 명
 - feature branch 명명시, 최대한 atomic하게 작성.
 
