@@ -6,6 +6,8 @@
 ---------------
 # ING
 
+## Study Group
+
 ## 자료 모음 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 - [Git/Github/Gitlab 학습](Git_Github_Gitlab/awesomelist.md)
 - [DataVisualization for Beginner](DataVisualization/awesomelist.md)
