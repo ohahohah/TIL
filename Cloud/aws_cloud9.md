@@ -6,6 +6,7 @@
 ## 정리
 ### AWS cloud9 설정하기
 #### 설치
+#### Instance
 - cloud9은 한국에서는 가장 가까운 region이 singapore임
 - singapore에서 EC2를 생성하고 나중에 IDE 세팅을 Seoul로 바꾸어줌
   - [질문]서울로 region을 바꾸는게 가능한 이유는?
@@ -14,7 +15,9 @@
 
 #### Java 환경설정
 - [Java Sample for AWS Cloud9](https://docs.aws.amazon.com/ko_kr/cloud9/latest/user-guide/sample-java.html) 참고해서 세팅
-- [](https://docs.aws.amazon.com/ko_kr/devicefarm/latest/developerguide/test-types-web-app-appium-java-junit.html)
+- https://docs.aws.amazon.com/ko_kr/devicefarm/latest/developerguide/test-types-web-app-appium-java-junit.html
+- jdk update
+- Junit setup : change project to gradle for using JUNIT
 
 #### Python 설정
 - 바로 python을 실행했더니 제대로 작동을 안함.
