@@ -55,6 +55,7 @@
   - 각각 본 레포지토리 fork 후 로컬에서 작업단위로 Branch 나누어 commit
   - 이후 pull Request 
   - codereview 후 merge
+- [Github로 프로젝트 관리하기 by cheese10yun](https://github.com/cheese10yun/github-project-management) : GitHub을 활용한 기본적인 프로젝트 관리방법을 익힐 수 있음.  처음 시작할때 놓치기 쉬운 부분을 짚어줌.
 - [팀을 위한 Git - Git 워크플로우를 효율적으로 만드는 사용자 중심 접근법 / 도서](http://www.hanbit.co.kr/store/books/look.php?p_code=B9451664636) : 협업관점에서 어떻게 git을 사용할 것인지 고민되어서 읽는 중. [아웃사이더 - Book 팀을 위한 Git](https://blog.outsider.ne.kr/1281)님의 서평 참고
 
 #### Version 명세
