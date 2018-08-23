@@ -1,18 +1,16 @@
 ## Spring에서 발생할 수 있는 여러 문제점
-
-54 / 675
-534
+- 정리 중
 
 --------
-
 ##  JDBC에서 발생가능한 문제점들
 - 애플리케이션의 응답속도를 지연시키는 상당수 원인은 DB쿼리수행시간과 결과를 처리하는 시간임. 실제로 성능 진단을 하면 8~90%의 시스템이 DB에서 많은 시간이 소요됨.
 - DB쿼리 진단과 튜닝이 함께 진행되여야함
 - 최근에는 mybatis처럼 SQL mapper가 가능하거나 ORM표준 JPA Framework를 많이 사용하므로 애플리케이션 환경에 맞는 튜닝 전략이 필요함
 - 성능 튜닝시 고려해야할 것들
-1. 데이터베이스 관련 성능 측정
-2. JDBC 튜닝
-3. SQL 튜닝 or JPA 튜닝
+  - 데이터베이스 관련 성능 측정
+  - JDBC 튜닝
+  - JPA 튜닝
+  - SQL 튜닝
 
 ## 베스트 프랙티스
 - JDBC 와 JPA 설정을 적절하게 구성해서 가능한 한 많은 읽기와 쓰기 작업을 일괄 처리하자
@@ -143,6 +141,7 @@ query.setHint("org.hibernate.readOnly",true);
 
 #### N + 1 문제
 - 처음 실행한 SQL의 결과 수만큼 추가로 SQL을 실행하는 것
+  - 하나의 비즈니스 로직에서 너무 많은 여러 개의 쿼리가 실행되는 문제 발생
 - 즉시 로딩은 사용하지 말고 지연로딩을 되도록 사용하자. 성능 최적화가 필요한 곳에서는 JPQL의 페치 조인을 사용하자
   - 즉시 로딩은 비즈니스 로직에 따라 필요하지 않은 엔티티를 로딩해야 하는 상황이 자주 발생.  
   - 가장 큰 문제는 성능 최적화가 어렵다는 점이다. 
@@ -150,6 +149,9 @@ query.setHint("org.hibernate.readOnly",true);
 - JPA의 글로벌 페치 전략 기본값은 다음과 같다.
   - @OneToOne, @ManyToOne：기본 페치 전략은 즉시 로딩
   - @OneToMany, @ManyToMany：기본 페치 전략은 지연 로딩
+- 생각해봅시다. 
+  - 양방향 연결이 아니라면 N+1 문제가 발생하지 않나요?
+  - 때로 Database server에 부담을 주는(전송 데이터량 많거나, DB 서버 CPU 사용량 높이는 등) 하나의 쿼리보다 가벼운 쿼리를 여러 개 던지는 게 나을 수 있음. 배치 사이즈 조정과 연관이 있음.
 
 ##### 예제 
 회원
@@ -159,7 +161,8 @@ public class Member {
 
   @Id @GeneratedValue
   private Long id;
-  @OneToMany(mappedBy = "member", fetch = FetchType.EAGER)private List<Order> orders = new ArrayList<Order>();
+  @OneToMany(mappedBy = "member", fetch = FetchType.EAGER); 
+  private List<Order> orders = new ArrayList<Order>();
   ...
 }
 ```
@@ -250,8 +253,6 @@ SELECT M.*, 0.* FROM MEMBER M
 INNER JOIN ORDERS 0 ON M.ID=O.MEMBER_ID
 ```
 
-#### 배치 처리
-#### SQL 쿼리 힌트 사용
 #### 트랜잭션을 지원하는 쓰기 지연과 성능 최적화
 
 ### FrameWork 사용하지 않을때 / 애플리케이션과 데이터베이스 사이 계층이 없을때
@@ -309,7 +310,10 @@ INNER JOIN ORDERS 0 ON M.ID=O.MEMBER_ID
   - 메서드의 수행 시간은 데이터의 건수와 DB 통신 속도에 따라서 달라짐. 건수가 많으면 많을수록 대기 시간(Wait time)이 증가해서 rs.next()와 엄청나게 속도차이가 나게됨.
 
 
-cf. Exception 처리에 대해서(자바7에 추가된 try-catch-resources 포함)http://blog.eomdev.com/java/2016/03/31/exception.html
+참고
+- [blog.eomdev - Exception 처리에 대해서(자바7에 추가된 try-catch-resources 포함)](http://blog.eomdev.com/java/2016/03/31/exception.html)
+- [창천향로 - JPA N+1 문제 및 해결방안](http://jojoldu.tistory.com/165)
+- [stackoverflow - Hibernate batch size confusion](https://stackoverflow.com/questions/6687422/hibernate-batch-size-confusion)
 - 책 - 자바 ORM 표준 JPA 프로그래밍 (김영한)
 - 책 - 자바 성능 튜닝(스캇 오크스)
 - 책 - 자바 성능 튜닝 이야기 (이상민)
