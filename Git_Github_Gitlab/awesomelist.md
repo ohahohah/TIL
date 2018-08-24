@@ -17,6 +17,7 @@
 - [Github Guides :+1:](https://guides.github.com) : 짧게 짧게 읽으면서 감 잡기에 좋음. 아티클 읽는 시간은 10분 내외임
 - [try Git - exersise](https://try.github.io/levels/1/challenges/1)
 - [git - the simple guide :+1:](http://rogerdudler.github.io/git-guide/index.ko.html)
+- [git/github 기초강의- 코드스쿼드](https://www.youtube.com/playlist?list=PLAHa1zfLtLiPrxoBo9a1HVmauvE2Mn3xX)
 - [누구나 쉽게 이해할 수 있는 git 입문](https://backlog.com/git-tutorial/kr/)
 - [Git을 이용하여 텔레파시 통하는 팀 만들기 : commit message와 commit log - 해줌스토리 :+1:](http://story.haezoom.com/?p=936)
 - [How to Write a Git Commit Message](https://item4.github.io/2016-11-01/How-to-Write-a-Git-Commit-Message/)
