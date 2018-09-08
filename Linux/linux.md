@@ -7,3 +7,6 @@
 - [Bash 입문자를 위한 핵심 요약 정리 (Shell Script)](https://blog.gaerae.com/2015/01/bash-hello-world.html?m=1)
 
 ## 정리
+### Linux 파일구조
+- [Linux Directory Structure (File System Structure) Explained with Examples](https://www.thegeekstuff.com/2010/09/linux-file-system-structure)
+- [리눅스 디렉토리 구조](http://webdir.tistory.com/101)
