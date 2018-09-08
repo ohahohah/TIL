@@ -205,7 +205,7 @@ SELECT ★ FROM ORDERS WHERE MEMBER_ID=?
 ```
 만약 조회된 회원이 5명 이라면
 ```SQL
-SELECT * FROM MEMBER //I번 실행으로 회원 5명 조회
+SELECT * FROM MEMBER //1번 실행으로 회원 5명 조회
 SELECT * FROM ORDERS WHERE MEMBER_ID=1 //회원파 연관된 주문
 SELECT ★ FROM ORDERS WHERE MEMBER_ID=2 //회원과 연관된 주문
 SELECT * FROM ORDERS WHERE MEMBER_ID=3 //회원과연관된주문
@@ -228,9 +228,9 @@ SELECT * FROM ORDERS WHERE MEMBER_ID=?
 ```
 - *하지만, 모든 회원에 대해 주문 컬렉션을 사용한다면?*
 ```java
-for (Member member : members》 {
+for (Member member : members) {
     //지연 로딩 초기화
-    System.out.printIn("member = " + member.getOrders().sizㄷ();
+    System.out.printIn("member = " + member.getOrders().size();
 }
 ```
 
@@ -254,6 +254,7 @@ INNER JOIN ORDERS 0 ON M.ID=O.MEMBER_ID
 ```
 
 #### 트랜잭션을 지원하는 쓰기 지연과 성능 최적화
+- 추가 예정
 
 ### FrameWork 사용하지 않을때 / 애플리케이션과 데이터베이스 사이 계층이 없을때
 - 잠깐 체크 .JDBC 관련 API는 interface이므로, 같은 interface라 하더라도 DB vendor에 따라 처리속도나 내부 처리방식이 다름. 사용하는 vendor를 더 살펴보아야함
