@@ -6,6 +6,7 @@
 - [김창준 애자일 키워드 팟캐스트 - 짝프로그래밍](http://www.podbbang.com/ch/14757?e=22408410)
 - [페어프로그래밍 첫 도전기](http://blog.dramancompany.com/2015/11/tom%EA%B3%BC-jaden%EC%9D%98-%EC%B2%AB-%ED%8E%98%EC%96%B4-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EB%8F%84%EC%A0%84%EA%B8%B0/)
 - [몹프로그래밍](http://www.moreagile.net/2014/12/mob-programming.html)
+- [페어프로그래밍으로 TDD하고 있는 스터디 리포지토리](https://github.com/pro00er/proMorningReader)
 
 ## 상황
 - 회사에서 버그가 생겼을때나 막혔을때 선임과 같은 컴퓨터에서 같이 보면서 이렇게 해보면 어떨까? 저렇게 해보면 어떨까? 하면서 같이 키보드를 번갈아 사용하면서 디버깅,버그를 해결해나감. 이렇게 하면서 옆에서 디버깅하는 습관을 보고 배울 수 있었음. 처음 버그에 부딪혔을때 굉장히 막막했는데 이렇게 같이 해나가면서 버그에 대한 두려움도 많이 줄어들음.
