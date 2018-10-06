@@ -26,7 +26,6 @@
 
 ## Cloud
 - [AWS tutorial](Cloud/aws_tutorial.md)
-- [Docker](Cloud/docker.md)
 
 ## CodingInterview
 - [코딩인터뷰 참고할만한 guide](CodingInterview/guide.md)
