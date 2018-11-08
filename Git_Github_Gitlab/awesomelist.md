@@ -78,6 +78,7 @@
 #### PR
 - [How to test Pull Request?](https://github.com/TeamPorcupine/ProjectPorcupine/wiki/How-to-Test-a-Pull-Request)
 - [Checkout github pull requests locally](https://gist.github.com/piscisaureus/3342247)
+- [GitHub의 Merge, Squash and Merge, Rebase and Merge 정확히 이해하기](https://meetup.toast.com/posts/122?fbclid=IwAR3ca_I1kPf1RulB0y2aEX7Ryq99Cp0QoXFOdynZY4lwpRxSdo_7xCD9As4) : PR을 반영할때 적절한 방식을 찾기. 내 사이드 프로젝트에서는 PR 단위를 먼저 정의하고 들어가기 때문에, log를 빨리 파악할 수 있도록 주로 sqash and Merge하는 편이다
 
 #### Branch
 - Branch명 : 영어,동사-(작업파일 또는 단위) 
