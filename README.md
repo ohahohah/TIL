@@ -16,6 +16,8 @@
 
 ## Algorithm
 - [Big O](Algorithm/BigO.md)
+- [이진탐색트리 Binary Search Tree](Algorithm/binarySearchTree.md)
+- [Dynaminc Programming](Algorithm/DynamicProgramming.md)
 - [etc](Algorithm/etc.md)
 - [awsome list](Algorithm/awsomelist.md)
 - [알고리즘 스터디 기록](Algorithm/study.md)
