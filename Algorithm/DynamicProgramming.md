@@ -52,12 +52,11 @@ int fib(int n){
 
 ### 이항계수(Binomial Coefficient) nCk (n >= k)
 - 이항계수 정의 : n 개 중 k를 선택하는 경우의 수
-- 계산: nCk = (n!) / {(n-k)!k!} , 많은 계산이 중복됨. 또한 계산하면 매우 큰 수임. Overflow 발생하기 쉬움. 100! 계산을 생각하면 int형으로는
+<img src = "https://github.com/ohahohah/TIL/blob/master/Image/binomial.JPG" width="400px;"/>  
 
-- ![binomial confficient Definition](./Image/binomial.JPG)
+- 계산: nCk = (n!) / {(n-k)!k!} , 많은 계산이 중복됨. 또한 계산하면 매우 큰 수임. Overflow 발생하기 쉬움. 100! 계산을 생각하면 int형으로는 힘듦  
+
 - 접근 : n개 중에 k개를 고를 경우의 수 = 특정 원소 a를 골랐을때 경우의 수 + 특정원소 a를 고르지 않았을 때 경우의 수 = 특정원소 a를 제외한 n-1개에서 k-1 개를 고를 경우의 수(이미 특정원소 a는 모든 경우에 항상 들어가므로, a를 제외한 전체 n-1개에서 a를 제외한 k-1 개를 고르는 경우의 수) + 특정원소 a를 제외한 n-1개에서 k 개를 고를 경우의 수 (특정원소 a는 항상 포함되지 않으므로, 전체 수가 a를 제외한 n-1개가 되고, 그 중에서 k개를 골라야함)= n-1Ck-1 + n-1Ck
-
-힘듦.  
 
 ```java
 int binomial (int n, int k){
@@ -75,7 +74,8 @@ int binomial (int n, int k){
 
 #### Memoization
 - n,k 두 가지 값으로 정의되기때문에 cache가 2차원 배열. n >=k 이므로 2차원 배열 절반만 사용 
-![2차원 배열 이미지](./Image/binomial_array.JPG)
+<img src = "https://github.com/ohahohah/TIL/blob/master/Image/binomial_array.JPG" width="400px;"/>  
+
 ```java
 int binomial (int n, int k){
   if(n == k || k ==0){
@@ -106,7 +106,7 @@ int binomial(int n , int k){
 -  피보나치 수열(1차원 배열 cache사용)과 다르게 2차원 배열을 cache로 사용하고 있으므로 어디가 'bottom'인지 즉, 계산을 어느 방향에서부터 시작하는지 정의해야함
 	- **bottom-up은 기본 bottom에서 시작해서 내가 원하는 값을 구한다.**
 	-  순환식에서 오른쪽 항(binom[i-1][j-1] + binom[i-1][j])에서부터 왼쪽 항(binom[i][j] )을 구한다는 의미. 그러려면 오른쪽 항의 값이 미리 계산되어야함.
-	- 이 경우에는 위 그림과 같이 대각선 방향에 대한 값(binom[i-1][j-1] ), 바로 위 행에 대한 값(binom[i][j])을 알아야함. 
+	- 이 경우에는 위 그림의 dependency 같이 대각선 방향에 대한 값(binom[i-1][j-1] ), 바로 위 행에 대한 값(binom[i][j])을 알아야함. 
 	- 만약 행 우선순위로 테이블 값을 계산한다면, 계산해야할 값의 윗 행의 값이 이미 구해져있으므로 bottom-up이 가능
 - check! 두번째 순환문 `for(int j = 0; j <=k && j<=i; i++)`
   - `j <= i` :  nCk 는 언제나 k<=n 이므로
