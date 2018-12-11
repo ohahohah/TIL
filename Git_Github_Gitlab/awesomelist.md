@@ -90,7 +90,9 @@
   - 참고: [How to Write a Git Commit Message](https://item4.github.io/2016-11-01/How-to-Write-a-Git-Commit-Message/)
   - [Git Commit Good Practice](https://wiki.openstack.org/wiki/GitCommitMessages)
   
-#### 그외 팁 / 기타
+#### 그외 팁 / 기타 
+- [sourcetree](https://www.sourcetreeapp.com) : 널리 쓰이는 git client tool. CLI 대신 GUI를 통해 git을 사용해보고 싶다면 추천. 널리 쓰이기 때문에 사용방법과 오류메시지를 인터넷에서 찾기 쉬움. 
+- [Fork - 가벼운 git client tool](https://git-fork.com/home) : 많은 사람들이 사용하는 [sourcetree](https://www.sourcetreeapp.com)보다 좀 더 가벼운 느낌. 해당 tool을 사용하면서 불편함은 없고 UI를 사용하기 편했지만 한국어 지원이 되지 않는다는 점을 참고.
 - [Git 팁 모음집 (https://github.com/git-tips/tips 한국어 버전)](https://github.com/mingrammer/git-tips#%EB%A7%88%EC%A7%80%EB%A7%89-n%EA%B0%9C%EC%9D%98-%EC%BB%A4%EB%B0%8B-%EB%82%98%EC%97%B4%ED%95%98%EA%B8%B0)
 - [Removing sensitive data from a repository](https://help.github.com/articles/removing-sensitive-data-from-a-repository/)
 - [Squash your commits](https://github.com/blog/2141-squash-your-commits)
