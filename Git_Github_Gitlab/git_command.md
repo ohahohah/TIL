@@ -175,3 +175,42 @@ $ git for-each-ref --format='delete %(refname)' refs/original | git update-ref -
 $ git reflog expire --expire=now --all
 $ git gc --prune=now
 ```
+
+### git rebase
+- PR하기 전에 upstream(fork해온 repository말고 원본 repository)에서 rebase 해오는데 아래와 같은 Merge conflict 메시지가 뜨는 경우가 있음. 
+- 하단 가이드대로 
+  - `git am --show-current-patch` : 현재 내용과 upstream의 commit과 어떤 부분이 충돌나는지 대략적으로 확인
+  - 충돌 해결 : `<<<<<<< HEAD`와 `=======` 사이가 현재 파일에서 충돌난 내용. `=======` 와 `>>>>>>>` 사이가 upstream의 충돌난 내용임. 두 부분을 적절히 선택해서 남기고 주석까지 지워줘야함. 대략 아래와 같은 구조
+    ```
+    <<<<<<< HEAD
+    현재 checkout된 파일 내용
+    =======
+    upstream의 commit 가져올 내용
+    >>>>>>> upstream의 commit 메시지 
+    ```   
+  - `git add/rm <conflicted_files>` : 충돌 해결한 내용을 업데이트. 해당 파일을 지우거나 수정해서 업데이트 하거나.
+  - `git rebase --continue` : rebase 마저 진행하쇼
+  - 충돌난 commit 을 skip 하고 싶을 땐 `git rebase --skip`
+  - 이 rebase를 그만두고 rebase전 상태로 돌아갈 때 `git rebase --abort`
+
+- 아래와 같이 충돌났을때 guide가 출력됨.
+```
+❯ git rebase upstream/ohahohah                                          
+First, rewinding head to replay your work on top of it...
+Applying: Add Tdd practice metting
+Using index info to reconstruct a base tree...
+M       meeting_log.md
+.git/rebase-apply/patch:14: trailing whitespace.
+  
+Falling back to patching base and 3-way merge...
+Auto-merging meeting_log.md
+CONFLICT (content): Merge conflict in meeting_log.md
+error: Failed to merge in the changes.
+Patch failed at 0001 Add Tdd practice metting
+Use 'git am --show-current-patch' to see the failed patch
+
+Resolve all conflicts manually, mark them as resolved with
+"git add/rm <conflicted_files>", then run "git rebase --continue".
+You can instead skip this commit: run "git rebase --skip".
+To abort and get back to the state before "git rebase", run "git rebase --abort".
+```
