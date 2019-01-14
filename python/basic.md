@@ -2,6 +2,9 @@
 - python 언어 자체를 다룬 강의나 책을 본 적이 없음. 데이터사이언스 책에서 나오는 python으로 봄. 기초 문법 강의로 python을 다시 공부하면서 몰랐던 부분을 정리
 - python3 기준
 
+## 참고
+- [강좌 - 파이썬을 파이썬답게](https://programmers.co.kr/learn/courses/4008)
+
 ## Type Conversion
 - `print(str(2)+ str(5))` >> 25
 - `print(int(3.8))` >> 3
