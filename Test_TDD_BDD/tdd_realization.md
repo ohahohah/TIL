@@ -24,5 +24,10 @@
   - Fact : 한 번에 주어진 레이싱카 게임 요구사항을 구현하는 것보다 여러 버전으로 나누어서 구현한게 더 빠르고 쉽게 구현. 구현할때  좀 더 안정감 있었음(Feeling). 
   - Finding: 김창준 애자일 코치 칼럼([당신이 제자리 걸음인 이유 : 지루하거나 불안하거나](http://egloos.zum.com/agile/v/5749946) - b1. 난이도 낮추기 부분 참고 / [지금 하는 일들을 절반의 시간 안에 해야 한다면?](http://agile.egloos.com/m/5838463) )에서 읽은 적이 있다. 처음 불확실성이 높을 때 일을 쪼개서 내가 쉽게 할 수 있는 버전 1을 만들고 버전 2에서는 조금 더 복잡한 기능을 덧붙여 만들면서 버전을 업그레이드 해가면서 만들면 한번에 어려운 걸 구현하는 것보다 같은 시간 안에 더 빨리 안정감을 느끼면서 만들게 된다.
 
-
+- 지금 사용하고 있는 Junit 테스트 프레임워크의 best sample이 궁금해짐
+  - 전에 테스트를 접했을때 <<JUnit in Action>> 책을 읽다가 신나서 이것저것 적용해보고 결국엔 아, 내가 test가 아니라 JUnit을 하고 있구나를 깨달은 적이 있다. 아직 JUnit 설계를 보기보다 일단 tool로서 툴답게 사용하는 것에 집중하자. 때가 아니다.
+  - 참고 article
+    - [Junit - basic template](http://junit.sourceforge.net/doc/faq/faq.htm#tests_16) 
+    - [testing-debugging/junit-best-practices - javaworld](https://www..com/article/2076265/testing-debugging/junit-best-practices.html)
+    - [junit-best-practices - kyleblaney](http://www.kyleblaney.com/junit-best-practices/)
 
