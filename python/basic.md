@@ -3,7 +3,33 @@
 - python3 기준
 
 ## 참고
+- [Beginners Guide - Python for Programmers](https://wiki.python.org/moin/BeginnersGuide/Programmers)
+- [python Doc](https://docs.python.org/3/genindex.html)
+- [python tutorial](https://docs.python.org/3/tutorial/index.html)
+- [elice - 파이썬 레벨 테스트](https://academy.elice.io/courses/466/lectures/all)
 - [강좌 - 파이썬을 파이썬답게](https://programmers.co.kr/learn/courses/4008)
+
+## standard input/ output
+### input
+- [doc input()](https://docs.python.org/3/library/functions.html#input)
+
+### print
+- [doc - print()](https://docs.python.org/3/library/functions.html#print)
+- `print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)`
+  - separated by *sep* and followed by *end*
+  - print(9,8,7) : 9\n8\n7\n
+  - print(9,8,7,sep='\n'): 9\n8\n7 == print('9\n8\n7')
+  ```
+  print(9,end='')
+  print(8, end='')
+  print(7)
+  # print 987
+
+  print(9,end=' ')
+  print(8, end=' ')
+  print(7)
+  # print 9 8 7
+  ```
 
 ## Type Conversion
 - `print(str(2)+ str(5))` >> 25
@@ -11,11 +37,60 @@
 - `print(float(3))` >> 3.0
 - `print(int("2")+ int("5"))` >> 7
 
-
 ## 단순 문법
 - `print(2 ** 3)` >> 8 / `print(2 ** 3.0)` >> 8.0
 - `print(4 / 2)`  >> 2.0 : 나눗셈 연산 무조건 결과값 floating point
 - `print("Hello" * 3)` >> HelloHelloHello
 - `print("%d일 %s요일. %.2f"" % (day + 1, "월", (1.0 / 3)))` >> 13일 월요일. 0.33
 
+## 반복문 - for
+- Using with range statment(`range(start, stop[, step])`) [API](https://docs.python.org/3/library/stdtypes.html#ranges)/[tutorial](https://docs.python.org/3/tutorial/controlflow.html#the-range-function) 
+```python
+for i in range(0,10):
+    print("Say Num", i)) # 0 ~ 9
+
+for n in range(6,0,-1):
+    print(n) # prints [6, 5, 4, 3, 2, 1]
+
+for fruit in ['사과', '딸기', '복숭아']:
+     print(fruit)
+
+sample_str = 'Python'
+for letter in my_str:
+     print(letter)
+
+for letter in 'python':
+     print(letter)
+
+singers = ['Aretha Franklin', 'Ray Charles', 'John Lennon']
+for i, singer in enumerate(singers):
+  print('{}번: {}'.format(i + 1, singer))
+```
+
+- 입력받은 문자만큼(띄어쓰기 유지) 멍멍을 출력 (e.g. 우리 모두 춤춰요 -> 멍멍멍멍 멍멍멍멍 멍멍멍멍멍멍)
+```python
+user_input = input().split(" ")
+
+for word in user_input:
+    for letter in word:
+# for i in range(len(user_input)):
+    # for j in user_input[i]:
+        print("멍멍",end='')
+    print("",end = ' ')
+```
+
+- count 숫자 에서부터 1까지 하나씩 줄어들면서 출력
+```python
+count = 10
+
+for i in range(10):
+    print("count: ", count)
+    count-=1
+
+#for i in range(0,count):
+#    print("count: " , count - i)
+
+#for i in range(count,0,-1):
+#     print("count: ",i)
+```
 
