@@ -6,8 +6,6 @@
 - [Beginners Guide - Python for Programmers](https://wiki.python.org/moin/BeginnersGuide/Programmers)
 - [python Doc](https://docs.python.org/3/genindex.html)
 - [python tutorial](https://docs.python.org/3/tutorial/index.html)
-- [elice - 파이썬 레벨 테스트](https://academy.elice.io/courses/466/lectures/all)
-- [강좌 - 파이썬을 파이썬답게](https://programmers.co.kr/learn/courses/4008)
 
 ## standard input/ output
 ### input
@@ -42,6 +40,12 @@
 - `print(4 / 2)`  >> 2.0 : 나눗셈 연산 무조건 결과값 floating point
 - `print("Hello" * 3)` >> HelloHelloHello
 - `print("%d일 %s요일. %.2f"" % (day + 1, "월", (1.0 / 3)))` >> 13일 월요일. 0.33
+
+## String
+```python
+word = "qwer" 
+print(word[0]) # q
+```
 
 ## 반복문 - for
 - Using with range statment(`range(start, stop[, step])`) [API](https://docs.python.org/3/library/stdtypes.html#ranges)/[tutorial](https://docs.python.org/3/tutorial/controlflow.html#the-range-function) 
