@@ -98,3 +98,11 @@ for i in range(10):
 #     print("count: ",i)
 ```
 
+- 함수 객체 : 함수 정의로 생성된 값. 함수의 이름은 함수 객체를 참조하는 변수.
+```python
+def do_twice(func, arg):
+    func(arg)
+    func(arg)
+# not print_twice()! 함수 객체를 참조하는 '변수'인 함수 이름을 적어야하므로
+do_twice(print_twice, 'spam') 
+```
