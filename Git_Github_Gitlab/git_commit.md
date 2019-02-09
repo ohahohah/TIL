@@ -1,6 +1,7 @@
-## Keyword
-`git` `git commit` `git log`
-
+---
+search:
+    keywords: ['git log', 'git commit', 'git']
+---
 ## Reference
 
 ## 상황/궁금증
