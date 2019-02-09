@@ -2,7 +2,7 @@ git checkout gh-pages
 git merge master 
 #git pull origin gh-pages --rebase
 
-gitbook build
+gitbook install&&gitbook build
 
 cp -R _book/* .
 git clean -fx node_modules
