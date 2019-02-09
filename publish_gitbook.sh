@@ -1,6 +1,6 @@
 git checkout gh-pages
-git merge master 
-#git pull origin gh-pages --rebase
+#git merge master 
+git pull origin gh-pages --rebase
 
 gitbook build
 
