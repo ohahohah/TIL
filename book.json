@@ -1,7 +1,3 @@
 {
-<<<<<<< HEAD
-  "plugins": ["-lunr", "-search", "search-plus"]
-=======
   "plugins": ["-lunr", "-search", "search-pro"]
->>>>>>> master
 }

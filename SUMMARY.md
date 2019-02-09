@@ -181,8 +181,4 @@
 - [WritingEmails](Work/WritingEmails.md)
 
 ## Inbox
-<<<<<<< HEAD
 - [사내 블록체인 세미나 키워드 정리](Inbox/blockchain.md)
-=======
-- [사내 블록체인 세미나 키워드 정리](Inbox/blockchain.md)
->>>>>>> master
