@@ -1,10 +1,10 @@
 git checkout gh-pages
 
 # opt01. before push to remote 
-#git merge master 
+git merge master --no-edit 
 
 # opt02. Publish remote repository contents 
-git pull origin gh-pages --rebase
+#git pull origin gh-pages --rebase
 
 gitbook install&&gitbook build
 
