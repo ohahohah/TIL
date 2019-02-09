@@ -1,4 +1,8 @@
-- [Keyword](#keyword)
+---
+search:
+    keywords: ['git concept', 'git objects', 'git refs', 'git']
+---
+  
 - [Reference](#reference)
 - [상황 / 궁금](#상황--궁금)
 - [정리](#정리)
@@ -15,9 +19,6 @@
       - [Remote Refs](#remote-refs)
       - [참고](#참고)
 -------------
-
-## Keyword
-`git concept` `git` `git objects` `git refs` `git branch`
 
 ## Reference
 - [git- docs](https://git-scm.com/docs/) : `git --version`으로 사용하고 있는 version에 맞는 doc 확인
