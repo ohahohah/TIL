@@ -57,9 +57,9 @@ which: no brew in (/cygdrive/c/Users/ohahohah/cygwin/.rvm/gems/ruby-2.4.1/bin:/c
 checking for -licui18n... no
 
 
-***************************************************************************************
-*********** icu required (brew install icu4c or apt-get install libicu-dev) ***********
-***************************************************************************************
+*********************************************
+******* icu required (brew install icu4c or apt-get install libicu-dev) *******
+*********************************************
 *** extconf.rb failed ***
 Could not create Makefile due to some reason, probably lack of necessary
 libraries and/or headers.  Check the mkmf.log file for more details.  You may
