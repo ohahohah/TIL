@@ -1,5 +1,7 @@
-## Keyword
-`git` `git setting` `git ssh`
+---
+search:
+    keywords: ['git setting', 'git ssh']
+---
 
 ## Reference
 
