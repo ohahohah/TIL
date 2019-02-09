@@ -1,4 +1,9 @@
-- [Keyword](#keyword)
+---
+search:
+    keywords: ['git command', 'git']
+
+---
+  
 - [Reference](#reference)
 - [상황 / 궁금](#상황--궁금)
 - [정리](#정리)
@@ -14,9 +19,6 @@
       - [2-2. git-filter-branch 사용해 파일 삭제 : Git 내장 command 사용](#2-2-git-filter-branch-사용해-파일-삭제--git-내장-command-사용)
          - [command 역할](#command-역할)
 -----------
-
-## Keyword
-`git command` `git`
 
 ## Reference
 - [[GIT] 병합하고 Commit 재정렬하기: cherry-pick, rebase, merge](https://tuwlab.com/ece/22218)
