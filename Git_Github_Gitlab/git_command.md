@@ -1,7 +1,6 @@
 ---
 search:
     keywords: ['git command', 'git']
-
 ---
   
 - [Reference](#reference)
