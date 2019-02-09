@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 gitbook install && gitbook build
 
 # github pages가 바라보는 gh-pages 브랜치를 만든다.
