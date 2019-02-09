@@ -1,7 +1,8 @@
-gitbook install && gitbook build
-
 git checkout gh-pages
-git pull origin gh-pages --rebase
+git merge master 
+#git pull origin gh-pages --rebase
+
+gitbook build
 
 cp -R _book/* .
 git clean -fx node_modules
