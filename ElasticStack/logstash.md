@@ -1,3 +1,8 @@
+---
+search:
+    keywords: ['elastic stack', 'logstash']
+---
+
 ## Log 를 이해하고 Logstash 사용하자
 - Logstash를 사용할때 왜 log를 이해하는 것이 필요할까?
   - Logstash 의 **collection(수집)과 centeral aggregation(집중식 취합)** 의 강점을 활용하기 위해서
