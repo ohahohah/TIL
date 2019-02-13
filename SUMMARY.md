@@ -3,6 +3,26 @@
 * [Introduction](README.md)
 
 ## Study Group
+- [매일 아침 TDD 스터디 하면서 느낀 것](Test_TDD_BDD/Morning_tdd.md)
+- [알고리즘 스터디 기록](Algorithm/study.md)
+- [프로00er](Project/pro00er.md)
+
+### SLiPP
+#### 테스트 기반 개발 (Test based Development)
+- [TBD_SLiPP 14차 스터디](SLiPP_TBD/TBD_SLiPP.md)
+- [week01](SLiPP_TBD/week01.md)
+- [week04](SLiPP_TBD/week04.md)
+- [week05](SLiPP_TBD/week05.md)
+- [week07](SLiPP_TBD/week07.md)
+- [week08](SLiPP_TBD/week08.md)
+
+#### SLiPP_JVM
+- [week01](SLiPP_JVM/week01.md)
+- [week02](SLiPP_JVM/week02.md)
+- [week03](SLiPP_JVM/week03.md)
+- [week04](SLiPP_JVM/week04.md)
+- [week05](SLiPP_JVM/week05.md)
+- [week07](SLiPP_JVM/week07.md)
 
 ## 자료 모음 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 - [Git/Github/Gitlab 학습](Git_Github_Gitlab/awesomelist.md)
@@ -19,11 +39,27 @@
 - [알고리즘 스터디 기록](Algorithm/study.md)
 
 ## Book
-- [Effective_unit_testing](Book/Effective_unit_testing.md)
 - [읽은/읽었던/읽어야 할 책 목록](Book/intersting_book.md)
+- [Effective_unit_testing](Book/Effective_unit_testing.md)
+- [객체지향의 사실과 오해](Book/the_essence_of_object_orientation.md)
+
+## Conference 
+- [list](conference/list.md)
+- [okkycon 2018 - Test](conference/okkycon.md)
+
+## 클린코드 개발 세미나 
+- [2주차](Cleancode_java_seminar/cleancode_week02.md)
+- [3주차](Cleancode_java_seminar/cleancode_week03.md)
+- [3주차 실습](Cleancode_java_seminar/cleancode_week03_ex.md)
+- [4주차](Cleancode_java_seminar/cleancode_week04.md)
+- [4주차 실습](Cleancode_java_seminar/cleancode_week04_ex.md)
 
 ## Cloud
 - [AWS tutorial](Cloud/aws_tutorial.md)
+- [AWS c9](Cloud/aws_cloud9.md)
+
+## Code Snippet
+- [Java 코드조각](Code_Snippet/Java.md)
 
 ## CodingInterview
 - [코딩인터뷰 참고할만한 guide](CodingInterview/guide.md)
@@ -31,12 +67,14 @@
 
 ## Concept 개념정리
 - [OOP](Concept/OOP.md)
+- [DDD](Concept/DDD.md)
 - [다형성 polymorphism](Concept/polymorphism.md)
 - [정규표현식 Regexp](Concept/regexp.md)
 
 ## Contribution
 - [gitlab handbook 한글번역](Contribution/gitlab_handbook_translation.md)
 - [Pandas sprint](Contribution/pandas_sprint.md)
+- [Keras article 한글번역](Contribution/keras_traslate.md)
 
 ## Cowork
 - [코드리뷰](Cowork/codereview.md)
@@ -70,9 +108,15 @@
 - [Vim](Devenv/vim.md)
 - [Vim 단축키 정리](Devenv/vim_shortcut.md)
 
+## Django
+- [tdd_with_Django](/Django/tdd_with_Django.md)
+
 ## Docker
 - [Inbox](Docker/Inbox.md)
 - [Docker 시작하기](Docker/tutorial.md)
+
+## Elastic Stack
+- [Logstash](ElasticStack/logstash.md)
 
 ## Git_Github_Gitlab
 - [유용한 자료 모음](Git_Github_Gitlab/awesomelist.md)
@@ -154,9 +198,6 @@
 - [클린코드를 위한 TDD, 리팩토링 with Java 4주차 실습하면서 느낀 것](Seminar/cleancode_week04_ex.md)
 - [TF Dev Summit X 모두연 : learn by run! 에서 배운 것](Seminar/tf_dev_summit_modulabs.md)
 
-## SLiPP
-- [TBD_SLiPP 14차 스터디](Learning_by_doing/TBD_SLiPP.md)
-
 ## Spark
 - [Spark 레퍼런스정리](Spark/spark_concept.md)
 - [Spark SQL정리](Spark/spark_sql.md)
@@ -165,10 +206,28 @@
 - [Spring in Action 책 정리](Spring/spring_in_action.md)
 - [스프링부트 코딩 공작소 책 정리](Spring/springboot_in_action.md)
 
+## Python
+- [Basic](Python/basic.md)
+- [etc](Python/etc.md)
+─ [exception](Python/exception.md)
+─ [headfirst_python](Python/headfirst_python.md)
+─ [virtualenv](Python/virtualenv.md)
+
+## Tensorflow
+- [learning_tensorflow](Tensorflow/learning_tensorflow.md)
+- [tensorflow 약간 정리](Tensorflow/tensorflow_gogo.md)
+- [tf_dev_summit_modulabs](Tensorflow/tf_dev_summit_modulabs.md)
+
 ## Test_TDD_BDD
+- [TDD하면서 깨달은 것](Test_TDD_BDD/tdd_realization.md)
 - [Test](Test_TDD_BDD/Test.md)
 - [JUnit](Test_TDD_BDD/JUnit.md)
 - [Inbox](Test_TDD_BDD/inbox.md)
+- [매일 아침 TDD 스터디 하면서 느낀 것](Test_TDD_BDD/Morning_tdd.md)
+
+## Tool
+- [IntelliJ 오류 고치기](Tool/intellij.md)
+- [Trello 편하게 쓰기](Tool/trello.md)
 
 ## web_scraping_with_python
 - [scraper 기초](web_scraping_with_python/scraper_basic.md)
@@ -181,4 +240,5 @@
 - [WritingEmails](Work/WritingEmails.md)
 
 ## Inbox
+- [풀어야할 질문들](Inbox/question.md)
 - [사내 블록체인 세미나 키워드 정리](Inbox/blockchain.md)
