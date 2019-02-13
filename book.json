@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "plugins": ["-lunr", "-search", "search-pro", "disqus"]
-=======
   "plugins": ["-lunr", "-search", "search-pro", "disqus"],
->>>>>>> master
   "pluginsConfig": {
         "disqus": {
             "shortName": "ohahohah_til"
