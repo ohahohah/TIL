@@ -1,3 +1,8 @@
 {
-  "plugins": ["-lunr", "-search", "search-pro"]
+  "plugins": ["-lunr", "-search", "search-pro", "disqus"]
+  "pluginsConfig": {
+        "disqus": {
+            "shortName": "ohahohah_til"
+        }
+    }
 }
