@@ -242,7 +242,12 @@
 ## Inbox
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [사내 블록체인 세미나 키워드 정리](Inbox/blockchain.md)
+=======
+- [풀어야할 질문들](Inbox/question.md)
+- [사내 블록체인 세미나 키워드 정리](Inbox/blockchain.md)
+>>>>>>> master
 =======
 - [풀어야할 질문들](Inbox/question.md)
 - [사내 블록체인 세미나 키워드 정리](Inbox/blockchain.md)
