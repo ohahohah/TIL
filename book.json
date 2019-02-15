@@ -4,5 +4,8 @@
         "disqus": {
             "shortName": "ohahohah_til"
         }
+    },
+  "variables": {
+        "BASE_URL": "https://ohahohah.github.io/TIL"
     }
 }
