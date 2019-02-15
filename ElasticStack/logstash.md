@@ -2,7 +2,10 @@
 search:
     keywords: ['elastic stack', 'logstash']
 ---
+## 들어가기 전에
+- [Elastic - Logstash에 대한 실용적인 소개](https://www.elastic.co/kr/blog/a-practical-introduction-to-logstash) : Logstash가 뭔지 어디에 쓰이는지 빠르게 감잡고 싶다면 먼저 읽어보세욥
 
+-------
 ## Log 를 이해하고 Logstash 사용하자
 - Logstash를 사용할때 왜 log를 이해하는 것이 필요할까?
   - Logstash 의 **collection(수집)과 centeral aggregation(집중식 취합)** 의 강점을 활용하기 위해서
@@ -63,7 +66,8 @@ search:
 ### 들어가기 전
 - **서비스에 '어떤 데이터'가 필요한지 정의하고 여기에 따라 '어떤 플러그인'을 선택하여 데이터를 필터링할 것인가? 를 고민하는게 설계의 핵심임**
   - [Salesforce Engineering - Our Journey to a Near Perfect Log Pipeline](https://engineering.salesforce.com/our-journey-to-a-near-perfect-log-pipeline-6ae2f80cf7a0)
-- Event : logstash의 기본 데이터 단위(primary unit of data), JSON과 유사하게 dl계층과 type 지원함 (arbitrary hierachies and types supported)
+- Event : logstash용어. logstash의 기본 데이터 단위(primary unit of data), JSON과 유사하게 dl계층과 type 지원함 (arbitrary hierachies and types supported)
+- **(Job)Queue - worker** 구조를 이해하자
 
 ### Pipeline
 - *주의. log data pipeline에서의 pipeline이 아닌 logstash instance에 있는 pipeline을 의미함.*
@@ -163,6 +167,7 @@ search:
 
 ## Pipeline Management
 
+## [Deploying and Scaling Logstash](https://www.elastic.co/guide/en/logstash/current/deploying-and-scaling.html)
 
 
 ---------
@@ -221,7 +226,8 @@ search:
 - [A Beginner’s Guide to Logstash Grok](https://logz.io/blog/logstash-grok/)
 
 ### 기타 개념
-- [책 - 실전 LOG 분석과 체계적인 관리 가이드](http://acornpub.co.kr/book/logging)
+- [책 - 실전 LOG 분석과 체계적인 관리 가이드](http://acornpub.co.kr/book/logging) - log
 - [책 - 마이크로서비스 아키텍처 구축: 대용량 시스템의 효율적인 분산 설계 기법 - 8장 모니터링]
+- [책 - (웹 개발자를 위한) 대규모 서비스를 지탱하는 기술](https://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9788994506128) - Job- Queue
 - [What is a Data Firehose API?
 ](https://www.pubnub.com/blog/what-is-a-data-firehose-api/)
