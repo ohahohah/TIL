@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>tdd_with_Django · GitBook</title>
+        <title>Spark SQL정리 · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -61,10 +61,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../Docker/Inbox.html" />
+    <link rel="next" href="../Spring/spring_in_action.html" />
     
     
-    <link rel="prev" href="../Devenv/vim_shortcut.html" />
+    <link rel="prev" href="spark_concept.html" />
     
 
     </head>
@@ -1124,9 +1124,9 @@
         
         
     
-        <li class="chapter active" data-level="22.1" data-path="tdd_with_Django.html">
+        <li class="chapter " data-level="22.1" data-path="../Django/tdd_with_Django.html">
             
-                <a href="tdd_with_Django.html">
+                <a href="../Django/tdd_with_Django.html">
             
                     
                     tdd_with_Django
@@ -1971,9 +1971,9 @@
         
         
     
-        <li class="chapter " data-level="39.1" data-path="../Spark/spark_concept.html">
+        <li class="chapter " data-level="39.1" data-path="spark_concept.html">
             
-                <a href="../Spark/spark_concept.html">
+                <a href="spark_concept.html">
             
                     
                     Spark 레퍼런스정리
@@ -1984,9 +1984,9 @@
             
         </li>
     
-        <li class="chapter " data-level="39.2" data-path="../Spark/spark_sql.html">
+        <li class="chapter active" data-level="39.2" data-path="spark_sql.html">
             
-                <a href="../Spark/spark_sql.html">
+                <a href="spark_sql.html">
             
                     
                     Spark SQL정리
@@ -2350,7 +2350,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >tdd_with_Django</a>
+        <a href=".." >Spark SQL정리</a>
     </h1>
 </div>
 
@@ -2365,98 +2365,89 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h2 id="&#xAC1C;&#xC694;">&#xAC1C;&#xC694;</h2>
+                                <h2 id="reference">Reference</h2>
 <ul>
-<li>&#xCC38;&#xACE0;<ul>
-<li><a href="https://www.obeythetestinggoat.com" target="_blank">&#xC778;&#xD130;&#xB137; obeythetestinggoat &#xCD5C;&#xC2E0;&#xD310;(2&#xD310;) - ebook</a></li>
-<li><a href="http://www.yes24.co.kr/24/goods/16886031" target="_blank">&#xBC88;&#xC5ED;&#xC11C; -  &#xD30C;&#xC774;&#xC36C;&#xC744; &#xC774;&#xC6A9;&#xD55C; &#xD14C;&#xC2A4;&#xD2B8;&#xC8FC;&#xB3C4;&#xAC1C;&#xBC1C;(1&#xD310;)</a></li>
-<li><a href="https://lhy.kr/tdd-with-python" target="_blank">lhy blog - &#xCD5C;&#xC2E0;&#xD310;&#xACFC; &#xBC88;&#xC5ED;&#xC11C; &#xCC28;&#xC774; &#xBE44;&#xAD50;</a></li>
-<li><a href="https://docs.djangoproject.com/ko/2.1/intro/" target="_blank">Django 2.1 &#xACF5;&#xC2DD;&#xBB38;&#xC11C;(&#xD55C;&#xAE00;)</a></li>
-<li></li>
+<li><a href="https://spark.apache.org/docs/latest/sql-programming-guide.html" target="_blank">spark doc - Spark SQL</a></li>
+<li><a href="https://jaceklaskowski.gitbooks.io/mastering-spark-sql/spark-sql-StructType.html" target="_blank">Mastering Spark SQL by jaceklaskowski</a></li>
+</ul>
+<h1 id="spark-sql">Spark SQL</h1>
+<ul>
+<li>RDD &#xC7A5;&#xC810; <ul>
+<li>&#xBD84;&#xC0B0;&#xD658;&#xACBD;&#xC5D0;&#xC11C; &#xBA54;&#xBAA8;&#xB9AC; &#xAE30;&#xBC18;&#xC73C;&#xB85C; &#xBE60;&#xB974;&#xACE0; &#xC548;&#xC815;&#xC801;&#xC73C;&#xB85C; &#xB3D9;&#xC791;&#xD558;&#xB294; &#xD504;&#xB85C;&#xADF8;&#xB7A8; &#xC791;&#xC131;</li>
+<li>&#xD48D;&#xBD80;&#xD55C; &#xB370;&#xC774;&#xD130; &#xCC98;&#xB9AC; &#xC5F0;&#xC0B0;
+but &#xC544;&#xC26C;&#xC6B4; &#xC810;.</li>
 </ul>
 </li>
-<li>Django&#xC5D0; &#xB300;&#xD574; &#xD559;&#xC2B5;&#xD55C; &#xAC83;&#xACFC; TDD &#xC5D0; &#xB300;&#xD574; &#xD559;&#xC2B5;&#xD55C; &#xAC83;&#xC744; &#xB098;&#xB204;&#xC5B4;&#xC11C; &#xC801;&#xB294;&#xB2E4;.</li>
+<li>metadata-schema &#xD45C;&#xD604;&#xBC29;&#xBC95;&#xC774; &#xB530;&#xB85C; &#xC5C6;&#xC74C; (Schema?)
+&#xC774;&#xB97C; &#xBCF4;&#xC548;&#xD558;&#xAE30; &#xC704;&#xD574;, &#xB2E4;&#xB978; &#xC720;&#xD615;&#xC758; &#xB370;&#xC774;&#xD130; &#xBAA8;&#xB378;, API &#xC81C;&#xACF5;&#xD558;&#xB294; &#xC2A4;&#xD30C;&#xD06C; &#xBAA8;&#xB4C8;</li>
+<li>SQL &#xCC98;&#xB9AC; + Dataset API </li>
+<li>SQL : ansi sql , hive-sql</li>
 </ul>
-<h2 id="&#xC0AC;&#xC804;-&#xC900;&#xBE44;">&#xC0AC;&#xC804; &#xC900;&#xBE44;</h2>
-<ul>
-<li>&#xBC88;&#xC5ED;&#xD310; &#xB300;&#xC2E0; &#xC778;&#xD130;&#xB137; &#xCD5C;&#xC2E0;&#xD310;&#xC5D0; &#xC788;&#xB294; &#xC124;&#xC815;&#xC744; &#xB530;&#xB984;<ul>
-<li><a href="https://www.obeythetestinggoat.com/book/pre-requisite-installations.html" target="_blank">https://www.obeythetestinggoat.com/book/pre-requisite-installations.html</a></li>
-</ul>
-</li>
-<li>&#xCD5C;&#xC2E0;&#xD310;&#xACFC; &#xBC88;&#xC5ED;&#xD310;&#xC758; &#xBA85;&#xB839;&#xC5B4;&#xB4E4;&#xC774; &#xC870;&#xAE08;&#xC529; &#xB2E4;&#xB97C; &#xC218; &#xC788;&#xB2E4;. &#xB584;&#xB85C;&#xB294; &#xACB0;&#xACFC;&#xBA54;&#xC2DC;&#xC9C0;&#xB3C4; &#xB2E4;&#xB984;. </li>
-<li>&#xCC45;&#xB300;&#xB85C; &#xC124;&#xC815;&#xB41C; <code>virtualenv</code> &#xAC00; &#xD65C;&#xC131;&#xD654;&#xB418;&#xC5B4;&#xC788;&#xB294;&#xC9C0; &#xD655;&#xC778;&#xD558;&#xACE0; &#xC791;&#xC5C5;&#xD560; &#xAC83;<ul>
-<li>&#xC5EC;&#xAE30;&#xC11C;&#xB294; &#xCD5C;&#xC2E0;&#xD310;&#xACFC; &#xB2E4;&#xB974;&#xAC8C; python3.6, django(&#xCD5C;&#xC2E0;&#xD310;), selenium&lt;4 &#xB97C; &#xC0AC;&#xC6A9;&#xD588;&#xB2E4;</li>
-<li><a href="https://stackoverflow.com/questions/34827566/attributeerror-module-html-parser-has-no-attribute-htmlparseerror" target="_blank">&#xC5EC;&#xAE30;</a>&#xC640; &#xAC19;&#xC774; django&#xC640; python &#xBC84;&#xC804;&#xC774; &#xC548;&#xB9DE;&#xB294; &#xBB38;&#xC81C;&#xAC00; &#xC788;&#xC5C8;&#xAE30; &#xB54C;&#xBB38;&#xC774;&#xB2E4;<pre><code class="lang-bash">&gt; python3.6 -m venv virtualenv
+<p>p.248 &#xAC04;&#xB2E8; &#xC2E4;&#xC2B5;</p>
+<pre><code class="lang-scala">ds.printSchema
 </code></pre>
-<code>pip install &quot;django&quot; &quot;selenium&lt;4&quot;</code></li>
-</ul>
-</li>
-</ul>
-<pre><code class="lang-bash">$ <span class="hljs-built_in">source</span> virtualenv/bin/activate <span class="hljs-comment"># virtualenv &#xD65C;&#xC131;&#xD654;</span>
-(virtualenv)$
-(virtualenv)$ <span class="hljs-built_in">which</span> python <span class="hljs-comment"># &#xC5B4;&#xB5A4; python &#xC0AC;&#xC6A9;&#xD558;&#xACE0; &#xC788;&#xB294;&#xC9C0; &#xD655;&#xC778;</span>
-/home/myusername/python-tdd-book/virtualenv/bin/python
-(virtualenv)$ deactivate <span class="hljs-comment"># virtualenv &#xBE44;&#xD65C;&#xC131;&#xD654;</span>
-$
-$ <span class="hljs-built_in">which</span> python
-/usr/bin/python
-</code></pre>
-<h2 id="ch01">ch01</h2>
+<h2 id="dataset">Dataset</h2>
 <ul>
-<li>conda &#xD658;&#xACBD;&#xC5D0;&#xC11C; selenum install : <a href="https://anaconda.org/conda-forge/selenium" target="_blank">https://anaconda.org/conda-forge/selenium</a> </li>
-<li>selenium &#xC2E4;&#xD589; &#xC5D0;&#xB7EC; - &#xB9C8;&#xC9C0;&#xB9C9; &#xC904;- geckodriver &#xC5C6;&#xC74C; : <a href="https://stackoverflow.com/questions/40208051/selenium-using-python-geckodriver-executable-needs-to-be-in-path" target="_blank">https://stackoverflow.com/questions/40208051/selenium-using-python-geckodriver-executable-needs-to-be-in-path</a>
-```<blockquote>
-<p>python3 functional<em>test.py
-Traceback (most recent call last):
-File &quot;/Users/syo/anaconda3/lib/python3.6/site-packages/selenium/webdriver/common/service.py&quot;, line 76, in start
-  stdin=PIPE)
-File &quot;/Users/syo/anaconda3/lib/python3.6/subprocess.py&quot;, line 709, in <em>_init</em></em>
-  restore_signals, start_new_session)
-File &quot;/Users/syo/anaconda3/lib/python3.6/subprocess.py&quot;, line 1344, in _execute_child
-  raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: &apos;geckodriver&apos;: &apos;geckodriver&apos;</p>
-</blockquote>
-</li>
-</ul>
-<p>During handling of the above exception, another exception occurred:</p>
-<p>Traceback (most recent call last):
-  File &quot;functional<em>test.py&quot;, line 4, in <module>
-    browser = webdriver.Firefox()
-  File &quot;/Users/syo/anaconda3/lib/python3.6/site-packages/selenium/webdriver/firefox/webdriver.py&quot;, line 164, in <em>_init</em></module></em>
-    self.service.start()
-  File &quot;/Users/syo/anaconda3/lib/python3.6/site-packages/selenium/webdriver/common/service.py&quot;, line 83, in start
-    os.path.basename(self.path), self.start_error_message)
-selenium.common.exceptions.WebDriverException: Message: &apos;geckodriver&apos; executable needs to be in PATH.</p>
-<pre><code>- 1&#xC7A5;  &#xC5D0;&#xB7EC; &#xBA54;&#xC2DC;&#xC9C0; - &apos;Unable to Connect&apos;&#xAC00; &#xB9DE;&#xC74C; - selenium.common.exceptions.WebDriverException: Message: Reached error page: abo
-  ut:neterror?e=connectionFailure&amp;u=http%3A//localhost%3A8000/[...] 
-
-### Django &#xAD6C;&#xC870;
-- [ ] `django-admin startproject superlists .` &#xACFC; `django-admin startproject superlists` &#xCC28;&#xC774; : manage.py &#xC758; &#xC704;&#xCE58;&#xAC00; &#xB2E4;&#xB984;. manage &#xBC94;&#xC704;&#xAC00; &#xB2E4;&#xB978; &#xAC78;&#xAE4C;?
-
-```bash
-&gt; `django-admin.py startproject superlists .`
-&gt; tree ../../django/testinggoat/superlists
-../../django/testinggoat/superlists
-&#x251C;&#x2500;&#x2500; manage.py
-&#x251C;&#x2500;&#x2500; functional_tests.py
-&#x251C;&#x2500;&#x2500; geckodriver.log
-&#x2514;&#x2500;&#x2500; superlists
-    &#x251C;&#x2500;&#x2500; __init__.py
-    &#x251C;&#x2500;&#x2500; settings.py
-    &#x251C;&#x2500;&#x2500; urls.py
-    &#x2514;&#x2500;&#x2500; wsgi.py
-&#x2514;&#x2500;&#x2500; virtualenv
-    &#x251C;&#x2500;&#x2500; [...]
-</code></pre><ul>
-<li>superlist/superlist &#xD3F4;&#xB354;&#xAC00; &#xC0AC;&#xC774;&#xD2B8; &#xC804;&#xC5ED;&#xC5D0; &#xAC78;&#xCCD0;&#xC11C; &#xC801;&#xC6A9;&#xB428;<ul>
-<li>settings.py &#xAC00; &#xC0AC;&#xC774;&#xD2B8; &#xC804;&#xC5ED;&#xC5D0; &#xAC78;&#xCCD0;&#xC11C; &#xC801;&#xC6A9;&#xB428;</li>
+<li>&#xBD84;&#xC0B0; &#xC624;&#xBE0C;&#xC81D;&#xD2B8; &#xCEEC;&#xB809;&#xC158; &#xD504;&#xB85C;&#xADF8;&#xB798;&#xBC0D; &#xBAA8;&#xB378;</li>
+<li>Dataframe API - &#xD48D;&#xBD80;&#xD55C; API + &#xC635;&#xD2F0;&#xB9C8;&#xC774;&#xC800; - &#xBCF5;&#xC7A1;&#xD55C; &#xB370;&#xC774;&#xD130; &#xCC98;&#xB9AC; &#xC218;&#xC6D4;&#xD558;&#xB098;, &#xBCF5;&#xC7A1;&#xD55C; &#xCF54;&#xB4DC;, &#xC608;&#xC678;&#xCC98;&#xB9AC; &#xC0AC;&#xC6A9;&#xC5B4;&#xB824;&#xC6C0; <ul>
+<li>dataframe &#xB300;&#xC2E0;(&#xD638;&#xD658;&#xC131; &#xC81C;&#xACF5;). &#xD604;&#xC7AC; Spark 2.3</li>
+<li>Dataset API &#xC9C0;&#xC6D0;&#xD558;&#xC9C0; &#xC54A;&#xC74C; - Python,R <a href="https://spark.apache.org/docs/latest/sql-programming-guide.html#datasets-and-dataframes" target="_blank">Spark SQL Guide &#xCC38;&#xC870;</a></li>
 </ul>
 </li>
-<li>manage.py : &#xB9E5;&#xAC00;&#xC774;&#xBC84;&#xCE7C;. &#xAC1C;&#xBC1C; &#xC11C;&#xBC84;&#xB97C; &#xAC00;&#xB3D9;&#xC2DC;&#xD0A4;&#xB294; &#xC5ED;&#xD560;&#xB3C4; &#xD568;<ul>
-<li><code>python3 manage.py runserver</code></li>
+<li>&#xAC12; + &#xC2A4;&#xD0A4;&#xB9C8; &#xC815;&#xBCF4; -&gt; &#xB370;&#xC774;&#xD130; &#xCC98;&#xB9AC; + &#xB0B4;&#xBD80; &#xC131;&#xB2A5;&#xCD5C;&#xC801;&#xD654; &#xC81C;&#xACF5;<ul>
+<li>RDD + &#xAE30;&#xC874; dataframe &#xB300;&#xBD80;&#xBD84; &#xAE30;&#xB2A5; &#xC9C0;&#xC6D0;</li>
 </ul>
 </li>
+<li>Row &#xD0C0;&#xC785; &#xB370;&#xC774;&#xD130;&#xC14B;</li>
 </ul>
+<h3 id="&#xD2B8;&#xB79C;&#xC2A4;&#xD3EC;&#xBA54;&#xC774;&#xC158;-&#xC561;&#xC158;-&#xC5F0;&#xC0B0;">&#xD2B8;&#xB79C;&#xC2A4;&#xD3EC;&#xBA54;&#xC774;&#xC158;, &#xC561;&#xC158; &#xC5F0;&#xC0B0;</h3>
+<ul>
+<li>transforamtion : &#xC0C8;&#xB85C;&#xC6B4; &#xB370;&#xC774;&#xD130;&#xC14B; &#xC0DD;&#xC131; &#xC5F0;&#xC0B0;. action &#xC5F0;&#xC0B0; &#xD638;&#xCD9C;&#xB420;&#xB54C;&#xAE4C;&#xC9C0; &#xC218;&#xD589;&#xB418;&#xC9C0; &#xC54A;&#xC74C;</li>
+<li>action : &#xB370;&#xC774;&#xD130;&#xCC98;&#xB9AC; &#xC218;&#xD589;, &#xACB0;&#xACFC; &#xC0DD;&#xC131; &#xC5F0;&#xC0B0;</li>
+</ul>
+<h3 id="rdd&#xC640;-&#xCC28;&#xC774;&#xC810;">RDD&#xC640; &#xCC28;&#xC774;&#xC810;</h3>
+<ul>
+<li>typed operation / uptyped operation &#xC73C;&#xB85C; &#xB098;&#xB268;</li>
+<li>uptyped operation : <pre><code class="lang-scala"><span class="hljs-keyword">val</span> ds = data.toDS
+<span class="hljs-keyword">val</span> ds = ds.map(_+<span class="hljs-number">1</span>) <span class="hljs-comment">// &#xAC01; &#xC694;&#xC18C;&#xC5D0; 1&#xC744; &#xB354;&#xD568;</span>
+</code></pre>
+&#xAC19;&#xC740; &#xC758;&#xBBF8; - table&#xACFC; &#xC720;&#xC0AC;&#xD558;&#xAC8C; &#xCC98;&#xB9AC;  (col(&quot;~&quot;)) - int&#xAC00; &#xC544;&#xB2CC; ~.sql.Column &#xD0C0;&#xC785;<pre><code>ds.select(col(&quot;value&quot;)+1)
+</code></pre>-&gt; table row, column &#xD574;&#xB2F9;&#xD558;&#xB294; &#xD0C0;&#xC785; &#xC815;&#xC758;, &#xB85C;&#xC6B0;&#xC640; &#xCE7C;&#xB7FC; &#xD0C0;&#xC785;&#xC73C;&#xB85C; &#xAC10;&#xC2F8;&#xC11C; &#xCC98;&#xB9AC;</li>
+</ul>
+<h3 id="&#xC815;&#xB9AC;">&#xC815;&#xB9AC;</h3>
+<ul>
+<li>org.apache.spark.sql.Row &#xD0C0;&#xC785; &#xC694;&#xC18C;&#xB85C; &#xAD6C;&#xC131;&#xB41C; &#xB370;&#xC774;&#xD130;&#xC14B; &#xAC00;&#xB9AC;&#xD0A4;&#xB294; &#xC6A9;&#xC5B4;</li>
+<li>Dataframe &#xC5F0;&#xC0B0; - untyped operation</li>
+</ul>
+<h3 id="&#xC8FC;&#xC694;-&#xAD6C;&#xC131;&#xC694;&#xC18C;">&#xC8FC;&#xC694; &#xAD6C;&#xC131;&#xC694;&#xC18C;</h3>
+<p><a href="">Spark SQL API</a></p>
+<ul>
+<li>Spark session : spark context
+-spark shell </li>
+<li>Dataset : &#xBD84;&#xC0B0; &#xB370;&#xC774;&#xD130; &#xBAA8;&#xB378;. Since Spark 1.6</li>
+<li>DataFrame : ~.sql.Row database Table,R dataframe / Row &#xD0C0;&#xC785; &#xC694;&#xC18C; &#xAD6C;&#xC131;&#xB41C; &#xB370;&#xC774;&#xD130;&#xC14B;</li>
+<li>DataFrameReader: &#xB2E4;&#xC591;&#xD55C; &#xC720;&#xD615; &#xB370;&#xC774;&#xD130;&#xC18C;&#xC2A4;&#xB85C;&#xBD80;&#xD130; &#xB370;&#xC774;&#xD130;&#xD504;&#xB808;&#xC784; &#xC0DD;&#xC131; &#xBA54;&#xC11C;&#xB4DC; &#xC81C;&#xACF5;. read() &#xBA54;&#xC11C;&#xB4DC; &#xD1B5;&#xD574; &#xC811;&#xADFC;</li>
+<li>DataFrameWriter: &#xB2E4;&#xC591;&#xD55C; &#xC800;&#xC7A5;&#xC18C;&#xC5D0; &#xC800;&#xC7A5;&#xD560; &#xB54C; &#xC0AC;&#xC6A9;&#xD560; &#xC218; &#xC788;&#xB294; &#xBA54;&#xC11C;&#xB4DC; &#xC81C;&#xACF5;</li>
+<li><strong>Row, column</strong> : DataFrame &#xAD6C;&#xC131;&#xC694;&#xC11C; &#xD45C;&#xD604; &#xBAA8;&#xB378;, API, &#xB300;&#xBD80;&#xBD84;&#xC758; method</li>
+<li><strong>function</strong> : &#xC9D1;&#xACC4;&#xD568;&#xC218;, &#xD1B5;&#xACC4; &#xD568;&#xC218; &#xC81C;&#xACF5;. &#xB9CE;&#xC774; &#xC4F0;&#xC784;</li>
+<li>StructType, StructField : &#xB370;&#xC774;&#xD130;&#xC5D0; &#xB300;&#xD55C; schema &#xC815;&#xBCF4; &#xB098;&#xD0C0;&#xB0B4;&#xB294; API. &#xC911;&#xCCA9;&#xAD6C;&#xC870; &#xD45C;&#xD604;&#xC774; &#xAC00;&#xB2A5;. <a href="https://jaceklaskowski.gitbooks.io/mastering-spark-sql/spark-sql-StructType.html" target="_blank">spark-sql-StructType by  jaceklaskowski</a></li>
+<li>GroupedData, GroupedDataSet : &#xADF8;&#xB8E8;&#xD551;,&#xC9D1;&#xACC4; &#xC5F0;&#xC0B0;</li>
+</ul>
+<h3 id="spark-sql-&#xCF54;&#xB4DC;-&#xC791;&#xC131;">Spark SQL &#xCF54;&#xB4DC; &#xC791;&#xC131;</h3>
+<ol>
+<li>&#xC2A4;&#xD30C;&#xD06C;&#xC138;&#xC158; &#xC0DD;&#xC131;</li>
+<li>&#xC2A4;&#xD30C;&#xD06C;&#xC138;&#xC158;&#xC73C;&#xB85C;&#xBD80;&#xD130; &#xB370;&#xC774;&#xD130;&#xC14B; &#xB610;&#xB294; &#xB370;&#xC774;&#xD130; &#xD504;&#xB808;&#xC784; &#xC0DD;&#xC131;</li>
+<li>&#xC0DD;&#xC131;&#xB41C; &#xB370;&#xC774;&#xD130;&#xC14B; &#xB610;&#xB294; &#xB370;&#xC774;&#xD130; &#xD504;&#xB808;&#xC784;&#xC744; &#xC774;&#xC6A9;&#xD574; &#xB370;&#xC774;&#xD130; &#xCC98;&#xB9AC;</li>
+<li>&#xCC98;&#xB9AC;&#xB41C; &#xACB0;&#xACFC; &#xB370;&#xC774;&#xD130;&#xB97C; &#xC678;&#xBD80; &#xC800;&#xC7A5;&#xC18C;&#xC5D0; &#xC800;&#xC7A5;</li>
+<li>&#xC2A4;&#xD30C;&#xD06C;&#xC138;&#xC158; &#xC885;&#xB8CC;</li>
+</ol>
+<h3 id="&#xC2E4;&#xC2B5;&#xCF54;&#xB4DC;">&#xC2E4;&#xC2B5;&#xCF54;&#xB4DC;</h3>
+<p><a href="https://github.com/wikibook/spark/blob/master/Python/ch5/spark_session_sample.py" target="_blank">https://github.com/wikibook/spark/blob/master/Python/ch5/spark_session_sample.py</a></p>
+<ol>
+<li>appname, master &#xC815;&#xBCF4; &#xC124;&#xC815;</li>
+<li>DataFrameReader instance &#xC774;&#xC6A9;&#xD574; &#xB370;&#xC774;&#xD130;&#xB85C;&#xBD80;&#xD130; &#xB370;&#xC774;&#xD130;&#xD504;&#xB808;&#xC784; &#xC0DD;&#xC131;. </li>
+<li>DataFrame &#xC5F0;&#xC0B0; / untyped operation - Row, column</li>
+</ol>
 
                                 
                                 </section>
@@ -2484,12 +2475,12 @@ selenium.common.exceptions.WebDriverException: Message: &apos;geckodriver&apos; 
 
             
                 
-                <a href="../Devenv/vim_shortcut.html" class="navigation navigation-prev " aria-label="Previous page: Vim 단축키 정리">
+                <a href="spark_concept.html" class="navigation navigation-prev " aria-label="Previous page: Spark 레퍼런스정리">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="../Docker/Inbox.html" class="navigation navigation-next " aria-label="Next page: Inbox">
+                <a href="../Spring/spring_in_action.html" class="navigation navigation-next " aria-label="Next page: Spring in Action 책 정리">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -2500,7 +2491,7 @@ selenium.common.exceptions.WebDriverException: Message: &apos;geckodriver&apos; 
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"tdd_with_Django","level":"22.1","depth":1,"next":{"title":"Inbox","level":"23.1","depth":1,"path":"Docker/Inbox.md","ref":"Docker/Inbox.md","articles":[]},"previous":{"title":"Vim 단축키 정리","level":"21.13","depth":1,"path":"Devenv/vim_shortcut.md","ref":"Devenv/vim_shortcut.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{"BASE_URL":"https://ohahohah.github.io/TIL"},"plugins":["-lunr","-search","search-pro","disqus"],"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"ohahohah_til"},"search-pro":{},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Django/tdd_with_Django.md","mtime":"2019-02-13T14:59:01.972Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-02-27T15:00:01.069Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Spark SQL정리","level":"39.2","depth":1,"next":{"title":"Spring in Action 책 정리","level":"40.1","depth":1,"path":"Spring/spring_in_action.md","ref":"Spring/spring_in_action.md","articles":[]},"previous":{"title":"Spark 레퍼런스정리","level":"39.1","depth":1,"path":"Spark/spark_concept.md","ref":"Spark/spark_concept.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{"BASE_URL":"https://ohahohah.github.io/TIL"},"plugins":["-lunr","-search","search-pro","disqus"],"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"ohahohah_til"},"search-pro":{},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Spark/spark_sql.md","mtime":"2019-02-09T10:32:40.790Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-02-27T15:00:01.069Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
