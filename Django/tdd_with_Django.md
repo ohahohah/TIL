@@ -7,10 +7,27 @@
   - 
 - Django에 대해 학습한 것과 TDD 에 대해 학습한 것을 나누어서 적는다.
 
+## 풀잎스쿨용 실습 준비
+-  이하 가이드에서는 사용한 레퍼런스가 무엇인지 표기함. DjangoGirls tutorial 는 [dgt], obey the testing goat는 [ottg]로 표기.
+- [ottg 실습코드](https://github.com/hjwp/book-example) : 실습은 타이핑부터 기본. 중간에 오류로 실습을 따라가지 못할 경우의 풀잎이들만 사용.
+
+### 설치
+- 초반에는 IDE 사용 자제. 코드에디터를 사용하도록 함.
+- python3.x(3.6), Django 1.11 사용
+  - python2 를 사용하지 않도록 함
+- [dgt] venv를 사용할 수 있는 풀잎이의 경우엔 `sudo` 설치대신 venv 사용하도록 유도함. venv에 어려움을 겪을 경우 sudo로 설치. 가이드에 django 2.0.0으로 되어있으므로 주의.
+
+
+#### pip 설치 
+- python3 가 설치되어있는데 `command not found: pip3` 등의 메시지가 나올 때, https://pip.pypa.io/en/stable/installing/ 의 안내를 따라 설치하도록 함. 
+
+
+## 개인학습용
+
 ## 사전 준비
 - 번역판 대신 인터넷 최신판에 있는 설정을 따름
   - https://www.obeythetestinggoat.com/book/pre-requisite-installations.html
-- 최신판과 번역판의 명령어들이 조금씩 다를 수 있다. 떄로는 결과메시지도 다름. 
+- 최신판과 번역판의 명령어들이 조금씩 다를 수 있다. 때로는 결과메시지도 다름. 
 - 책대로 설정된 `virtualenv` 가 활성화되어있는지 확인하고 작업할 것
   - 여기서는 최신판과 다르게 python3.6, django(최신판), selenium<4 를 사용했다
   - [여기](https://stackoverflow.com/questions/34827566/attributeerror-module-html-parser-has-no-attribute-htmlparseerror)와 같이 django와 python 버전이 안맞는 문제가 있었기 때문이다
