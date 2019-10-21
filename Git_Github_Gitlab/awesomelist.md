@@ -17,6 +17,7 @@
 - [책 - 인간다운 Git (Git For Humans)](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=131897974) / [책소개한 블로그](http://paikwiki.github.io/2018/03/git-for-humans) : 누가 git이 뭐야? 써보고 싶어. 라고 나에게 물어본다면 이 책 추천. 전반적으로 git에서 많이 쓰이는 내용과 함께 git에 있는 미묘한 개념, 협업부분에 대해 설명. 문고판 크기로 80장 정도 되어 읽기 부담스럽지 않음.  `git add` 한 다음에 `git commit` 해야하는 건 알겠는데 왜 바로 커밋안하고 staging(`git add`)하는지에 대한 걸 알고 싶다면, 바로 이 책이다.
 - [Github Guides :+1:](https://guides.github.com) : 짧게 짧게 읽으면서 감 잡기에 좋음. 아티클 읽는 시간은 10분 내외임
 - [Git-flight-rules +1](https://github.com/k88hudson/git-flight-rules/blob/master/README_kr.md): 이런 상황에는 이런 git commad를 사용하면 된다를 짧게 
+- [10 Git Commands You Should Know](https://towardsdatascience.com/10-git-commands-you-should-know-df54bea1595c) : 여기 있는 것만 알아도 어느정도는 편하게 쓸 수 있다. 어느정도는.
 - [try Git - exersise](https://try.github.io/levels/1/challenges/1)
 - [git - the simple guide :+1:](http://rogerdudler.github.io/git-guide/index.ko.html)
 - [git/github 기초강의- 코드스쿼드](https://www.youtube.com/playlist?list=PLAHa1zfLtLiPrxoBo9a1HVmauvE2Mn3xX)
