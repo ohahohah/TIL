@@ -1,0 +1,1 @@
+- 좋은 개발 article 번역된 사이트 : https://muchtrans.com/
