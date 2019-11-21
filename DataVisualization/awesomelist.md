@@ -2,13 +2,19 @@
 `awesome list` `data visualization`
 
 ## 상황 / 궁금증
-- 컨트리뷰톤 음악분석 프로젝트에서 데이터시각화를 맡게 되면서 새롭게 시각화를 [스터디했던 자료](https://github.com/LearnDataVisualization/d3study))를 정리 / [NohYujeong](https://github.com/NohYujeong)님과 즐겁게 작업했다
+- 2019.11.21 데이터에 맞는 시각화는 어떻게 해야할까? 데이터를 가설을 확인하기 위한 것 이상의 역할을 할 수 있을까? 시각화 하는 tool을 익히는 것말고 어떻게 여러 데이터 보는 프로젝트를 할 수 있을까? 
+- 2017년 컨트리뷰톤 음악분석 프로젝트에서 데이터시각화를 맡게 되면서 새롭게 시각화를 [스터디했던 자료](https://github.com/LearnDataVisualization/d3study))를 정리 / [NohYujeong](https://github.com/NohYujeong)님과 즐겁게 작업했다
   - 이 프로젝트를 하면서 목표를 향해 팀과 함께 협업하는 재미와 사이드프로젝트의 짜릿함을 배울 수 있어서 즐겁게 작업했다. 
     - 같이 공부하는 재미를 깨달았고, 회사 끝나고 일주일에 세 번씩 만나면서도 즐겁게 프로젝트를 할 수 있었다. 프로젝트 진행 과정에서도 어떻게 조율하면서 구현해 낼 것인가(재미로 하는 프로젝트이다보니)를 고민하게 되었다. 이때 이후로 본격적으로 회사 외부에서도 스터디, 사이드프로젝트 작업 등 일을 벌리기 시작했다.
     - 이때 github에 정리하면서 프로젝트와 학습을 어떻게 결합시키면서 같이 병행할지, 학습 콘텐츠를 어떻게 찾고 정리하는지 의식하면서 작업을 하는 계기가 되었다.
     - 멘토분들이 비즈니스 관점에서 멘토링 해주고 부드럽게 큰 틀을 잡아주면서 가이드를 해주는 모습을 보고 많이 배웠다.
 
 ## 정리
+- [Visual Vocabulary- Finantial Times](https://ft-interactive.github.io/visual-vocabulary/) / [한글번역 by 널채움](https://nullfull.kr/visual-vocabulary/) : `There are so many ways to visualise data – how do we know which one to pick?`
+- [Data Visualisation Resources by The Data Visualisation Catalogue](https://datavizcatalogue.com/resources.html)
+- [seeing data](http://seeingdata.org/): `Seeing Data is a group of research projects which aim to understand the place of data visualisations (like those in the examples below) in society.`
+
+### Ver.2018
 - This collection of links are D3.js Tutorial for Beginner(D3.js is JavaScript library for manipulating documents based on data). This will not cover any statistics or modelling, and this will not stray outside the JavaScript or SVG we need for the visualizations. Let's practice D3.js together! :sunglasses:
 
 ### [What is data visualization + MOOC](doc/whatIsDataVisualization.md)
