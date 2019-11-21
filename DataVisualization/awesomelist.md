@@ -10,7 +10,7 @@
     - 멘토분들이 비즈니스 관점에서 멘토링 해주고 부드럽게 큰 틀을 잡아주면서 가이드를 해주는 모습을 보고 많이 배웠다.
 
 ## 정리
-- [Visual Vocabulary- Finantial Times](https://ft-interactive.github.io/visual-vocabulary/) / [한글번역 by 널채움](https://nullfull.kr/visual-vocabulary/) : `There are so many ways to visualise data – how do we know which one to pick?`
+- [Visual Vocabulary- Finantial Times](https://ft-interactive.github.io/visual-vocabulary/) / [한글번역 by 널채움](https://nullfull.kr/visual-vocabulary/) /[tableau version](https://public.tableau.com/en-us/gallery/visual-vocabulary)  : `There are so many ways to visualise data – how do we know which one to pick?`
 - [Data Visualisation Resources by The Data Visualisation Catalogue](https://datavizcatalogue.com/resources.html)
 - [seeing data](http://seeingdata.org/): `Seeing Data is a group of research projects which aim to understand the place of data visualisations (like those in the examples below) in society.`
 
