@@ -14,6 +14,7 @@
 - [Data Visualisation Resources by The Data Visualisation Catalogue](https://datavizcatalogue.com/resources.html)
 - [seeing data](http://seeingdata.org/): `Seeing Data is a group of research projects which aim to understand the place of data visualisations (like those in the examples below) in society.`
 
+------
 ### Ver.2018
 - This collection of links are D3.js Tutorial for Beginner(D3.js is JavaScript library for manipulating documents based on data). This will not cover any statistics or modelling, and this will not stray outside the JavaScript or SVG we need for the visualizations. Let's practice D3.js together! :sunglasses:
 
