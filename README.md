@@ -15,6 +15,7 @@ search: false
 - [Keras Korea tutorial](https://github.com/KerasKorea/KEKOxTutorial)
 
 ## 소소한 개인프로젝트
+- [100일동안 매일 코딩하기](100DaysOfCode.md)
 - [WIP][여러 자동번역 한눈에 보기(google translation, papago,...)](https://github.com/ohahohah/all-for-translatation)
 
 ## Study Group
