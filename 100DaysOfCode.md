@@ -1,6 +1,7 @@
 # 100DaysOfCode - Log
 - [What is 100DaysOfCode?](https://github.com/kallaway/100-days-of-code)
 > Code minimum an hour every day for the next 100 days. Encourage at least two other people in the challenge on Twitter every day! Pay it forward!
+- 제 100일동안의 기록을 한 눈에 보고 싶다면 여기로 [ohahohah - 100DaysOfCode page](http://ohahohah.com/100-days-of-code/)
 
 ## Day 000: 2020/04/01
 - Today's Progress: Setting my own [100DaysOfCode page](http://ohahohah.com/100-days-of-code/)
