@@ -3,7 +3,7 @@
 ## memo
 - 딥러닝을 공부하는 백수들의 모임에서 매주 몇 챕터를 읽고 모여서 토론하는 스터디로 진행하고 있다. python, C, C++, Java 여러 언어를 사용하는 사람들이 같이 스터디를 해서 각자 언어에서는 어떻게 쓰고 있는지 이야기가 나와서 흥미로웠다. 오고가는 주제를 다 이해할 수는 없었지만 
 ---
-## ch.23 Assertive Programming
+## ch23. Assertive Programming
 ### Underline
 - 언제 쓰냐고? **결코 일어나면 안되는 것을 검사할 때**
   - 프로그래밍에서 **"이런 일은 절대 일어날 리 없어"** 는 자기기만이다. 하지만 일어나지 않을 거라는 생각이 든다면 그걸 확인하는 코드-assertion 같은-를 추가하자. 
@@ -59,7 +59,7 @@
     - 함수형 프로그래밍의 variable binding 하고는 다름.
 - assert를 하면 프로그램 자체가 중단되기 때문에 서비스 환경에서는 보수적으로 쓰게 된다.  
 
-## ch.24 언제 예외를 사용할까
+## ch24. WHEN TO USE EXCEPTIONS
 - *'20주년 기념 실용주의 프로그래머 2판'에서는 이 챕터가 삭제되었다.*
 ### Underline 
 - 예외를 정상적인 처리과정의 일부로 사용하는 프로그램은 스파게티 코드처럼 가독성 문제와 관리성 문제를 떠안게 되고, 캡슐화를 깨뜨린다. 예외 처리를 하며 루틴과 호출자들 사이 결합도가 높아진다. 
@@ -69,7 +69,7 @@
 - 이 루틴에 책임을 지고 있는 부분이 어디냐에 따라서 어디까지 exception 을 throw해야하는가 갈리는 것 같다. 
 - 다른 언어보다 Java 가 try-catch를 많이 쓰는 것 같다. 왜 그럴까? Checked, Uncheked가 있기 때문에? [does-every-exception-have-an-required-try-catch - stackoverflow](https://stackoverflow.com/questions/29851253/does-every-exception-have-an-required-try-catch)
 
-## ch.25 리소스 관리
+## ch25. HOW TO BALANCE RESOURCES
 ### Underline
 (2판)
 > In this topic we're mostly looking at ephemeral resources used by your running process. But you might want to consider what other messes you might be leaving behind.
@@ -83,7 +83,7 @@ What else are you leaving behind?
     > C++에서 C 포인터 사용에 대해 어떻게 생각하세요?(...)   
     > 한숨을 내쉬면서 생각보다 굉장한 어조로 포인터를 싫어한다고 말씀하셨다. 가능하다면 스마트 포인터와 참조자를 쓸 것을 권유하셨다. 
  
-## ch26. 결합도 줄이기 
+## ch26. DECOUPLING AND THE LAW OF DEMETER
 - [디미터 법칙 (The Law of Demeter) - johngrib님 wiki](https://johngrib.github.io/wiki/law-of-demeter/) 
 - 개념을 이해하기 어려웠는데 위 링크가 조금이나마 이해하는데 도움이 되었다.
   - OOP를 객체가 각자 역할을 가지고 메시지를 통해 협력한다 로 이해했고, "객체의 내부 구조에 강하게 결합되지 않도록 협력 경로를 제한하라는 것이다." 이게 가장 나에게 와닿는 디미터 법칙 설명이었다.
