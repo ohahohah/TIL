@@ -9,6 +9,15 @@ search: false
 ---------------
 * [Introduction](README.md)
 
+## 오픈소스 번역프로젝트
+- [이상한모임X월간지앤선 머신 러닝 이해하기](https://monthly-jiandson.tistory.com/50?category=1093550)
+- [프로그래머 되는 법 how to be programmer](https://github.com/ohahohah/HowToBeAProgrammer/tree/korean)
+- [Keras Korea tutorial](https://github.com/KerasKorea/KEKOxTutorial)
+
+## 소소한 개인프로젝트
+- [100일동안 매일 코딩하기](100DaysOfCode.md)
+- [WIP][여러 자동번역 한눈에 보기(google translation, papago,...)](https://github.com/ohahohah/all-for-translatation)
+
 ## Study Group
 - [매일 아침 TDD 스터디 하면서 느낀 것](Test_TDD_BDD/Morning_tdd.md)
 - [알고리즘 스터디 기록](Algorithm/study.md)
