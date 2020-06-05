@@ -34,7 +34,7 @@ search:
 - [IntelliJ IDEA 2018.3 Help](https://www.jetbrains.com/help/idea/meet-intellij-idea.html) : Intellij를 만든 Jetbrain의 공식 도움문서로 참으로 친절하다
 - [IntelliJ IDEA 2018.3 Help - Migrating From Eclipse to IntelliJ IDEA
 ](https://www.jetbrains.com/help/idea/migrating-from-eclipse-to-intellij-idea.html): eclipse에서 Intellij로 넘어갈때 헷갈리는 개념에 대해 참고할만한 자료
-- [IntelliJ를 시작하시는 분들을 위한  IntelliJ 가이드 - 이동욱님 인프런 강의](https://www.inflearn.com/course/intellij-guide/): 처음 접근하는 사람도 무섭지 않게 차근차근 핵심기능을 알려줌. 어우 바꾸기 부담되고 어디서부터 시작할지 모르겠어 하는 사람들에게 추천. 내가 쓰던 단축키-기능을 Intellij에서는 어떻게 쓰는지 알려줌.
+- [IntelliJ를 시작하시는 분들을 위한 IntelliJ 가이드 - 이동욱님 인프런 강의](https://www.inflearn.com/course/intellij-guide/): 처음 접근하는 사람도 무섭지 않게 차근차근 핵심기능을 알려줌. 어우 바꾸기 부담되고 어디서부터 시작할지 모르겠어 하는 사람들에게 추천. 내가 쓰던 단축키-기능을 Intellij에서는 어떻게 쓰는지 알려줌.
 
 ## Intellij 기본 사용법
 - 기존에 알고 있던 내용은 제외하고 새로 알게된 내용이나 한번 더 리마인드가 필요한 내용만 정리함. 나만 알아볼 수 있게 정리해두었으므로 자세한 내용이 알고 싶으면 위 공식 문서와 이동욱님 인프런 강의를 참고할 것.
@@ -48,6 +48,12 @@ search:
 - [IntelliJ IDEA 2018.3 Help - code-inspection](https://www.jetbrains.com/help/idea/code-inspection.html)
 - Menu - Analyze - Inspect code 선택 
 - IDE내에서 git commit 할 경우, Before Commit 옵션에 'Perform codeanalyze' 체크해서 사용하자 
+
+### Move
+- :+1: Switcher : `ctrl + tab`
+- Move code Editor Tab : `shift + cmd + [`, `shift + cmd + [`
+- Move to Project View : `cmd + 1`
+
 
 ### Debugging
 - 다른 IDE 와 거의 유사. 
@@ -134,6 +140,12 @@ search:
   - `psfs` ->  `public static final String`
   - `fori` ->  `for (int i = 0; i < ; i++) { }`
   - `ifn` -> `if (var == null) { }`
+
+### Test
+- [Create Test](https://www.jetbrains.com/help/idea/create-tests.html) : class 정의한 부분에서 `alt + enter` -> create Test 
+- Generate Test Method : Test class 내에서 `cmd + n` 
+
+
 
 ### Refactoring 
 #### 중복부분 Extraction - `opt + cmd + V/P/M`
