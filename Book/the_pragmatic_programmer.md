@@ -98,3 +98,27 @@ What else are you leaving behind?
       - 예를 들면, 특정 task가 오래 걸릴 때, PO가 신호를 포착 -> 왜 그렇게 오래 걸리는지 원인을 파악하고 그 이유가 설계에 문제가 있다면 리팩토링을 하게 되고. 이렇게 팀에서 개선을 하는 것 역시 중요한 프로젝트 기여로 파악해야한다.
 - 결합도를 낮출 때 상속에서 어떻게 처리할 것인가. composition 형태로 바꿔야할까? composition이 너무 많아도 문제다. depth는 낮아지만 결합이 높아지죠.
 - [Dependency Injection](https://www.tutorialsteacher.com/ioc/dependency-injection) 을 고려
+
+## ch35. EVIL WIZARD
+- *실용주의 프로그래머 20주년 기념 신판에서는 제외된 챕터.*
+> 자신이 이해하지 못하는, 마법사가 만들어 준 코드는 사용하지 말라 
+- 프레임워크를 사용할 때도 해당되지 않을까 싶습니다. 프레임워크의 최소한의 동작원리를 이해하지 않고 만든다면 정말 쓰레기
+> 동시에 애플리케이션 자체도 점점 더 복잡해지고 있다. (중략...이것저것 님 다 해야한다는 내용) 아, 다음주까지 이것들을 다 해야 한다는 말을 했던가?
+- 개발자한테 왜 그럽니까 정말 잔인한 싸람들ㅠㅠㅠㅠ
+
+## ch36. The Requirements Pit
+- 요구사항은 최대한 일반적 진술로, 정책은 애플리케이션에서 메타데이터로.
+- 개발을 통해 *진술한* 요구사항을 충족하는 게 아니라 실질적인 비즈니스 문제를 해결해야 하는 것이다
+> 요구사항은 아키텍처가 아니다. 요구사항은 설계가 아니며, 사용자 인터페이스도 아니다. 요구사항은 필요다
+> 뭔가 선택할 수 있는 기능을 설명하느라 리스트 박스를 한 가지 예로 사용하고 있다면 그것은 요구사항이 아닌 것이다
+  - 앞으로 요구사항을 정리할 때 이 문구가 기준을 잡아야겠다. 
+- 프로그램 사용자와 고객이 다른 경우(예를 들면, 쇼핑몰 웹페이지를 의뢰한 고객) 요구사항을 어떻게 명세할 것인가? 
+- 요구사항 추적과 용어사전은 책에 언급된 대로 `기능 하나만 더가 사실 이번달에 추가된 15번째 새 기능이었다` 상황을 실제 겪었을 때 유용했다. 뼈와 살이 되는 경험이었다...
+- 재미있게 봤었던 [UML 실전에서는 이것만 쓴다(로버트 C. 마틴 저 / 이용원, 정지호 공역 | 인사이트(insight) | 2010년 12월 30일 | 원제 : UML for Java Programmers (2003))](http://www.yes24.com/Product/Goods/4492519) 이 생각났다.
+
+## 스터디하면서 나온 이야기
+- Requirements / Use case 레퍼런스
+  - [Alistair Cockburn의 Writing Effective Use Cases](https://www.academia.edu/32227372/Alistair_Cockburn_Writing_Effective_Use_Cases)
+    - [usecase template](http://www.cs.otago.ac.nz/coursework/cosc461/uctempla.htm)
+  - [IEEE Std. 830 template](http://www.cse.msu.edu/~cse870/IEEEXplore-SRS-template.pdf)
+  - [소프트웨어 요구사항 정의를 위한 요구사항 명세서(SRS, Software Requirement Specification)](https://m.blog.naver.com/PostView.nhn?blogId=suresofttech&logNo=220890446379&proxyReferer=https:%2F%2Fwww.google.com%2F)
