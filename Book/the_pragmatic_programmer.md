@@ -122,3 +122,8 @@ What else are you leaving behind?
     - [usecase template](http://www.cs.otago.ac.nz/coursework/cosc461/uctempla.htm)
   - [IEEE Std. 830 template](http://www.cse.msu.edu/~cse870/IEEEXplore-SRS-template.pdf)
   - [소프트웨어 요구사항 정의를 위한 요구사항 명세서(SRS, Software Requirement Specification)](https://m.blog.naver.com/PostView.nhn?blogId=suresofttech&logNo=220890446379&proxyReferer=https:%2F%2Fwww.google.com%2F)
+- Tools
+  - [sequencediagram.org](https://sequencediagram.org/)
+  - [star uml](http://staruml.io/)
+  - [visio](https://www.microsoft.com/ko-kr/microsoft-365/visio/flowchart-software)
+  - [draw.io](draw.io)
