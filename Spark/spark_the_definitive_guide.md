@@ -85,7 +85,23 @@
 - 클러스터 매니저는 Spark 애플리케이션 실행에 필요한 자원을 할당하고, 할당받은 자원으로 작업을 처리. 클러스터 매니저에 스파크 애플리케이션을 submit. 
   - 클러스터 매니저 : spark standalone cluster manager, Hadoop YARN, Mesos 같은 클러스터 매니저
 
-
+# Ch18. Monitoring
+## plus
+- '18.1모니터링 범위'에는 적혀있는데 책에서 다루지 않는 모니터링 파트
+- 모니터링, 로깅 기본 of 기본
+  - [DevOps 팀을 위한 모니터링 팁 - 리디북스](https://www.ridicorp.com/blog/2016/05/22/monitoring-howto/)
+  - [실전 Log 분석과 체계적인 관리 가이드](http://www.yes24.com/24/viewer/preview/13464500) : 처음 Log 분석 개념 잡을 때 도움이 되었던 책. 1~4장까지 로그에 대한 기본감을 잡는데 도움이 되는 내용이 들어있음. 2014년도 책이라 hadoop 로깅만 다루고 있음.  
+- OS  모니터링
+  - [자바 트러블슈팅(이성민)](http://mobile.kyobobook.co.kr/showcase/book/KOR/9791188621828) ch17 ~23, (구판 [자바 개발자와 시스템 운영자를 위한 트러블 슈팅 이야기(이성민)](http://mobile.kyobobook.co.kr/showcase/book/KOR/9788979148305) story12-17, story19,20) - 신/구판 둘 중 하나만 봐도 상관없음
+  - [실무로 배우는 시스템 성능 최적화](http://mobile.kyobobook.co.kr/showcase/book/KOR/9791158390235?orderClick=Ow1) (ch1~3, [8부] 서버 OS 모니터링)
+  - 클라우드 모니터링 - 요즈음엔 클라우드 환경에서 구축되어 있는 경우가 많아 'OS와 머신' 이 크게 어떤 상황인지 볼 때 클라우드에서 제공하는 모니터링 대쉬보드 봄. 
+    - https://docs.aws.amazon.com/ko_kr/glue/latest/dg/monitor-spark-ui.html  
+- JVM 모니터링 
+  - JVM 이 무엇인지 : https://www.slipp.net/wiki/display/SLS/%231+Java+Compiler
+  - 모니터링 툴 간략소개 :  https://www.slipp.net/wiki/pages/viewpage.action?pageId=30770150
+  - 그 외 :  Java performance Fundatamental [자료1](https://www.slipp.net/wiki/display/java/Java+Performance+Fundamental) [자료2](https://www.slipp.net/wiki/pages/viewpage.action?pageId=30770051)
+- 클러스터 모니터링
+  - [DEVIEW 2019 - 대규모 클러스터 모니터링 도전기: 모니터링, 어디까지 알아보고 오셨어요? Cluster level 부터 User level까지](https://deview.kr/2019/schedule/318)
 
 
 
