@@ -103,5 +103,16 @@
 - 클러스터 모니터링
   - [DEVIEW 2019 - 대규모 클러스터 모니터링 도전기: 모니터링, 어디까지 알아보고 오셨어요? Cluster level 부터 User level까지](https://deview.kr/2019/schedule/318)
 
+## More
+### Spark On GPU
+- [nvidia-docker](https://github.com/NVIDIA/nvidia-docker) : "The NVIDIA Container Toolkit allows users to build and run GPU accelerated Docker containers."
+- [rapidsai/spark-examples](https://github.com/rapidsai/spark-examples) : "This repo provides docs and example applications that demonstrate the RAPIDS.ai GPU-accelerated XGBoost-Spark project."
+  - Spark3.0 아직 지원안함
+- [Microsoft Machine Learning for Apache Spark](https://mmlspark.blob.core.windows.net/website/index.html) / [github](https://github.com/Azure/mmlspark) / [dockerhub](https://hub.docker.com/r/microsoft/mmlspark): "A Fault-Tolerant, Elastic, and RESTful Machine Learning Framework." "MMLSpark adds many deep learning and data science tools to the Spark ecosystem, including seamless integration of Spark Machine Learning pipelines with Microsoft Cognitive Toolkit (CNTK), LightGBM and OpenCV. These tools enable powerful and highly-scalable predictive and analytical models for a variety of datasources."
+- [Kubeflow](https://www.kubeflow.org/docs/about/kubeflow/) : "The Kubeflow project is dedicated to making deployments of machine learning (ML) workflows on Kubernetes simple, portable and scalable. Our goal is not to recreate other services, but to provide a straightforward way to deploy best-of-breed open-source systems for ML to diverse infrastructures."
+- MMLSpark vs GCP vs ?
 
-
+### Pandas UDF
+- [New Pandas UDFs and Python Type Hints in the Upcoming Release of Apache Spark 3.0](https://databricks.com/blog/2020/05/20/new-pandas-udfs-and-python-type-hints-in-the-upcoming-release-of-apache-spark-3-0.html)
+- [Pandas UDF and Python Type Hint in Apache Spark 3.0](https://databricks.com/session_na20/pandas-udf-and-python-type-hint-in-apache-spark-3-0)
+- Tip : tracking 을 쉽게 하기 위해서 appName 를 꼭 적어줍시다. 
