@@ -3,7 +3,7 @@
 
 ## Git For Me
 - Git 에 익숙해지기 위해, 개인 프로젝트 버전 관리할 때
-- [자료](/git_for_me.pdf)_
+- [Git For Me](git_for_me.pdf) :_ 기초적인 git 개념과 주요command 실습해보기, 30min 소요 
 
 ## Git For You & Me
 ### Guide Map
