@@ -25,6 +25,7 @@
 - [mozilla Newsletter](https://www.mozilla.org/en-US/newsletter/) : 영어 / 모질라 재단에서 진행하는 사업 관련과 firefox 소식을 보내줌. 받아볼 토픽을 선택할 수 있음. 나는 Knowledge is Power(Get all the knowledge you need to stay safer and smarter online), Take Action for the Internet(Add your voice to petitions, events and initiatives that fight for the future of the web), Developer Newsletter(A developer’s guide to highlights of Web platform innovations, best practices, new documentation and more) 를 받아보고 있음.
 - 좋은 개발 article 번역된 사이트 : https://muchtrans.com/
 - [개발자스럽다](https://blog.gaerae.com/) : 한국어 / 개발 블로그(기업,개인 모두), 소셜미디어에 올라오는 소식까지 같이 큐레이션해서 온다 
+- [FE news by naver](https://github.com/naver/fe-news) : *"네이버 FE 엔지니어들이 엄선한 양질의 FE 및 주요한 기술 소식들을 큐레이션해 공유하는 것을 목표로 합니다."*
 
 ### IT / 스타트업 소식
 - IT 미디어에서 제공하는 뉴스레터는 엔간하면 구독한다. 개발 베이스 스타트업이 많다보니 스타트업 소식도 따로 구독해보고 있다.
