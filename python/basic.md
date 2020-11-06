@@ -1,11 +1,17 @@
 ## 개요
-- python 언어 자체를 다룬 강의나 책을 본 적이 없음. 데이터사이언스 책에서 나오는 python으로 봄. 기초 문법 강의로 python을 다시 공부하면서 몰랐던 부분을 정리
-- python3 기준
+- (2020.11.06)일하면서, 사이드 프로젝트할 때 사용하는 자주 쓰이는 언어가 되었다. 파이썬 관련 기초 강의를 하면서 수강생들에게 안내한 정보 메모
+- (18.01.12)python 언어 자체를 다룬 강의나 책을 본 적이 없음. 데이터사이언스 책에서 나오는 python으로 봄. 기초 문법 강의로 python을 다시 공부하면서 몰랐던 부분을 정리
 
 ## 참고
 - [Beginners Guide - Python for Programmers](https://wiki.python.org/moin/BeginnersGuide/Programmers)
 - [python Doc](https://docs.python.org/3/genindex.html)
 - [python tutorial](https://docs.python.org/3/tutorial/index.html)
+
+## List comprehention
+- [Python Docs - List Comprehention](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions)
+- [Parkito's on the way - Python list comprehension에 대한 즐거운 이해](https://shoark7.github.io/programming/python/about-list-comprehension-python)
+- [mingrammer.com - 파이썬의 Comprehension 소개](https://mingrammer.com/introduce-comprehension-of-python/)
+
 
 ## standard input/ output
 ### input
