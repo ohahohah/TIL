@@ -6,6 +6,15 @@
 - [Beginners Guide - Python for Programmers](https://wiki.python.org/moin/BeginnersGuide/Programmers)
 - [python Doc](https://docs.python.org/3/genindex.html)
 - [python tutorial](https://docs.python.org/3/tutorial/index.html)
+- 좋아하는 자료
+  - [Python for Everybody by  Dr. Charles Russell Severance](https://www.py4e.com/) / [한글번역서](https://blog.insightbook.co.kr/2019/08/16/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%ED%8F%AC-%EC%97%90%EB%B8%8C%EB%A6%AC%EB%B0%94%EB%94%94-%E3%80%8A%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A5%BC-%EB%8B%A4%EB%A3%A8%EB%A9%B0-%EB%B0%B0%EC%9A%B0%EB%8A%94-%ED%8C%8C/) - [Video Lecture](https://www.youtube.com/playlist?list=PLlRFEj9H3Oj7Bp8-DfGpfAfDBiblRfl5p) : 파이썬 = 비단뱀 이라 교수님이 마법 모자를 쓰고 슬리데린 드립을 치는 부분을 아주 아주 아주 좋아한다.
+  - [Introducing Python: Modern Computing in Simple Packages by Bill Lubanovic](https://www.amazon.com/-/ko/dp-1492051365/dp/1492051365/ref=dp_ob_title_bk) / [한글 번역서](https://books.google.co.kr/books?id=4Rr6DwAAQBAJ)
+  
+## PEP
+- 마음에 드는 PEP 를 모아둠. 순서는 없음
+  - What is a PEP : Python Enhancement Proposal. Python 커뮤니티에 정보를 제공하거나 Python 또는 해당 프로세스 또는 환경의 새로운 기능을 설명하는 디자인 문서. 기능에 대한 간결한 기술 사양과 근거를 기술해둠. [PEP 1 -PEP Purpose and Guidelines](https://www.python.org/dev/peps/pep-0001/)
+- [PEP 206](https://www.python.org/dev/peps/pep-0206/) : 'Batteries Included Philosophy'. 사용자가 별도의 패키지 다운로드 없이도 다양하고 풍부하게 사용할 수 있도록 여러 라이브러리를 함께 제공함.
+
 
 ## List comprehention
 - [Python Docs - List Comprehention](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions)
