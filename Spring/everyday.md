@@ -14,7 +14,7 @@
   - 김종민.스프링 입문을 위한 자바 객체지향의 원리와 이해.위키북스.2017 
 - code review 받을 곳 만듦 - 2021.01.07 - 2021.02.11
 
-## 20201211 - spring boot sample project - petclinic
+## 20201211 - spring boot sample project - petclinic 기본 분석
 - spring boot - petclinic sample project [github repo](https://github.com/spring-projects/spring-petclinic) / [diagrams](https://speakerdeck.com/michaelisvy/spring-petclinic-sample-application)
   - in-memory DB h2
   - 일반적인 maven 구조
@@ -84,10 +84,15 @@
 2-2. debugger로 보기
 - Using Debugger -  variables view  
 
-## Next Action
-- [ ] petclinic 변경 - first name 검색 가능
-- [ ] petclinic 변경 - 일부 문자열만 입력해도 검색 가능
-- [ ] petclinic 변경 - owner 에 age 속성 추가
-
+## 20201212 - petclinic 변경
+- 각 항목마다 분리해서 commit 남아있으니 참고(private repo).
+- [x] petclinic 변경 - first name 검색 가능
+  - controller 와 Repository 에서 Get mapping url 과 조회하는 함수와 쿼리 수정하고
+  - 나머지는 관련된 view 찾아서 html 적절하게 변경
+- [x] petclinic 변경 - first name 일부 문자열만 입력해도 검색 가능
+  - query 에서 like 조건 사용
+- [x] petclinic 변경 - owner 에 age 속성 추가
+  - Owner 와 owner 정보 보여주는 화면들 변경
+  - create owner db query 도 변경. insert 쿼리도 age 값 추가해줌.
 
 
