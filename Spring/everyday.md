@@ -90,9 +90,21 @@
   - controller 와 Repository 에서 Get mapping url 과 조회하는 함수와 쿼리 수정하고
   - 나머지는 관련된 view 찾아서 html 적절하게 변경
 - [x] petclinic 변경 - first name 일부 문자열만 입력해도 검색 가능
-  - query 에서 like 조건 사용
+  - query 에서 like 조건 와일드카드 사용 `LIKE %:firstName%`
 - [x] petclinic 변경 - owner 에 age 속성 추가
   - Owner 와 owner 정보 보여주는 화면들 변경
-  - create owner db query 도 변경. insert 쿼리도 age 값 추가해줌.
+  - 에러 로그 보고 processing form DB 컬럼 없다는 에러 파악
+    - create owner db query 도 변경. insert 쿼리도 age 값 추가해줌.
 
+## 20201213 - petclinic 변경 review
+- 흐름보면서 변경하는 순서 잡아나가기 
+  - Find owners 화면에서부터 찾아들어감 - 화면 페이지 (templates/owners/findOwners.html) text 변경 -> `th:field="*{firstName}` binding 
+  -> OwnerController 
+   - `this.owners.findByFirstName(owner.getFirstName())` 변경 
+     - IDE 의 Create Method 기능 사용해서 OwnerRepository 에 함수 바로 만들어주기
+  -> OwnerRepository 에서 annotation 추가
+- getter, setter IDE 기능으로 추가하기 
+
+## 20201213 - IoC intro
+- [TIL/spring/IoC 문서](./ioc.md) 에 적어두었다.
 
