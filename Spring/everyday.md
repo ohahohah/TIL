@@ -106,5 +106,5 @@
 - getter, setter IDE 기능으로 추가하기 
 
 ## 20201213 - IoC intro
-- [TIL/spring/IoC 문서](./ioc.md) 에 적어두었다.
+- [TIL/spring/DI 문서](./di.md) 에 적어두었다.
 
