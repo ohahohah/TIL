@@ -108,3 +108,5 @@
 ## 20201213 - IoC intro
 - [TIL/spring/DI 문서](./di.md) 에 적어두었다.
 
+## NextAction
+- [ ] 한글 번역 요약본 - [번역] IoC 콘테이너와 디펜던시 인젝션 패턴 - javacan,최범균](https://javacan.tistory.com/entry/120) 글 읽고 이해한 부분 정리하기
