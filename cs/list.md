@@ -7,7 +7,7 @@
   - [우아한 테크코스 로드맵 2020](https://github.com/woowacourse/roadmap)
 - 여러 로드맵에서 겹치는 주제부터 정리
   - 각 concept 옆에 어떤 roadmap 에 나오는지 적음. 
-    - DE(Data Enginner), BE(Backend Developer), FE(Frontend Developer), WH(우아한 테크코스)
+    - DE(Data Enginner), BE(Backend Developer), FE(Frontend Developer), WH(우아한 테크코스), DO(DevOps)
 
 
 ## List
@@ -16,19 +16,36 @@
 
 ### OS
 - How OSs work in General (in BE)
-- Process Management (in BE)
-- Threads and Concurrency (in BE)
+- Process Management (in BE, DO)
+- Threads and Concurrency (in BE, DO)
+- Sockets (in DO)
 - Memory Management (in BE)
+- Memory / Storage (in DO)
+- File Sytems (in DO)
 - Interprocess Communication (in BE)
-- I/O Management
-- POSIX Basics 
+- I/O Management (in DE, BE, DO)
+- POSIX Basics (in DE, BE, DO)
   - stdin, stdout, stderr, pipes
+- virtualization (in DO)
+
   
 #### Linux
-- Basic Terminal Commands (in BE)
-  - grep, awk, sed, lsof, curl, wget, tail, head, less, find, ssh, kill
-  - 음 너무 기초적인 건데
-- shell scripting (in DE)
+- Basic Terminal Commands (in BE, DO)
+  - Text manipulation 
+    - awk, sed, grep, sort, uniq, cat, cut,echo, fmt, tr, nl,  egrep, fgrep, wc
+  - process Monitoring
+    - ps, top, htop, atop, lsof, kill
+  - Network 
+    - nmap, tcpdump, ping, mtr, traceroute, dig, alrmon, alrodump, iptables, netstat
+  - System performance 
+    - nmon, lsotat, sar, vmstat
+  - etc
+    - curl, wget, tail, head, less, find, ssh
+    - strace, dtrace, systemptap, uname, df, history
+- compiling apps from source 
+  - gcc, make, and other realted stuff
+
+- shell scripting (in DE, DO)
   - 괜찮은 reference 정리
 - cronjobs(in DE)
 
@@ -37,26 +54,41 @@
 - How does the internet work? (in DE, BE)
 - What is HTTP, HTTPS(in DE, BE)
   - 이건 추가 reference 와 RFC 도 넣어두기
+  - Header, caching, Optimization, HTTP 2.0, HTTP 3.0 (in WH)
 - Browsers and how they work?(in BE)
 
-- Network protocols (in DE)
+- Network protocols (in DE, DO)
   - 많이 쓰이는 것 개요 정도만
+- Connection Management (in WH)
+- OSI 7 Layer (in WH)
+- FTP (in DO)
 - TCP (in DE)
 - SSH (in DE)
+- Emails : SMTP, IMAPS, POP3S (in DO)
 - IP (in DE)
 - DNS and how it works? (in DE, BE)
 - What is Domain Name? (in BE)
 - What is hosting (in BE)
+- Port Forwarding (in DO)
 - Firewalls (in DE)
 - VPN (in DE)
   - AWS 에서 어떻게 적용해서 쓰고 있는지 덧붙여봐야겠음. 
 - VPC (in DE)
+- Block/Non-block Sync/Async (in WH)
+- Proxy : Reverse / Forward Proxy (in WH)
+- Caching Server (in DO)
+- Load Balancer (in DO)
+- DMARC (in DO)
+- SPF (in DO)
+- Domain Keys (in DO)
 
-### Web Security (in BE)
+
+### Web Security (in BE, WH)
 - CORS
 - SSL/TLS
 - OWASP Security Risks
 - Content Security Policy
+- SQL Injection
 
 - Cookie based 
 - OAuth
@@ -147,5 +179,11 @@
   - Monitoring
   - Telemetry 
 - Migration Strategies
-- Horizontal vs vertical scaling (in DE, DE)
+- Horizontal vs vertical scaling (in DE,  BE, WH)
   - scale-out , scale-up
+- SPOF - Fault Tolerance (in WH)
+
+## Testing
+- 주제가 다 커서 topic 으로 정리될지 의문
+- TDD 
+- F.I.R.S.T
