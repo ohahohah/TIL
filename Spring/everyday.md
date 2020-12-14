@@ -108,5 +108,60 @@
 ## 20201213 - IoC intro
 - [TIL/spring/DI 문서](./di.md) 에 적어두었다.
 
+## 20201214 - IoC 개념 이해하기 - refernece 이해 1 
+- Inversion of Control Containers and the Dependency Injection pattern
+ : https://www.martinfowler.com/articles/injection.html 
+  
+- 서로 다른 요소를 어떻게 연결하는 과제를 생각해보자.  서로 다른 객체들을 어떻게 연결할까? 만약 각 객체를 서로 다른 팀이 개발했고, 서로의 코드를 잘 모른다면? 
+- 이 문제를 해결하기 위해 경량 콘테이너 lightweight container - 다른 layer 에 위치하는 component 를 조립하는 기능을 제공하는 프레임워크 - 중에 하나가 Spring 임.
+- 이 컬럼에서 이야기하는 Service 는 
+  - 어플리케이션에서 사용될 목적으로 만들어진 소프트웨어의 한 구성 요소
+  - 지정해둔 remote interface(웹서비스, 메시징 시스템, RPC, 소켓 등)를 통해 원격으로 동기/비동기 방식으로 사용됨
+    - component 는 local(jar or dll)에서 사용된다는게 차이
+- 아래에서 MovieFinder 와 MovieLister 객체를 어떻게 연결시키는지 살펴볼 것이다.
+```java
+class MovieLister...
+        public Movie[] moviesDirectedBy(String arg) {
+            List allMovies = finder.findAll();
+            for (Iterator it = allMovies.iterator(); it.hasNext();) {
+                Movie movie = (Movie) it.next();
+                if (!movie.getDirector().equals(arg)) it.remove();
+            }
+            return (Movie[]) allMovies.toArray(new Movie[allMovies.size()]);
+        }
+```
+- interface 로 구현해서 MovieLister 와 MovieFinder 의 coupling 결합도 가 낮춤.
+```java
+  public interface MovieFinder {
+        List findAll();
+    }
+```
+- MovieFinder는 interface 이므로 실제 구현 객체 ColonDelimiterMovieFinder 로 연결했다. 
+```java
+ class MovieLister...
+      private MovieFinder finder;
+      public MovieLister() {
+        finder = new ColonDelimitedMovieFinder("movies1.txt");
+      }
+```
+
+- 여기서 문제발생. 만약 파일을 처리하는 ColonDelimitedMovieFinder 말고 DB, xml 등을 사용해 movie 정보를 불러오고 싶다면? ColonDelimitedMovieFinder 말고 다른 걸 사용해야한다. 
+- 근데 지금 위에 코드에서 ColonDelimitedMovieFinder 객체를 create하고 있네? 실제 구현 클래스에도 dependecy 가 있다. 
+![Figure 1: The dependencies using a simple creation in the lister class : MovieLister - dependency - MovieFinderImpl](https://user-images.githubusercontent.com/17819874/102112778-86e53580-3e7b-11eb-941c-0719bc4e562d.png)
+
+- 만들고 싶은 건 interface에만 dependency 하고 실제 구현 클래스에는 dependecy 하지 않도록 하는 것! 
+- 이때 사용하는게 plugin pattern 
+  - 어떤 MovieFinder Implement class 를 사용할 지 모르기 때문에
+  - The implementation class for the finder 는 컴파일 타임에 연결되지 않음
+  - 대신 어느 구현에서나 lister 가 동작되기 위해 나중에 'plug in' 시킨다. 구현시키는 것도 내가 처리하지 않는다. 
+  - lister 는 implementation class 를 모르도록 link 할 수 있지만 instance 와 대화해서 작업은 가능하다. 
+- 이렇게 plug-in 을 사용해 상호작용을 처리해야 다른 implement class 를 사용할 수 있을 것이다. 
+- 그럼 이런 plug-in을 어떻게 application 으로 assemble 조립 할 수 있을까? 이게 바로 lightweight container 가 직면하는 주요 문제이고, 일반적으로 IoC 를 사용해 문제를 처리한다.
+
+
 ## NextAction
-- [ ] 한글 번역 요약본 - [번역] IoC 콘테이너와 디펜던시 인젝션 패턴 - javacan,최범균](https://javacan.tistory.com/entry/120) 글 읽고 이해한 부분 정리하기
+- [doing] ~한글 번역 요약본~ - [번역] IoC 콘테이너와 디펜던시 인젝션 패턴 - javacan,최범균](https://javacan.tistory.com/entry/120) 글 읽고 이해한 부분 정리하기
+  - 번역 내용이 헷갈려서 원본 보고 이해했다. 
+  Inversion of Control Containers and the Dependency Injection pattern
+ : https://www.martinfowler.com/articles/injection.html 
+
