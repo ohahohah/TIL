@@ -4,17 +4,28 @@
     - 나중에 여기에 맞는 실습 예제 덧붙이면 재밌겠다. 
   - [Web developer Roadmap 2020 by kamranahmedse](https://github.com/kamranahmedse/developer-roadmap)
   - [Modern Data Engineer Roadmap 2020 by datastacktv](https://github.com/datastacktv/data-engineer-roadmap)
-  - [우아한 테크코스 로드맵 2020](https://github.com/woowacourse/roadmap)
-- 여러 로드맵에서 겹치는 주제부터 정리
+  - [우아한 테크코스 로드맵 2020](https://github.com/woowacourse/roadmap)  
+<details><summary>log</summary>
+- 20201217 각 topic 별로 reference 매핑
+  - 최대한 부담없이 읽을 수 있는 입문책 1권. 
+    - 소유하고 있거나, learning oreilly 구독으로 볼 수 있거나, 도서관에서 빌려볼 수 있는 책 중심
+- 20201211-13 여러 로드맵에서 겹치는 주제부터 정리
   - 각 concept 옆에 어떤 roadmap 에 나오는지 적음. 
     - DE(Data Enginner), BE(Backend Developer), FE(Frontend Developer), WH(우아한 테크코스), DO(DevOps)
+</details>
 
 
 ## List
 - How does the computer work? (in DE)
+  - ref : [ebook] J. 클라크 스코트. But How do it know? - The basic pricipal of computers for everyone 그래서 컴퓨터는 어떻게 동작하나요?.인사이트(지유록 역).2019
   - 야... 이건 한페이지로 정리하기 어렵겠는데
 
 ### OS
+- ref 
+  - [ebook] 반효경.운영체제와 정보기술의 원리.이화여자대학교출판부.2008 ([목차](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788966262502))
+  - Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau(University of Wisconsin-Madison).Operating Systems: Three Easy Pieces - [site with free download](http://pages.cs.wisc.edu/~remzi/OSTEP/)
+     - [ebook] Remzi H. Arpaci-Dusseau 외. 운영체제 아주 쉬운 세 가지 이야기.홍릉과학출판사((원유집 외 옮김).2017 / [2판 번역 개정판](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791156007937)이 나왔다. 
+  
 - How OSs work in General (in BE)
 - Process Management (in BE, DO)
 - Threads and Concurrency (in BE, DO)
@@ -165,6 +176,8 @@
 
 ## Inbox
 - gRPC
+- log 
+  - I heart log [oreilly](https://www.oreilly.com/library/view/i-heart-logs/9781491909379/)
 
 ### Building For Scale (in BE)
 - 이건 어떻게 정리해야할지 감이 안오네 
