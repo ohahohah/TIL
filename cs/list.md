@@ -2,16 +2,17 @@
 - 아래 roadmap 에 있는 concept과 짧게 정리할 수 있는 사용법들을 각 한 페이지로 정리할 생각
   - concept 을 파고 들어가면 끝도 없을 듯하여 최대한 정의 중심으로 정리 
     - 나중에 여기에 맞는 실습 예제 덧붙이면 재밌겠다. 
-  - [Web developer Roadmap 2020 by kamranahmedse](https://github.com/kamranahmedse/developer-roadmap)
-  - [Modern Data Engineer Roadmap 2020 by datastacktv](https://github.com/datastacktv/data-engineer-roadmap)
-  - [우아한 테크코스 로드맵 2020](https://github.com/woowacourse/roadmap)  
+  - [Web developer Roadmap 2020 by kamranahmedse](https://github.com/kamranahmedse/developer-roadmap) - index : BE(Back-end), FE(Front-end), DO(DevOps)
+  - [Modern Data Engineer Roadmap 2020 by datastacktv](https://github.com/datastacktv/data-engineer-roadmap) - index : DE(Data Engineering)
+  - [우아한 테크코스 로드맵 2020](https://github.com/woowacourse/roadmap)  - index : WH
 <details><summary>log</summary>
-- 20201217 각 topic 별로 reference 매핑
-  - 최대한 부담없이 읽을 수 있는 입문책 1권. 
-    - 소유하고 있거나, learning oreilly 구독으로 볼 수 있거나, 도서관에서 빌려볼 수 있는 책 중심
-- 20201211-13 여러 로드맵에서 겹치는 주제부터 정리
-  - 각 concept 옆에 어떤 roadmap 에 나오는지 적음. 
-    - DE(Data Enginner), BE(Backend Developer), FE(Frontend Developer), WH(우아한 테크코스), DO(DevOps)
+  
+- 20201217 각 topic 별로 reference 매핑  
+  - 최대한 부담없이 읽을 수 있는 입문책 1권.   
+    - 소유하고 있거나, learning oreilly 구독으로 볼 수 있거나, 도서관에서 빌려볼 수 있는 책 중심  
+- 20201211-13 여러 로드맵에서 겹치는 주제부터 정리  
+  - 각 concept 옆에 어떤 roadmap 에 나오는지 적음.   
+    - DE(Data Enginner), BE(Backend Developer), FE(Frontend Developer), WH(우아한 테크코스), DO(DevOps)  
 </details>
 
 
