@@ -111,7 +111,7 @@
 ## 20201214 - IoC 개념 이해하기 - refernece 이해 1 
 - Inversion of Control Containers and the Dependency Injection pattern
  : https://www.martinfowler.com/articles/injection.html 
-  
+
 - 서로 다른 요소를 어떻게 연결하는 과제를 생각해보자.  서로 다른 객체들을 어떻게 연결할까? 만약 각 객체를 서로 다른 팀이 개발했고, 서로의 코드를 잘 모른다면? 
 - 이 문제를 해결하기 위해 경량 콘테이너 lightweight container - 다른 layer 에 위치하는 component 를 조립하는 기능을 제공하는 프레임워크 - 중에 하나가 Spring 임.
 - 이 컬럼에서 이야기하는 Service 는 
@@ -130,7 +130,7 @@ class MovieLister...
             return (Movie[]) allMovies.toArray(new Movie[allMovies.size()]);
         }
 ```
-- interface 로 구현해서 MovieLister 와 MovieFinder 의 coupling 결합도 가 낮춤.
+- interface 로 구현해서 MovieLister 와 MovieFinder 의 coupling 결합도 낮춤.
 ```java
   public interface MovieFinder {
         List findAll();
@@ -158,10 +158,22 @@ class MovieLister...
 - 이렇게 plug-in 을 사용해 상호작용을 처리해야 다른 implement class 를 사용할 수 있을 것이다. 
 - 그럼 이런 plug-in을 어떻게 application 으로 assemble 조립 할 수 있을까? 이게 바로 lightweight container 가 직면하는 주요 문제이고, 일반적으로 IoC 를 사용해 문제를 처리한다.
 
+### IoC 란
+- Framework 는 Control 을 Inversion 하는 특징을 가진다. 
+  - UI 를 예로 들어보자. 이전에는 UI 출력에서 '프로그램 코드를 입력하세요' 처럼 사용자의 입력을 유도하고 입력값을 기다렸다. GUI  로 바뀐 후에는 UI Framework 가 이 루프를 담당하고, 프로그램은 화면 fields의 event handler를 제공한다. 프로그램의 control이 Framework 로 전도되었다. 
+- lightweight container 의 IoC 는 container 가 plugin Implementation 를 어떻게 찾아내느냐 이다. 
+  - 위 예제에서 lister 는 MovieFinder의 Implementation 를 직접 instance 생성해서 implementation을 찾아냈다. 이렇게 하면 finder 가 plugin 되지 못한다. 
+  - 대신 이런 접근 방식을 사용한다. **별도의 assemble module** 에서 implementation 을 lister 에 injection 할 수 있게 몇 가지 규칙을 따르게 하는 것이다. 
+- IoC 용어는 범용적이로 쓰이므로 이 패턴에 맞게 DI, Dependecy Injection 용어를 만들어냈다. 
+  - application class에서 plugin 구현으로 dependency 를 제거하는 방법은 DI 외에 service location 등이 있다.
+  
+
+
 
 ## NextAction
-- [doing] ~한글 번역 요약본~ - [번역] IoC 콘테이너와 디펜던시 인젝션 패턴 - javacan,최범균](https://javacan.tistory.com/entry/120) 글 읽고 이해한 부분 정리하기
-  - 번역 내용이 헷갈려서 원본 보고 이해했다. 
-  Inversion of Control Containers and the Dependency Injection pattern
+- [doing] 이해한만큼 정리하기  https://www.martinfowler.com/articles/injection.html#FormsOfDependencyInjection
+  - Inversion of Control Containers and the Dependency Injection pattern
  : https://www.martinfowler.com/articles/injection.html 
+ - 범위 참고. 한글 번역 요약본 - [번역] IoC 콘테이너와 디펜던시 인젝션 패턴 - javacan,최범균](https://javacan.tistory.com/entry/120) 글 읽고 이해한 부분 정리하기
+
 
