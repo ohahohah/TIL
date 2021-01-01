@@ -10,6 +10,10 @@
   - [What is "the Shell"? - linuxcommand.org](https://linuxcommand.org/lc3_lts0010.php)
 - [Linux Bible by Christopher Negus, Christine Bresnahan](https://www.goodreads.com/book/show/13838572-linux-bible)
 - [The Linux Command Line by William Shotts](http://linuxcommand.org/tlcl.php) / [한글 번역서 - 리눅스 커맨드라인 완벽 입문서.비제이퍼블릭(이종우 , 정영신 옮김).2013](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9788994774299)
+- Resources in udacity shell workshop
+  - [Bash Guide for Beginners by Machtelt Garrels. 2008](https://tldp.org/LDP/Bash-Beginners-Guide/html/)
+  - [BASH Programming - Introduction HOW-TO by Mike G mikkey at dynamo.com.ar. 2000](https://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)
+
 
 ## What is Bash,shell and terminal
 - Shell
