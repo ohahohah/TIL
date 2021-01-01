@@ -43,6 +43,8 @@
   
 #### Linux
 - Basic Terminal Commands (in BE, DO)
+  - ref 
+    - [The Linux Command Line by William Shotts](http://linuxcommand.org/tlcl.php) / [한글 번역서 - 리눅스 커맨드라인 완벽 입문서.비제이퍼블릭(이종우 , 정영신 옮김).2013](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9788994774299) : 스르륵 한번에 훑는 건 역시 이 책으로.
   - Text manipulation 
     - awk, sed, grep, sort, uniq, cat, cut,echo, fmt, tr, nl,  egrep, fgrep, wc
   - process Monitoring
