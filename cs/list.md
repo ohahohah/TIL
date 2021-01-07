@@ -6,7 +6,9 @@
   - [Modern Data Engineer Roadmap 2020 by datastacktv](https://github.com/datastacktv/data-engineer-roadmap) - index : DE(Data Engineering)
   - [우아한 테크코스 로드맵 2020](https://github.com/woowacourse/roadmap)  - index : WH
 <details><summary>log</summary>
-  
+- 20210107 각 topic 별로 reference 매핑 추가
+  - 레퍼런스를 더 덧붙이고 싶은 유혹을 느낀다. 이 부분에서는 이 레퍼런스가 더 자세하고 좋은데... 
+    - 자기 전 스르륵 읽을 수 있는 책을 고르자. 상세한 설명보다 뼈대 위주의 레퍼런스로. 큰 그림이 안 보일 수 있다. 
 - 20201217 각 topic 별로 reference 매핑  
   - 최대한 부담없이 읽을 수 있는 입문책 1권.   
     - 소유하고 있거나, learning oreilly 구독으로 볼 수 있거나, 도서관에서 빌려볼 수 있는 책 중심  
@@ -18,7 +20,7 @@
 
 ## List
 - How does the computer work? (in DE)
-  - ref : [ebook] J. 클라크 스코트. But How do it know? - The basic pricipal of computers for everyone 그래서 컴퓨터는 어떻게 동작하나요?.인사이트(지유록 역).2019
+  - ref : [ebook] [J. 클라크 스코트. But How do it know? - The basic pricipal of computers for everyone](https://www.goodreads.com/en/book/show/18276352-but-how-do-it-know---the-basic-principles-of-computers-for-everyone) / 역서 - [그래서 컴퓨터는 어떻게 동작하나요?.인사이트(지유록 역).2019](https://blog.insightbook.co.kr/2019/10/10/%EA%B7%B8%EB%9E%98%EC%84%9C-%EC%BB%B4%ED%93%A8%ED%84%B0%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%9E%91%EB%8F%99%ED%95%98%EB%82%98%EC%9A%94/)[역서 ebook](http://ebook.insightbook.co.kr/book/73)
   - 야... 이건 한페이지로 정리하기 어렵겠는데
 
 ### OS
@@ -44,7 +46,9 @@
 #### Linux
 - Basic Terminal Commands (in BE, DO)
   - ref 
-    - [The Linux Command Line by William Shotts](http://linuxcommand.org/tlcl.php) / [한글 번역서 - 리눅스 커맨드라인 완벽 입문서.비제이퍼블릭(이종우 , 정영신 옮김).2013](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9788994774299) : 스르륵 한번에 훑는 건 역시 이 책으로.
+    - [The Linux Command Line by William Shotts](http://linuxcommand.org/tlcl.php) / [역서 - 리눅스 커맨드라인 완벽 입문서.비제이퍼블릭(이종우 , 정영신 옮김).2013](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9788994774299) : 스르륵 한번에 훑는 건 역시 이 책으로.
+    - [Linux Bible by Christopher Negus, Christine Bresnahan](https://www.goodreads.com/book/show/13838572-linux-bible) / [역서 - 리눅스 바이블 9판.제이펍(배장열 옮김).2016](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9791185890586) : 조곤조곤 상세하게 내용을 설명하고 있음. 위 책과 보완해서 보려고 했는데 재밌어서 쭉 읽게 됨.
+
   - Text manipulation 
     - awk, sed, grep, sort, uniq, cat, cut,echo, fmt, tr, nl,  egrep, fgrep, wc
   - process Monitoring
@@ -65,9 +69,21 @@
 
 
 ### Network
+- ref
+  - network가 처음이라면 아래 중 취향껏 어떤 하나를 골라도 상관없음. 
+  - 전공과목이나 여러 루트로 공부를 한번 해 보았다면 큰 얼개를 파악하기 위해 여러 레퍼런스의 목차를 비교하면서 각 레퍼런스에 없는 내용을 서로 보완하면서 동시에 보는 것을 추천. 
+  <details><summary>list</summary>  
+
+  - [리브로웍스.TCP/IP 쉽게, 더 쉽게-명쾌한 설명과 풍부한 그림으로 배우는.제이펍(신상재 옮김).2016](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791185890678) : 옮긴이 머리말로 소개를 대체한다. 
+    > 이 책은 쉽다. 그것도 아주 쉽다. (...) 상상력을 자극하는 그림이 넘쳐난다. (...) 이 책을 보면서 '네트워크를 배워서 어디에 써먹지?' 와 같은 부담스러운 걱정은 할 필요가 없다. 그냥 지금 사용하고 있는 네트워크를 이해하고 그것을 알았을 때 느끼는 지적 포만감을 만끽하면 된다. 
+  - [아미노 에이지.하루 3분 네트워크 교실-인터넷 박사가 조교 넷군에게 알려주는 왕초보를 위한 네트워크 교실.영진닷컴(김현주 옮김).2016](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788931454727) : 왕초보를 위한. 배경 지식이 없는 사람도 쉽게 읽어나갈 수 있음. 조교와 박사의 대화체로 되어있음. 조교는 이상한 질문을 하고 박사는 조교를 구박한다. 조교는 대학원생인걸까... 힘내요.
+  - [우에노 센.그림으로 배우는 HTTP & Network.영진닷컴(이병억 역).2015](http://www.yes24.com/Product/Goods/15894097) : 역시 부담없는 책. HTTP 파트를 좀 더 다루고 있음. 마지막 장에 웹 공격 기술도 다루고 있음.
+  - [강의 / 김영한 - 모든 개발자를 위한 HTTP 웹 기본 지식 in 인프런](https://inf.run/4QZ7) : 5시간 40분(2배속하면 3시간). 네트워크 기초 지식부터 가볍게 설명해줌. 입문 단계에서 특히 좋을 듯. 요약 강의. 웹 개발자라면 이미 알고 있는 내용들로 구성되어 있어서 전체 흐름을 되짚을 겸 두 세시간 부담없는 세미나 듣듯이 스르륵 들으면 됨. 
+    - [강의 / 리얼리눅스 - 5월 무료세미나 "브라우저 부터 웹서버 까지" (네트워크 동작원리)](https://youtu.be/oW_EirDkCnM) : 1시간 가량. 간단한 실습(linux shell command)으로 흐름을 파악함
+  </details>
 - How does the internet work? (in DE, BE)
 - What is HTTP, HTTPS(in DE, BE)
-  - 이건 추가 reference 와 RFC 도 넣어두기
+  - 이건 추가 reference 와 RFC 도 넣어두기    
   - Header, caching, Optimization, HTTP 2.0, HTTP 3.0 (in WH)
 - Browsers and how they work?(in BE)
 
