@@ -46,7 +46,8 @@
 #### Linux
 - Basic Terminal Commands (in BE, DO)
   - ref 
-    - [The Linux Command Line by William Shotts](http://linuxcommand.org/tlcl.php) / [역서 - 리눅스 커맨드라인 완벽 입문서.비제이퍼블릭(이종우 , 정영신 옮김).2013](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9788994774299) : 스르륵 한번에 훑는 건 역시 이 책으로.
+    - [Shotts,William.The Linux Command Line.No Starch Press](http://linuxcommand.org/tlcl.php) / [역서 - 리눅스 커맨드라인 완벽 입문서.비제이퍼블릭(이종우 , 정영신 옮김).2013](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9788994774299) : 스르륵 한번에 훑는 건 역시 이 책으로.
+      - [OccupyTheWeb.Linux Basics for Hackers.No Starch Press.2018](https://learning.oreilly.com/library/view/linux-basics-for/9781492069485/) : 표지가 귀엽다. Kali Linux 사용하지만 Linux basic 사용을 다루고 있어서 크게 상관없을듯.
     - [Linux Bible by Christopher Negus, Christine Bresnahan](https://www.goodreads.com/book/show/13838572-linux-bible) / [역서 - 리눅스 바이블 9판.제이펍(배장열 옮김).2016](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9791185890586) : 조곤조곤 상세하게 내용을 설명하고 있음. 위 책과 보완해서 보려고 했는데 재밌어서 쭉 읽게 됨.
 
   - Text manipulation 
@@ -114,6 +115,18 @@
 
 
 ### Web Security (in BE, WH)
+- ref (inbox)
+  - amazon에서 목차 탐색만 함. / [oreilly playlist 로 보기](https://learning.oreilly.com/playlists/3b35317a-447f-427a-a0b0-939d68a9bec7)
+  - [McDonald,Malcolm.Web Security for Developers.No Starch Press.2020](https://learning.oreilly.com/library/view/web-security-for/9781098122683/) : 매우 기초적인 내용. 각 부분이 어떻게 동작하는지(How the internet works,...)에 대한 설명도 포함되어있음. 
+    - 이 책을 sub 로. [Bryan Sullivan, Vincent Liu.Web Application Security, A Beginner's Guide.McGraw-Hill.2011](https://learning.oreilly.com/library/view/web-application-security/9780071776165/)  
+  - [Hoffman,Andrew.Web Application Security.O'Reilly Media, Inc.2020](https://learning.oreilly.com/library/view/web-application-security/9781492053101/) : 위 책과 함께/다음 스텝으로 보기. 살짝 더 많은 내용을 커버하고 있음
+  - [Jonathan LeBlanc, Tim Messerschmidt.Identity and Data Security for Web Development.O'Reilly Media, Inc.2016](https://learning.oreilly.com/library/view/identity-and-data/9781491937006/) : 인증을 포함한 
+Identity and Data Security 중심
+  - For fun
+    - [ebook] Peter Yaworski.Web Hacking 101.2016
+    - [Peter Yaworski.Real-World Bug Hunting.No Starch Press.2019](https://learning.oreilly.com/library/view/real-world-bug-hunting/9781098122508/)
+
+
 - CORS
 - SSL/TLS
 - OWASP Security Risks
@@ -133,6 +146,7 @@
   - scrypt
   - bcrypt
 
+
 ### Data security & privacy' section (in DE)
 - Key management
 - Encryption
@@ -140,6 +154,10 @@
 
 ### APIs
 - REST(in DE, BE) 
+  - RMM
+    - https://martinfowler.com/articles/richardsonMaturityModel.html
+    - https://medium.com/@osaigbovoemmanuel1/is-the-richardson-maturity-model-relevant-in-2019-80e0cd211483
+    - https://techblog.commercetools.com/graphql-and-rest-level-3-hateoas-70904ff1f9cf
 
 ### Caching
 - CDN
@@ -166,6 +184,10 @@
 - CQRS and Ebent Sourcing
 - Severless
 
+- Fundamentals of Software Architecture: An Engineering Approach 1st Edition
+by Mark Richards
+- Monolith to Microservices: Evolutionary Patterns to Transform Your Monolith 1st Edition
+by Sam Newman 
 
 ### Databases
 - ORMS (in BE)
