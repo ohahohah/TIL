@@ -219,6 +219,7 @@ by Sam Newman
 - gRPC
 - log 
   - I heart log [oreilly](https://www.oreilly.com/library/view/i-heart-logs/9781491909379/)
+- [ebook : Modern Cloud Data Platform for Dummies](https://databricks.com/p/ebook/modern-cloud-data-platform-for-dummies#:~:text=The%20Modern%20Cloud%20Data%20Platform,unified%2C%20open%20and%20secure%20platform.) : Databricks 뉴스레터에 소개되어있었다. 36page 라 후루룩 읽어보면 재밌을 듯. 아직 읽기 전
 
 ### Building For Scale (in BE)
 - 이건 어떻게 정리해야할지 감이 안오네 
