@@ -1,8 +1,9 @@
 - [여러 버전의 파이썬 관리하기 (pyenv)
 Jan 11, 2020 - by Dale Seo](https://www.daleseo.com/python-pyenv/)
+  - pyenv 동작 안되는 문제 설정에서 alias 삭제로 해결함.  
+  https://github.com/pyenv/pyenv/issues/849#issuecomment-773221432
 
 - 파이썬에서의 접근자 
-
 - 오늘의 코드를 쓴 이유를 적자
 
 ## [궁금 / 해결] random.seed() 왜 하죠? etc 참고 
