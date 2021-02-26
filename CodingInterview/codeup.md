@@ -39,9 +39,7 @@
 - https://codeup.kr/problem.php?id=1013
 - 변수명 짧게 쓰기 - input01, input02 대신 x,y
 ```python
-  x, y = input().split()
-  x = int(x)
-  y = int(y)
+  x, y = map(int,input().split())
   print(x, y)
 ```
 </details>
