@@ -28,9 +28,14 @@
   - [유형별 분류](https://www.acmicpc.net/problem/tags) 로 유형을 파고 들어가면 학습할 수 있음
   - 초심자용 [단계별 문제](https://www.acmicpc.net/step) 풀이
   - 문제 난이도 정보 표시해주는 chrome extension - [sovled.ac](https://chrome.google.com/webstore/detail/solvedac/anenheoccfogllpbpcmbbpcbjpogeehe/related?hl=en-US)
+  - Slack 에서 질문, 대화 가능 [BOJ slack](https://acmicpc.slack.com)
 - [프로그래머스](https://programmers.co.kr/learn/challenges)
   - 카카오 공채 문제 제공
-
+- 시간 제한
+  - [codesignal](https://app.codesignal.com/): 쉬운 문제 제공.UI 사용자 친화적. 토너먼트 제공: 10분 동안 낮은 난이도 5개 풀기. 15분마다 토너먼트 있음. 2명 이상 등록하면 바로 시작.
+    - 비슷 - [codingame](https://www.codingame.com)
+  - [codeforces](https://codeforces.com/) : 매주 1회 이상 대회 열림. 대회 성적에 따라 rating됨. 2-2.5 시간 주어짐. 유명하고 알고리즘 대회 준비하는 사람들도 대회에 많이 참가. discussion 활발. 
+  
 ### 언어 선택
 - python : 최근 출제 경향은 파이썬 사용자에게 유리함. 
   - 변칙 유형에 유연하게 대응할 수 있음. 직관적. 기본 자료형 제공 기능 강력(batteries included). 문자열 처리 간결 쉬움.
@@ -104,6 +109,27 @@
   end_time = time.time() # 측정 종료
   print("time:", end_time - start_time) # 수행 시간 출력
   ```
+## 16-20년 코딩테스트 기출유형분석
+- 알고리즘 코딩 테스트가 많음. 문제 평가가 용이
+- 2-5시간 동안 8개 이하 알고리즘 문제풀기
+  - 정확한 알고리즘으로, 얼마나 빠르게, 많은 문제를 푸는지
+- 복합적 문제 - 여러 알고리즘을 사용해야함. 
+  - 복잡할 때는 sorting, dynamic, binary search, implementation 을 다 사용해야함. 
+- Greedy: 빈출. 기초 유형 - 문제 해결방법을 알면 구현이 간단.  
+- Implementation: 빈출. 실제 개발 과정에서 사용될 기법
+- DFS/BFS: 빈출
+- Dynamic: 드물게. 난이도 낮음.
+- Graph: 드물게. 난이도 낮음.
+- 그 외: 최단 경로, sorting, binary Search
+- Kakao : Greedy, Implementation
+  - 문자열 처리 구현
+  - 다양한 케이스를 고려해야 안정적으로 만점 가능
+    - [ ] 테스트 케이스 설계 연습
+- 안정권: 정답 70% 이상, codeforce blue 정도
+
+
+
+
 
 
 
