@@ -119,7 +119,7 @@
   - amazon에서 목차 탐색만 함. / [oreilly playlist 로 보기](https://learning.oreilly.com/playlists/3b35317a-447f-427a-a0b0-939d68a9bec7)
   - [McDonald,Malcolm.Web Security for Developers.No Starch Press.2020](https://learning.oreilly.com/library/view/web-security-for/9781098122683/) : 매우 기초적인 내용. 각 부분이 어떻게 동작하는지(How the internet works,...)에 대한 설명도 포함되어있음. 
     - 이 책을 sub 로. [Bryan Sullivan, Vincent Liu.Web Application Security, A Beginner's Guide.McGraw-Hill.2011](https://learning.oreilly.com/library/view/web-application-security/9780071776165/)  
-  - [Hoffman,Andrew.Web Application Security.O'Reilly Media, Inc.2020](https://learning.oreilly.com/library/view/web-application-security/9781492053101/) : 위 책과 함께/다음 스텝으로 보기. 살짝 더 많은 내용을 커버하고 있음
+  - [Hoffman,Andrew.Web Application Security.O'Reilly Media, Inc.2020](https://learning.oreilly.com/library/view/web-application-security/9781492053101/) / [번역 - 웹 애플리케이션 보안.최용 옮김.2021.한빛미디어](https://www.hanbit.co.kr/store/books/look.php?p_code=B3641625998): 위 책과 함께/다음 스텝으로 보기. 살짝 더 많은 내용을 커버하고 있음
   - [Jonathan LeBlanc, Tim Messerschmidt.Identity and Data Security for Web Development.O'Reilly Media, Inc.2016](https://learning.oreilly.com/library/view/identity-and-data/9781491937006/) : 인증을 포함한 
 Identity and Data Security 중심
   - For fun
