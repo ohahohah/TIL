@@ -208,11 +208,11 @@ search: false
 - [Trello](SCM_etc/Trello.md)
 
 ## Seminar/ 강의에서 느낀 바 정리
-- [클린코드를 위한 TDD, 리팩토링 with Java 2주차 강의에서 느낀 것](Seminar/cleancode_week02.md)
-- [클린코드를 위한 TDD, 리팩토링 with Java 3주차 강의에서 느낀 것](Seminar/cleancode_week03.md)
-- [클린코드를 위한 TDD, 리팩토링 with Java 4주차 강의에서 느낀 것](Seminar/cleancode_week04.md)
-- [클린코드를 위한 TDD, 리팩토링 with Java 4주차 실습하면서 느낀 것](Seminar/cleancode_week04_ex.md)
-- [TF Dev Summit X 모두연 : learn by run! 에서 배운 것](Seminar/tf_dev_summit_modulabs.md)
+- [클린코드를 위한 TDD, 리팩토링 with Java 2주차 강의에서 느낀 것](Cleancode_java_seminar/cleancode_week02.md)
+- [클린코드를 위한 TDD, 리팩토링 with Java 3주차 강의에서 느낀 것](Cleancode_java_seminar/cleancode_week03.md)
+- [클린코드를 위한 TDD, 리팩토링 with Java 4주차 강의에서 느낀 것](Cleancode_java_seminar/cleancode_week04.md)
+- [클린코드를 위한 TDD, 리팩토링 with Java 4주차 실습하면서 느낀 것](Cleancode_java_seminar/cleancode_week04_ex.md)
+- [TF Dev Summit X 모두연 : learn by run! 에서 배운 것](tensorflow/tf_dev_summit_modulabs.md)
 
 ## Spark
 - [Spark 레퍼런스정리](Spark/spark_concept.md)
