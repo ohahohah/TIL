@@ -14,3 +14,4 @@
 ### Reference
 - [Roam Research Cheat Sheet by NESS LABS](https://docs.google.com/presentation/d/10jB2QJdCWSmmTEt1EU6BWFPRJs1MfF88pGfj7FBr-Hc/mobilepresent?slide=id.g7818331092_0_6) - additional reference
 - [영상 - How I Organise My Life with Roam by Ali Abdaal](https://youtu.be/bpikCLhpIRY) - 06:27 Tree of knowledge 등 자신이 사용한 예시들이 나옴. 
+- [영상 - 100 ROAM TIPS: Beginner to Advanced in 25 Mins](https://youtu.be/4yXK9OMc2OU) - 100가지 팁을 몇 초동안 빠르게 보여줌. 나중에 강의할 때도 참고해보면 좋을 구성! 영상 추천해준 은지-[trytocloud](https://github.com/trytocloud)  감사감사 
