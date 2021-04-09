@@ -1,5 +1,5 @@
-- Extream programming pattern 과 ChristopherAlexander
-  - Christopher Alexander 의 '작은 패턴이 서로 가지는 유기적 관계를 가지고 생성 진화' 가 Kent Beck 에게 영향을, 'pattern language' 가 extream programming 에 영향을 미치고. 
+## Extream programming 과 ChristopherAlexander - pattern language
+- Christopher Alexander 의 '작은 패턴이 서로 가지는 유기적 관계를 가지고 생성 진화' 가 Kent Beck 에게 영향을 미치면서 'pattern language' 가 extream programming 에 영향을 미치고. 
   from. https://wiki.wooridle.net/PatternLanguage
 - 패턴 언어라는 것이 무엇인가. solution 이 아닌 context. 의미적으로는 이런 거겠구나(일부 사례를 떠올리며 그럴 수도 있겠네) 싶지만 와닿지 않는다. Christopher Alexander 의 [영원의 건축](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=33363258) 을 프로그래머가 아닌 다른 사람들과 같이 읽어볼 예정. 
   - 환경 안에서 '조화' 를 어떻게 이룰 것인가.  [BUILDING WITH CHRISTOPHER ALEXANDER ~ AN ILLUSTRATED MEMOIR](https://www.annmedlock.com/building-with-christopher-alexander-an-illustrated-memoir)
@@ -7,4 +7,16 @@
       - 건축 설계하는 친구에게 실제 도면을 작업하면서 계속 수정한다는 이야기를 들었다. 건축도면은 나에게 '절대불변의 청사진'이라는 이미지가 있었기 때문에 꽤 충격을 받았다. 물론 이건 비효율적인 작업방식 때문이기도 하지만. 이런 점과 연관이 있을까?
 - 대다수 정보 인용 - https://wiki.wooridle.net/ChristopherAlexander
 
+## 이해 안 가지만 이해하고 싶은 것
+- 어떻게 하면 이해할 수 있을까? 피상적으로 보기보다 겪어보는게 확실할 거 같은데. 경험을 어떻게 만들어 낼까? 
+
+- Kent Beck https://wiki.c2.com/?KentBeck
+Whatever came of the concepts as described here?
+
+    [http://web.uccs.edu/adavis/UCCS/BeckPoster.htm](http://web.uccs.edu/adavis/UCCS/BeckPoster.htm)
+
+    Has nobody heard of PermaProgramming? Related to **PermaCulture**
+    I gave that one talk but never really followed up. I think the design principles in the PermaCulture world are far more advanced than those in the software world and I would love to learn to apply them to software. However, I figure I should stop killing trees with my beginning attempts at PermaCulture first.
+
+- [On the Relation between Designing and Implementing in Permaculture – Part 8](https://makingpermaculturestronger.net/inquiry2-post8/)
 
