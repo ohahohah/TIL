@@ -47,7 +47,9 @@
   - 명확한 목적을 가지고 지식을 습득하는 걸 언제나 잊어버린다. 이것도 신기하고 저것도 신기하고 와우 저것도 와우 저 컨셉은 뭐지! 이걸 해야지 생각하고 하는 탐험은 더 재밌는데.
 > 나는 컴퓨터를 이용해 구체적 사고와 형식적 사고를 구분하는 경계를 바꿀 수 있다고 생각한다. 형식적인 과정을 통해서만 접근할 수 있었던 지식에 이제는 구체적으로 접근할 수 있다. 게다가 진짜 마법은 이런 지식이 형식적 사고를 하기 위한 필요요소라는 데 있다. (...) 컴퓨터 모형으로 이전에는 무척 막연하고 추상적으로 보였떤 지식 영역을 구체화하는 방식(...)
 
+> But when you learn to program a computer you almost never get it right the first time. Learning to be a master programmer is learning to become highly skilled at isolating and correcting "bugs," the parts that keep the program from working. The question to ask about the program is not whether it is right or wrong, but if it is fixable. If this way of looking at intellectual products were generalized to how the larger culture thinks about knowledge and its acquisition, we all might be less intimidated by our fears of "being wrong."
 > 프로그래밍을 하면서 던져야할 질문은 이것이 맞느냐 틀리느냐가 아니라 버그를 수정할 수 있느냐 없느냐다. (...) 우리 모두 '틀리는 것'을 덜 두려워하게 될 것이다. 
+  - 원문과 한글 번역이 미묘하게 느낌이 달라서 추가한다. 한국어로 "프로그래머"라고 이야기하면 직업 프로그래머의 느낌이다. 한국어로가 번역한 것이 문장이 짧아 더 잘 읽히지만, "isolating bugs" 나 "Learning to be a master programmer" 의 뉘앙스가 빠진 것은 아쉽다. 
   - 에러가 발생할 때 어마어마하게 스트레스를 받았던 사람으로서 매우 동감한다. 내가 그래왔으니까. 시도하고 실패하면 다시 시도한다. 난 TDD 를 하면서 에러를 다르게 바라보게 되었다. 에러는 절대 내면 안되는 어떤 것 - '잘못' 이 아니라 현재 상태를 알려주는 message 일 뿐이다. 우리 모두의 지적 학습에도 이게 적용된다면. 지금의 결과가 아니라 문제를 수정해나가는 것에 집중한다면. 정말 멋질 꺼야.
   - 지금 강의를 하면서 지식습득보다 '에러'에 익숙해지는 것, 에러를 해석하고 결과를 찾는 방법 - 찾기 위해 도움을 얻는(구글링, 질문하는 법 처럼) 을 매번 수업에서 같이 시도하고 있는데 그게 수강생들에게 어떻게 받아들여지고 있을까? 지식은 찾아내고 적용하는 것. 여러 번 연습하면 적응되는 것. 
 
