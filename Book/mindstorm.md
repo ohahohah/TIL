@@ -1,9 +1,15 @@
+## Mindstorm by Seymour Papert
+- 도서 링크
+  - [ebook - mindstorms.media.mit.edu](https://mindstorms.media.mit.edu/)
+  - [시모어 패퍼트.마인드스톰: 어린이, 컴퓨터, 배움 그리고 강력한 아이디어.인사이트(이현경 옮김).2020.](https://blog.insightbook.co.kr/2020/05/21/%EC%9D%B8%EA%B0%84%EC%9D%84-%EC%9C%84%ED%95%9C-%EA%B0%95%EB%A0%A5%ED%95%9C-%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4-%E3%80%8A%EB%A7%88%EC%9D%B8%EB%93%9C%EC%8A%A4%ED%86%B0%E3%80%8B/)
+
 ## memo
 - mindstorm 을 하루 4page 읽고 체크해야할 부분, 감상 남기기
   - 이전에 읽었을 때, 많은 부분 감명을 받았다. 책에 직접 메모로 남겨두었지만 다시 한 번 조금이나마 내 언어로 바꾸어서 정리해보고 싶다. 
   - 2020년 올 한 해 프로그래밍 교육은 무엇일까 어떻게 하면 더 잘할 수 있을까 고민했던 지점들과 맞닿아 있다. 
 
 ## log
+- 20210722 : 시모어 페퍼트가 책에서 꿈꾸었던 것들은 지금 어디에 있을까. 
 - 20201211 : 책을 다시 읽으며 예전 메모를 발견.
   > 초심자의 행운은 새로운 시각을 가지고 있어서가 아닐까? 처음 프로그래밍 배우는 사람들, 아직 익숙하지 않은 사람들에게 수업할 때 이 장점을 살릴 수 있을까?
   > 지식전달자가 아닌 pace maker 가 되자. pain point 가 무엇인지 관찰하자. 그리고 디딤돌을 만들어주자. 어려움에서 포기하지 않도록.
@@ -47,8 +53,9 @@
   - 명확한 목적을 가지고 지식을 습득하는 걸 언제나 잊어버린다. 이것도 신기하고 저것도 신기하고 와우 저것도 와우 저 컨셉은 뭐지! 이걸 해야지 생각하고 하는 탐험은 더 재밌는데.
 > 나는 컴퓨터를 이용해 구체적 사고와 형식적 사고를 구분하는 경계를 바꿀 수 있다고 생각한다. 형식적인 과정을 통해서만 접근할 수 있었던 지식에 이제는 구체적으로 접근할 수 있다. 게다가 진짜 마법은 이런 지식이 형식적 사고를 하기 위한 필요요소라는 데 있다. (...) 컴퓨터 모형으로 이전에는 무척 막연하고 추상적으로 보였떤 지식 영역을 구체화하는 방식(...)
 
-> But when you learn to program a computer you almost never get it right the first time. Learning to be a master programmer is learning to become highly skilled at isolating and correcting "bugs," the parts that keep the program from working. The question to ask about the program is not whether it is right or wrong, but if it is fixable. If this way of looking at intellectual products were generalized to how the larger culture thinks about knowledge and its acquisition, we all might be less intimidated by our fears of "being wrong."
-> 프로그래밍을 하면서 던져야할 질문은 이것이 맞느냐 틀리느냐가 아니라 버그를 수정할 수 있느냐 없느냐다. (...) 우리 모두 '틀리는 것'을 덜 두려워하게 될 것이다. 
+> But when you learn to program a computer you almost never get it right the first time. Learning to be a master programmer is learning to become highly skilled at isolating and correcting "bugs," the parts that keep the program from working. The question to ask about the program is not whether it is right or wrong, but if it is fixable. If this way of looking at intellectual products were generalized to how the larger culture thinks about knowledge and its acquisition, we all might be less intimidated by our fears of "being wrong."  
+
+> 능숙한 프로그래머가 되려면 능숙하게 '버그를 찾아내고 수정하는 법을 익혀야 한다. 프로그래밍을 하면서 던져야 할 질문은 이것이 맞느냐 틀리냐가 아니라 버그를 수정할 수 있느냐 없느냐다. 이런식의 지적 결과물을 바라보는 방식이 지식과 지식 습득을 대하는 좀 더 큰 문화에 까지보편화된다면 우리 모두 틀리는것'을 덜 두려워하게 될것이다.
   - 원문과 한글 번역이 미묘하게 느낌이 달라서 추가한다. 한국어로 "프로그래머"라고 이야기하면 직업 프로그래머의 느낌이다. 한국어로가 번역한 것이 문장이 짧아 더 잘 읽히지만, "isolating bugs" 나 "Learning to be a master programmer" 의 뉘앙스가 빠진 것은 아쉽다. 
   - 에러가 발생할 때 어마어마하게 스트레스를 받았던 사람으로서 매우 동감한다. 내가 그래왔으니까. 시도하고 실패하면 다시 시도한다. 난 TDD 를 하면서 에러를 다르게 바라보게 되었다. 에러는 절대 내면 안되는 어떤 것 - '잘못' 이 아니라 현재 상태를 알려주는 message 일 뿐이다. 우리 모두의 지적 학습에도 이게 적용된다면. 지금의 결과가 아니라 문제를 수정해나가는 것에 집중한다면. 정말 멋질 꺼야.
   - 지금 강의를 하면서 지식습득보다 '에러'에 익숙해지는 것, 에러를 해석하고 결과를 찾는 방법 - 찾기 위해 도움을 얻는(구글링, 질문하는 법 처럼) 을 매번 수업에서 같이 시도하고 있는데 그게 수강생들에게 어떻게 받아들여지고 있을까? 지식은 찾아내고 적용하는 것. 여러 번 연습하면 적응되는 것. 
