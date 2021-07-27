@@ -1,0 +1,3 @@
+## articles
+- Amershi, Saleema et al. “Software Engineering for Machine Learning: A Case Study.” 2019 IEEE/ACM 41st International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP) (2019): 291-300. / [download](https://andrewbegel.com/papers/Software_Engineering_for_ML.pdf) / [semanticscholar](https://www.semanticscholar.org/paper/Software-Engineering-for-Machine-Learning%3A-A-Case-Amershi-Begel/f70b2f20be241f445a61f33c4b8e76e554760340)
+- Wan, Zhiyuan et al. “How does Machine Learning Change Software Development Practices.” IEEE Transactions on Software Engineering (2020): 1-1. / [semanticscholar](https://www.semanticscholar.org/paper/How-does-Machine-Learning-Change-Software-Practices-Wan-Xia/b2eadf142091cea03bfcc333d78f9edde025f7b8)
