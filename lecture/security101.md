@@ -1,4 +1,6 @@
 # security 101
+[![License: CC BY-NC-ND 4.0](https://licensebuttons.net/l/by-nc-nd/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
 - 정말 기초 중의 기초만 먼저 봅시다
 - 보안 담당자만 보안을 신경써야하나? 서비스(프로덕트)를 만드는 사람으로서 기본적인 보안사항을 점검해야함.
 
