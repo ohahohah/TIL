@@ -4,6 +4,7 @@
 ## Intro
 - Performance Test? Load Test? Stress Test?
     [Software Testing Stuff: Performance Testing vs Load Testing vs Stress Testing - Examples](http://www.softwaretestingstuff.com/2011/09/performance-testing-vs-load-testing-vs.html)
+  - Java 에서의 performance 테스트는 여기 참고 [SLiPP. “Java 성능 - Web 환경에서 모니터링과 성능 테스트.” SLiPP Wiki, www.slipp.net/wiki/pages/viewpage.action?pageId=30770898. ](https://www.slipp.net/wiki/pages/viewpage.action?pageId=30770898)
 
 - 실제로는 이렇게 진행
     [결제 시스템 성능, 부하, 스트레스 테스트 | 우아한형제들 기술블로그](https://techblog.woowahan.com/2572/)
