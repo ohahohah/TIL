@@ -3,6 +3,8 @@ search: false
 ---
 
 # Today I learned
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
 - 매일매일 배운 내용을 이해한 것까지만 기록합니다. 
 - 각 항목에 배운 내용을 덧붙여 업데이트 합니다. 처음 내용은 미약할지라도 덧붙여서 더 나은 글로 만들어갑니다.
 - 목차는 알파벳 순으로 정렬되어 있습니다
