@@ -141,3 +141,6 @@
         [](https://www.boannews.com/media/view.asp?idx=74913)
 
 - 매년 발견되는 Report 동향을 살펴보자. OWASP Top10,...
+- 보안 테스트 예시
+  - Web Application 보안 테스트는 아니지만 어떤 식으로 분석하고 개선했는지 방식을 살펴보기
+    [Norman, Johnathan. “Super Duper Secure Mode.” Microsoft Browser Vulnerability Research, 4 Aug. 2021, microsoftedge.github.io/edgevr/posts/Super-Duper-Secure-Mode/ ](https://microsoftedge.github.io/edgevr/posts/Super-Duper-Secure-Mode/)
