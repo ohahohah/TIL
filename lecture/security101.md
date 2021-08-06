@@ -63,7 +63,7 @@
         - 기본적인 서버 부하 이상. 서버에 부담이 가도록 설계해두었거나,  API 요청을 잘못 사용하는 경우와 연관.
     - XSS (특히 FE)
     - DOM Injection (특히 FE)
-    - 보안 취약점이 있는 기본 제공 코드(boilerplate code) 사용하고 있지 않나?
+    - 보안 취약점이 있는 기본 제공 코드(boilerplate code) 사용하고 있지 않나? 성능을 떨어뜨려서 Dos 공격 등등이 가능하게 만드는 코드가 섞여있지는 않나?
         - 예. Flask  의 Debug=True
 
 ## Checklist
