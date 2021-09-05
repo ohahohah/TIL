@@ -1,7 +1,26 @@
+# Python 으로 Web Scraping
+
+- Web Scraping 이란? 웹 페이지에서 특정 정보를 가져오는 것. 신문 기사 스크래핑 📰 ✂️
+  - 즉, HTML 구조를 분석해서 정보를 잘라내는 것
+1. URL 을 사용해 Request 해서 HTML 코드를 Response로 가져오기
+  - requests 패키지 사용
+  - 옵션. User-Agent 사용해서 chrome 에서 Request 보낸 것처럼
+2. HTML code 에서 내가 원하는 요소 element 만 가져옴
+  - DOM 구조 사용 (예. body > h1)
+  - Selector 사용 (예. #news)
+  - BeautifulSoup4 패키지 사용
+
+
+## 초 간단 스크래핑 예제
+- DOM 구조 이해하며 요소 찾아내기
+- Chrome 개발자도구 Inspector 사용
+[https://elastic-hugle-d528b6.netlify.app/demo/simple.html](https://elastic-hugle-d528b6.netlify.app/demo/simple.html)
+
+## 따릉이 페이지로 정보 정보 가져오기
 🔥  문제 분석 먼저!
 
 - 우리는 아래 🚲 따릉이 페이지에서 따릉이 정보를  스크래핑 해올 거에요.
-[https://amazing-wiles-4ebf2c.netlify.app/scraping/bikeinfo.html](https://amazing-wiles-4ebf2c.netlify.app/scraping/bikeinfo.html)
+[https://elastic-hugle-d528b6.netlify.app/demo/bikeinfo.html](https://elastic-hugle-d528b6.netlify.app/demo/bikeinfo.html)
 
 - 만약 따릉이 API 정보가 제공되지 않는다면 이렇게 웹 페이지에서 직접 정보를 긁어서 가져와야하죠.
 - 여기서 우리는 차례대로 아래 정보들을 가져올 거에요.
