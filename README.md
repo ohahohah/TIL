@@ -10,6 +10,11 @@ search: false
 - 두 툴 모두 연결이나 실시간 협업에는 유용했고 만족스러웠지만, 이전 자료를 찾거나 공유용으로 쓰기에는 적절하지 않아서 고민 중. 
   - 개인 wiki 는 관리가 무거운 느낌이라 역시 시도하기 어렵다. 최근에 SLiPP 위키 사이트가 동작하지 않은 상황을 겪고 나니 더더욱. 
 
+inbox
+- https://wiki.c2.com/?IntentionRevealingNames
+  > These Non-Controversial Examples are much better at showing how to (1) reveal the intention, (2) hide the implementation and (3) give a clear hint as to the expected return type. 
+
+
 (이전 버전)
 - 매일매일 배운 내용을 이해한 것까지만 기록합니다. 
 - 각 항목에 배운 내용을 덧붙여 업데이트 합니다. 처음 내용은 미약할지라도 덧붙여서 더 나은 글로 만들어갑니다.
