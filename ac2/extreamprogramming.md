@@ -51,3 +51,19 @@ Whatever came of the concepts as described here?
   - [출판사 소개글](https://jpub.tistory.com/77)
     - xper 구글그룹스 김창준님 코멘트
       > 위키랑 XP, 패턴이 사실은 하나로 꿰어 이해할 수 있는 대상이라는 점을 명확하게 밝힌 최초의 서적이라고 생각합니다. 특히나, 컴퓨터쪽의 패턴서적들이 실제 패턴의 기원에 대한 피상적인 이해만을 보여주는 데 반해(GoF까지도 그런 면이 있음), 이 책은 패턴의 기원을 매우 성실히 추적하고 있습니다. DO YOUR HOMEWORK를 지켰다고 볼 수 있죠.
+
+- 읽어보니 넓고 얕은 느낌이다. 
+Ward 의 [Ward Cunningham and Michael W. Mehaffy. 2013. Wiki as pattern language. In Proceedings of the 20th Conference on Pattern Languages of Programs (PLoP '13). The Hillside Group, USA, Article 32, 1–14.](https://dl.acm.org/doi/10.5555/2725669.2725707) 이게 심플한듯.
+
+- [FedWiki](https://github.com/fedwiki/wiki) 핵 재밌다. local 에 사용 중 공유용 콘텐츠는 Roam Research 대신 fedwiki 를 써볼까? 강의용으로는 혼란스러워하려나? 
+  > Ward가 최근에 Sustasis Foundation에 board member로 참여하고 있으신 것 같던데, 거기서 출간한 A Pattern Language for Growing Regions라는 책도 온라인 버전은 federated wiki로 만드셨더라고요.
+http://www.sustasis.net/APLFGR.html by bjs 코멘트   
+  - 이 연관관계가 모두 url 에 나타나 있다. 페이지 구성도! 
+    http://fed.wiki.org/view/welcome-visitors/view/how-to-wiki/view/find-sites/view/list-of-lists-of-sites/ward.fed.wiki.org/pattern-language-sites/ddd.fed.wiki.org/domain-driven-design
+    http://fed.wiki.org/view/how-to-wiki/view/find-sites/view/list-of-lists-of-sites/ward.fed.wiki.org/pattern-language-sites/ddd.fed.wiki.org/domain-driven-design
+    http://fed.wiki.org/view/list-of-lists-of-sites/ward.fed.wiki.org/pattern-language-sites/ddd.fed.wiki.org/domain-driven-design
+    http://fed.wiki.org/ward.fed.wiki.org/pattern-language-sites/ddd.fed.wiki.org/domain-driven-design
+    http://ward.fed.wiki.org/view/pattern-language-sites/ddd.fed.wiki.org/domain-driven-design
+    http://ddd.fed.wiki.org/view/domain-driven-design
+
+
