@@ -1,7 +1,19 @@
-## Extream programming 과 ChristopherAlexander - pattern language
+## Extream programming 과 ChristopherAlexander - NOO
 - 건축가 Christopher Alexander 의 '여러 작은 패턴이 서로 가지는 유기적 관계를 이루면서 생성과 진화해나가는' 건축 철학이 xp 와 Agile 에 영향을 미쳤다고 한다. 이 패턴 간의 구조화된 설계 접근 방식을 pattern language 라고 한다. 
   from. https://wiki.wooridle.net/PatternLanguage
+- CA 는 OPPSLA 96에서 이렇게 이야기한다.   
+> 1. pattern theory 
+"I'm going to first of all about patterns and pattern languages, what I did about that, a few little points about problem we encoutered, why we did it, how we did it, and so forth.
+> 2. the nature of order 
+"the framework is a fairly readical departure from what the patter language in the eariler theories conatained, although it is consistent with them" noo 부터 봐야징. 어차피 급진적으로 포함되긴 하지만 포함되는 거니까. 
+> 3. what the future holds in store 
+" the third thing I'll talk about is how I know perceive that connection. (...)
+All of my life I've spent trying to learn how to precude living structure"
 
+- ac2 ca읽기 모임에서 만들고 있는 [wiki](https://www.notion.so/Cristopher-Alexander-0c8b99b27782493bac121febd6eb4775) 로 대체. 
+
+-----
+2021.04.20
 - 패턴 언어라는 것이 무엇인가. solution 이 아닌 context. 의미적으로는 이런 거겠구나(일부 사례를 떠올리며 그럴 수도 있겠네) 싶지만 와닿지 않는다. 
   - Christopher Alexander 의 건축철학을 담고 있는 [영원의 건축](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=33363258) 을 프로그래머 여부 상관없이 다른 사람들과 같이 읽어볼 예정. 다른 사람들이 어떻게 바라보는지 궁금해서. 
   같은 저자의 책 pattern language 는 그 다음에. 
