@@ -6,9 +6,8 @@ search: false
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 2022.01.01 메모
-- '각각이 연결되어있음'을 나타내기에 지금처럼 폴더 구조가 한계가 있다고 느껴져서 엑셀(AC2하면서 유용하게 쓴)과 Roam Research 로 옮겨갔다. 
-- 두 툴 모두 연결이나 실시간 협업에는 유용했고 만족스러웠지만, 이전 자료를 찾거나 공유용으로 쓰기에는 적절하지 않아서 고민 중. 
-  - 개인 wiki 는 관리가 무거운 느낌이라 역시 시도하기 어렵다. 최근에 SLiPP 위키 사이트가 동작하지 않은 상황을 겪고 나니 더더욱. 
+- obsidian을 사용하고 있다. 개념이'연결되어있음'을 나타내기엔 폴더 구조가 한계가 있다고 느꼈기 때문.
+- 공개해 둔 post 는 [https://syoh.dev](https://syoh.dev) 로 옮겨둠. 
 
 inbox
 - https://wiki.c2.com/?IntentionRevealingNames
